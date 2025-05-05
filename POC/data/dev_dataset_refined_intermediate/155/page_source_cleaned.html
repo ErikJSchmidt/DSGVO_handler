@@ -1,0 +1,2729 @@
+<html lang="de.DE" class="">
+<head>
+
+    <meta charset="utf-8">
+    <!--
+        Design & Development by hatchbox media gmbh
+        www.hatchbox.de . welcome@hatchbox.de
+
+        This website is powered by TYPO3 - inspiring people to share!
+        TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+        TYPO3 is copyright 1998-2023 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+        Information and contribution at https://typo3.org/
+    -->
+
+    <base href="https://www.emso-gmbh.com/">
+
+    <title>EMSO - Sondermaschinen- und Anlagenbau für viele Branchen</title>
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+    <meta name="generator" content="TYPO3 CMS">
+    <meta name="description"
+          content="Emso, Ihr Partner bei individuellen Aufgaben im Sondermaschinenbau und Maschinenbau auf Wunsch auch aus dem eigenen ISO 6 Reinraum.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index,follow">
+    <meta name="twitter:card" content="summary">
+    <meta name="revisited-after" content="14">
+
+
+    <link rel="stylesheet" type="text/css"
+          href="https://www.emso-gmbh.com/fileadmin/emso_theme/Resources/Public/Css/fontawesome-all.min.1578061864.css"
+          media="all">
+    <link rel="stylesheet" type="text/css"
+          href="https://www.emso-gmbh.com/typo3temp/assets/compressed/merged-ebbed646d6ee2eb6b4201f667cfb9823-27c64ad0f8206250da9e2d8c3e01a75d.1660299143.css"
+          media="all">
+
+
+    <script>
+/*<![CDATA[*/
+/*_scriptCode*/
+
+			/* decrypt helper function */
+		function decryptCharcode(n,start,end,offset) {
+			n = n + offset;
+			if (offset > 0 && n > end) {
+				n = start + (n - end - 1);
+			} else if (offset < 0 && n < start) {
+				n = end - (start - n - 1);
+			}
+			return String.fromCharCode(n);
+		}
+			/* decrypt string */
+		function decryptString(enc,offset) {
+			var dec = "";
+			var len = enc.length;
+			for(var i=0; i < len; i++) {
+				var n = enc.charCodeAt(i);
+				if (n >= 0x2B && n <= 0x3A) {
+					dec += decryptCharcode(n,0x2B,0x3A,offset);	/* 0-9 . , - + / : */
+				} else if (n >= 0x40 && n <= 0x5A) {
+					dec += decryptCharcode(n,0x40,0x5A,offset);	/* A-Z @ */
+				} else if (n >= 0x61 && n <= 0x7A) {
+					dec += decryptCharcode(n,0x61,0x7A,offset);	/* a-z */
+				} else {
+					dec += enc.charAt(i);
+				}
+			}
+			return dec;
+		}
+			/* decrypt spam-protected emails */
+		function linkTo_UnCryptMailto(s) {
+			location.href = decryptString(s,-2);
+		}
+
+
+/*]]>*/
+
+    </script>
+
+    <link rel="shortcut icon" href="https://www.emso-gmbh.com/fileadmin/emso_theme/Resources/Public/Icons/favicon.ico"
+          type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57"
+          href="https://www.emso-gmbh.com/fileadmin/emso_theme/Resources/Public/Icons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60"
+          href="https://www.emso-gmbh.com/fileadmin/emso_theme/Resources/Public/Icons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72"
+          href="https://www.emso-gmbh.com/fileadmin/emso_theme/Resources/Public/Icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76"
+          href="https://www.emso-gmbh.com/fileadmin/emso_theme/Resources/Public/Icons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114"
+          href="https://www.emso-gmbh.com/fileadmin/emso_theme/Resources/Public/Icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120"
+          href="https://www.emso-gmbh.com/fileadmin/emso_theme/Resources/Public/Icons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144"
+          href="https://www.emso-gmbh.com/fileadmin/emso_theme/Resources/Public/Icons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152"
+          href="https://www.emso-gmbh.com/fileadmin/emso_theme/Resources/Public/Icons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180"
+          href="https://www.emso-gmbh.com/fileadmin/emso_theme/Resources/Public/Icons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png"
+          href="https://www.emso-gmbh.com/fileadmin/emso_theme/Resources/Public/Icons/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png"
+          href="https://www.emso-gmbh.com/fileadmin/emso_theme/Resources/Public/Icons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png"
+          href="https://www.emso-gmbh.com/fileadmin/emso_theme/Resources/Public/Icons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png"
+          href="https://www.emso-gmbh.com/fileadmin/emso_theme/Resources/Public/Icons/android-chrome-192x192.png"
+          sizes="192x192">
+    <meta name="msapplication-square70x70logo"
+          content="https://www.emso-gmbh.com/fileadmin/emso_theme/Resources/Public/Icons/smalltile.png">
+    <meta name="msapplication-square150x150logo"
+          content="https://www.emso-gmbh.com/fileadmin/emso_theme/Resources/Public/Icons/mediumtile.png">
+    <meta name="msapplication-wide310x150logo"
+          content="https://www.emso-gmbh.com/fileadmin/emso_theme/Resources/Public/Icons/widetile.png">
+    <meta name="msapplication-square310x310logo"
+          content="https://www.emso-gmbh.com/fileadmin/emso_theme/Resources/Public/Icons/largetile.png">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <script data-ignore="1" data-cookieconsent="statistics" type="text/plain">
+
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//statistik.ifsys.de/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '3']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+
+    </script>
+    <script data-ignore="1" data-cookieconsent="statistics" type="text/plain"></script>
+    <link rel="canonical" href="https://www.emso-gmbh.com/de/">
+
+    <link rel="alternate" hreflang="en-US" href="https://www.emso-gmbh.com/">
+    <link rel="alternate" hreflang="de.DE" href="https://www.emso-gmbh.com/de/">
+    <link rel="alternate" hreflang="x-default" href="https://www.emso-gmbh.com/">
+    <style type="text/css">.fancybox-margin{margin-right:15px;}</style>
+</head>
+<body class="dp--cookie-consent">
+
+<div class="container top-header hidden-xs">
+    <div class="logo pull-left"><a href="/de/" title="EMSO ELECTRICAL MECHANICAL SOLUTIONS" class="home"><img
+            src="https://www.emso-gmbh.com/fileadmin/emso_theme/Resources/Public/Images/emso-logo.png" width="185"
+            height="65" alt=""></a></div>
+    <div class="toolbar pull-right">
+        <div class="socialmediaicons">
+            <a href="https://www.linkedin.com/company/emso-sondermaschinenbau-und-automatisierungstechnik/"
+               title="EMSO linkedin" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>&nbsp;
+            <a href="https://www.youtube.com/channel/UC4QSbOzFTRcBkpJTgWqIm1g?view_as=subscriber" title="IFSYS Youtube"
+               target="_blank"><i class="fab fa-youtube-square fa-lg"></i></a>
+        </div>
+        <a href="/de/suche/"><i class="fa fa-search" title="Search" aria-hidden="true"></i></a>
+    </div>
+</div>
+
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span
+                    class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span
+                    class="icon-bar"></span></button>
+            <a href="/de/" class="navbar-brand visible-xs-block"><img
+                    src="https://www.emso-gmbh.com/fileadmin/ifsys_theme/Resources/Public/Images/emso-logo.png"
+                    alt="EMSO"></a></div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right" data-smartmenus-id="16801708930021694">
+                <li><a href="/de/sondermaschinenbau/" title="Sondermaschinenbau">Sondermaschinenbau</a></li>
+                <li><a href="/de/einzelteilfertigung-1/" title="Einzelteilfertigung">Einzelteilfertigung</a></li>
+                <li><a href="/de/baugruppenmontage/" title="Baugruppenmontage">Baugruppenmontage</a></li>
+                <li><a href="/de/reinraum/" title="Reinraum">Reinraum</a></li>
+                <li><a href="/de/infraspot/" title="Infraspot" class="sub-arrow has-submenu" id="sm-16801708930021694-1"
+                       aria-haspopup="true" aria-controls="sm-16801708930021694-2" aria-expanded="false">Infraspot</a>
+                    <ul class="dropdown-menu" id="sm-16801708930021694-2" role="group" aria-hidden="true"
+                        aria-labelledby="sm-16801708930021694-1" aria-expanded="false">
+                        <li><a href="/de/infraspot/produkte/" title="Produkte">Produkte</a></li>
+                        <li><a href="/de/infraspot/individuelles/" title="Individuelles" class="sub-arrow has-submenu"
+                               id="sm-16801708930021694-3" aria-haspopup="true" aria-controls="sm-16801708930021694-4"
+                               aria-expanded="false">Individuelles</a>
+                            <ul class="dropdown-menu" id="sm-16801708930021694-4" role="group" aria-hidden="true"
+                                aria-labelledby="sm-16801708930021694-3" aria-expanded="false">
+                                <li><a href="/de/infraspot/individuelles/neubau-pruefstand-stichhemmung/"
+                                       title="Neubau Prüfstand Stichhemmung">Neubau Prüfstand Stichhemmung</a></li>
+                                <li><a href="/de/infraspot/individuelles/integration-pruefstand-stichhemmung/"
+                                       title="Integration Prüfstand Stichhemmung">Integration Prüfstand Stichhemmung</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="/de/infraspot/referenzen/" title="Referenzen">Referenzen</a></li>
+                    </ul>
+                </li>
+                <li><a href="/de/unternehmen/allgemeine-informationen/" title="Unternehmen"
+                       class="sub-arrow has-submenu" id="sm-16801708930021694-5" aria-haspopup="true"
+                       aria-controls="sm-16801708930021694-6" aria-expanded="false">Unternehmen</a>
+                    <ul class="dropdown-menu" id="sm-16801708930021694-6" role="group" aria-hidden="true"
+                        aria-labelledby="sm-16801708930021694-5" aria-expanded="false">
+                        <li><a href="/de/unternehmen/allgemeine-informationen/" title="Allgemeine Informationen">Allgemeine
+                            Informationen</a></li>
+                        <li><a href="/de/unternehmen/kompetenzen/" title="Kompetenzen" class="sub-arrow has-submenu"
+                               id="sm-16801708930021694-7" aria-haspopup="true" aria-controls="sm-16801708930021694-8"
+                               aria-expanded="false">Kompetenzen</a>
+                            <ul class="dropdown-menu" id="sm-16801708930021694-8" role="group" aria-hidden="true"
+                                aria-labelledby="sm-16801708930021694-7" aria-expanded="false">
+                                <li><a href="https://www.emso-gmbh.com/de/unternehmen/kompetenzen/#c9757"
+                                       title="Technologien">Technologien</a></li>
+                                <li><a href="https://www.emso-gmbh.com/de/unternehmen/kompetenzen/#c9762"
+                                       title="Entwicklung">Entwicklung</a></li>
+                                <li><a href="https://www.emso-gmbh.com/de/unternehmen/kompetenzen/#c9767"
+                                       title="Projektmanagement">Projektmanagement</a></li>
+                                <li><a href="https://www.emso-gmbh.com/de/unternehmen/kompetenzen/#c9772"
+                                       title="Qualitätsmanagement">Qualitätsmanagement</a></li>
+                                <li><a href="https://www.emso-gmbh.com/de/unternehmen/kompetenzen/#c9777"
+                                       title="Produktion">Produktion</a></li>
+                                <li><a href="https://www.emso-gmbh.com/de/unternehmen/kompetenzen/#c9782"
+                                       title="Service">Service</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/de/unternehmen/karriere/arbeiten-bei-emso-und-ifsys/" title="Karriere"
+                               class="sub-arrow has-submenu" id="sm-16801708930021694-9" aria-haspopup="true"
+                               aria-controls="sm-16801708930021694-10" aria-expanded="false">Karriere</a>
+                            <ul class="dropdown-menu" id="sm-16801708930021694-10" role="group" aria-hidden="true"
+                                aria-labelledby="sm-16801708930021694-9" aria-expanded="false">
+                                <li><a href="/de/unternehmen/karriere/arbeiten-bei-emso-und-ifsys/"
+                                       title="Arbeiten bei EMSO und IFSYS">Arbeiten bei EMSO und IFSYS</a></li>
+                                <li><a href="/de/unternehmen/karriere/stellenangebote/" title="Stellenangebote">Stellenangebote</a>
+                                </li>
+                                <li><a href="/de/unternehmen/karriere/ausbildung-bei-emso/" title="Ausbildung bei EMSO">Ausbildung
+                                    bei EMSO</a></li>
+                                <li><a href="/de/unternehmen/karriere/messen-aktionstage/"
+                                       title="Messen &amp; Aktionstage">Messen &amp; Aktionstage</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/de/unternehmen/referenzen/" title="Referenzen">Referenzen</a></li>
+                        <li><a href="/de/unternehmen/ifsys-zufuehrtechnik/" title="Werte und Verantwortung">Werte und
+                            Verantwortung</a></li>
+                    </ul>
+                </li>
+                <li><a href="/de/downloads/" title="Downloads">Downloads</a></li>
+                <li><a href="/de/kontakt/" title="Kontakt">Kontakt</a></li>
+            </ul>
+            <div class="row mobile-search-lang visible-xs"></div>
+        </div>
+    </div>
+</nav>
+
+<div id="divider-16301" class="divider-before-after clearfix" style="height:30px;"></div>
+<div id="carousel-generic-10272" class="container carousel slide carousel-fade" data-ride="carousel"
+     data-interval="5000" data-wrap="1">
+
+    <div class="carousel-inner">
+        <div class="item"><a href="http://www.emso-gmbh.de"><img
+                src="https://www.emso-gmbh.com/fileadmin/user_upload/Sondermaschinen.jpg" width="1164" height="775"
+                alt="Ihr Partner bei individuellen Aufgaben im Sondermaschinenbau"
+                title="Ihr Partner bei individuellen Aufgaben im Sondermaschinenbau"></a>
+            <div class="container carousel-caption">
+                <div class="carousel-caption-box"><h3>Ihr Partner bei individuellen Aufgaben im Sondermaschinenbau</h3>
+                </div>
+            </div>
+        </div>
+        <div class="item active"><a href="https://www.emso-gmbh.com/de/reinraum/"><img
+                src="https://www.emso-gmbh.com/fileadmin/user_upload/DSC01237.JPG" width="6000" height="4000"
+                alt="Sondermaschine Reinraum" title="Sondermaschine Reinraum"></a><a href="http://www.emso-gmbh.de"><img
+                src="https://www.emso-gmbh.com/fileadmin/user_upload/Sondermaschinen.jpg" width="1164" height="775"
+                alt="Ihr Partner bei individuellen Aufgaben im Sondermaschinenbau"
+                title="Ihr Partner bei individuellen Aufgaben im Sondermaschinenbau"></a>
+            <div class="container carousel-caption">
+                <div class="carousel-caption-box"><h3>Sondermaschinenbau im Reinraum nach ISO6</h3>
+                    <h1><br> &nbsp;</h1></div>
+            </div>
+        </div>
+        <div class="item"><a href="https://www.emso-gmbh.com/de/"><img
+                src="https://www.emso-gmbh.com/fileadmin/user_upload/IMG_0363.JPG" width="4032" height="3024"
+                alt="EMSO Maschinenbau Sondermaschinen" title="EMSO Maschinenbau Sondermaschinen"></a>
+            <div class="container carousel-caption">
+                <div class="carousel-caption-box"><h3>Electrical Mechanical Solutions</h3>
+                    <h1><br> &nbsp;</h1></div>
+            </div>
+        </div>
+    </div>
+
+    <a class="left carousel-control" href="#carousel-generic-10272" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-generic-10272" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+
+</div>
+<div id="divider-15311" class="divider-before-after clearfix" style="height:50px;"></div>
+<div id="section-15309" class="section-grey-bg-spacing">
+    <div class="container">
+
+
+        <div id="c15308" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+            <header>
+
+
+                <h1>Sondermaschinenbau - Einzelteilfertigung - Reinraum - Automation</h1>
+
+
+            </header>
+
+
+            <div class="ce-textpic ce-center ce-above">
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+</div>
+
+
+<!--TYPO3SEARCH_begin-->
+<div id="section-15315" class="section-white-bg-spacing">
+    <div class="container">
+        <div id="divider-16231" class="divider-before-after clearfix" style="height:50px;"></div>
+
+
+        <div id="c16229" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+            <div class="ce-textpic ce-center ce-above">
+
+
+                <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+
+                    <div class="ce-outer">
+                        <div class="ce-inner">
+
+
+                            <div class="ce-row">
+
+
+                                <div class="ce-column">
+
+
+                                    <figure class="image">
+
+                                        <a href="https://www.emso-gmbh.com/de/"
+                                           title="Das Leistungsspektrum von EMSO. Vorrichtungen, Handarbeitsplätze, teilautomatisierte Arbeitsplätze, vollautomatisierte Sonderanlagen, vernetzte Montage- oder Prüflinien, Robotik">
+
+                                            <img class="img-responsive image-embed-item"
+                                                 title="Das Leistungsspektrum von EMSO. Vorrichtungen, Handarbeitsplätze, teilautomatisierte Arbeitsplätze, vollautomatisierte Sonderanlagen, vernetzte Montage- oder Prüflinien, Robotik"
+                                                 alt="Das Leistungsspektrum von EMSO. Vorrichtungen, Handarbeitsplätze, teilautomatisierte Arbeitsplätze, vollautomatisierte Sonderanlagen, vernetzte Montage- oder Prüflinien, Robotik"
+                                                 src="https://www.emso-gmbh.com/fileadmin/_processed_/0/3/csm_Diagramm_Leistungsspektrum_0c79409a2f.png"
+                                                 width="1170" height="251">
+
+                                        </a>
+
+
+                                    </figure>
+
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+        <div id="divider-16232" class="divider-before-after clearfix" style="height:50px;"></div>
+
+
+        <div id="c16529" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+            <header>
+
+
+                <h2>Unsere Ausführungsrichtungen</h2>
+
+
+            </header>
+
+
+            <div class="ce-textpic ce-center ce-above">
+
+
+            </div>
+
+
+        </div>
+
+
+        <div id="divider-16530" class="divider-before-after clearfix" style="height:50px;"></div>
+        <div class="row ">
+            <div class="col-md-2   ">
+
+
+                <div id="c16538" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+                    <div class="ce-textpic ce-center ce-above">
+
+
+                        <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+
+                            <div class="ce-outer">
+                                <div class="ce-inner">
+
+
+                                    <div class="ce-row">
+
+
+                                        <div class="ce-column">
+
+
+                                            <figure class="image">
+
+
+                                                <img class="img-responsive image-embed-item" alt="Bearbeitungstechnik"
+                                                     src="https://www.emso-gmbh.com/fileadmin/_processed_/9/b/csm_ico_bearbeitungstechnik_b658ac4b2c.png"
+                                                     width="100" height="87">
+
+
+                                            </figure>
+
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <div class="col-md-10   ">
+                <div id="divider-16540" class="divider-before-after clearfix" style="height:30px;"></div>
+
+
+                <div id="c16539" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+                    <header>
+
+
+                        <h3>Bearbeitungstechnik</h3>
+
+
+                        <h4 class="">
+                            präzise - langlebig - kompatibel
+                        </h4>
+
+
+                    </header>
+
+
+                    <div class="ce-textpic ce-center ce-above">
+
+
+                        <div class="ce-bodytext">
+
+                            <p>Laserschweißen, Laserbeschriften, Kunststoffschweißen, Entgraten, ...</p>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <div id="divider-16545" class="divider-before-after clearfix" style="height:50px;"></div>
+        <div id="section-16541" class="section-grey-bg-spacing">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-2   ">
+
+
+                        <div id="c16542" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+                            <div class="ce-textpic ce-center ce-above">
+
+
+                                <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+
+                                    <div class="ce-outer">
+                                        <div class="ce-inner">
+
+
+                                            <div class="ce-row">
+
+
+                                                <div class="ce-column">
+
+
+                                                    <figure class="image">
+
+
+                                                        <img class="img-responsive image-embed-item"
+                                                             src="https://www.emso-gmbh.com/fileadmin/_processed_/6/0/csm_ico_cobots1_761e944df7.png"
+                                                             width="120" height="47" alt="">
+
+
+                                                    </figure>
+
+
+                                                </div>
+
+
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-10   ">
+                        <div id="divider-16543" class="divider-before-after clearfix" style="height:20px;"></div>
+
+
+                        <div id="c16544" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+                            <header>
+
+
+                                <h3>Cobots</h3>
+
+
+                                <h4 class="">
+                                    ergonomisch - ökonomisch - effizient
+                                </h4>
+
+
+                            </header>
+
+
+                            <div class="ce-textpic ce-center ce-above">
+
+
+                                <div class="ce-bodytext">
+
+                                    <p>Handling, Palettieren, Depalettieren, 3. Hand</p>
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="divider-16546" class="divider-before-after clearfix" style="height:60px;"></div>
+        <div class="row ">
+            <div class="col-md-2   ">
+
+
+                <div id="c16548" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+                    <div class="ce-textpic ce-center ce-above">
+
+
+                        <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+
+                            <div class="ce-outer">
+                                <div class="ce-inner">
+
+
+                                    <div class="ce-row">
+
+
+                                        <div class="ce-column">
+
+
+                                            <figure class="image">
+
+
+                                                <img class="img-responsive image-embed-item"
+                                                     src="https://www.emso-gmbh.com/fileadmin/_processed_/a/9/csm_ico_klebetechnik_25f4032c63.png"
+                                                     width="60" height="61" alt="">
+
+
+                                            </figure>
+
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <div class="col-md-10   ">
+
+
+                <div id="c16550" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+                    <header>
+
+
+                        <h3>Klebetechnik</h3>
+
+
+                        <h4 class="">
+                            individuell - flexibel - wirtschaftlich
+                        </h4>
+
+
+                    </header>
+
+
+                    <div class="ce-textpic ce-center ce-above">
+
+
+                        <div class="ce-bodytext">
+
+                            <p>Klebebänder (Tapes),&nbsp;&nbsp;Klebeband-Stanzlinge,&nbsp;1-K, 2-K</p>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <div id="divider-16551" class="divider-before-after clearfix" style="height:50px;"></div>
+        <div id="section-16552" class="section-grey-bg-spacing">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-2   ">
+
+
+                        <div id="c16553" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+                            <div class="ce-textpic ce-center ce-above">
+
+
+                                <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+
+                                    <div class="ce-outer">
+                                        <div class="ce-inner">
+
+
+                                            <div class="ce-row">
+
+
+                                                <div class="ce-column">
+
+
+                                                    <figure class="image">
+
+
+                                                        <img class="img-responsive image-embed-item"
+                                                             src="https://www.emso-gmbh.com/fileadmin/_processed_/5/9/csm_ico_messtechnik_9b0fc6c778.png"
+                                                             width="80" height="93" alt="">
+
+
+                                                    </figure>
+
+
+                                                </div>
+
+
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-10   ">
+                        <div id="divider-16554" class="divider-before-after clearfix" style="height:30px;"></div>
+
+
+                        <div id="c16555" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+                            <header>
+
+
+                                <h3>Messtechnik</h3>
+
+
+                                <h4 class="">
+                                    höchste Präzision - qualitativ - leistungsstark
+                                </h4>
+
+
+                            </header>
+
+
+                            <div class="ce-textpic ce-center ce-above">
+
+
+                                <div class="ce-bodytext">
+
+                                    <p>Durchflußmessungen, Wiederstandsprüfung, taktierende Messungen</p>
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="divider-16556" class="divider-before-after clearfix" style="height:50px;"></div>
+        <div class="row ">
+            <div class="col-md-2   ">
+
+
+                <div id="c16558" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+                    <div class="ce-textpic ce-center ce-above">
+
+
+                        <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+
+                            <div class="ce-outer">
+                                <div class="ce-inner">
+
+
+                                    <div class="ce-row">
+
+
+                                        <div class="ce-column">
+
+
+                                            <figure class="image">
+
+
+                                                <img class="img-responsive image-embed-item"
+                                                     src="https://www.emso-gmbh.com/fileadmin/_processed_/5/6/csm_ico_zufuehrtechnik_e5ad885666.png"
+                                                     width="100" height="98" alt="">
+
+
+                                            </figure>
+
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <div class="col-md-10   ">
+                <div id="divider-16559" class="divider-before-after clearfix" style="height:30px;"></div>
+
+
+                <div id="c16560" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+                    <header>
+
+
+                        <h3>Montagetechnik</h3>
+
+
+                        <h4 class="">
+                            kollaborierend - ökonomisch - kooperativ
+                        </h4>
+
+
+                    </header>
+
+
+                    <div class="ce-textpic ce-center ce-above">
+
+
+                        <div class="ce-bodytext">
+
+                            <p>Schrauben,&nbsp;Verclipsungen,&nbsp;Vernietungen,&nbsp;Verstemmungen,&nbsp;Umformung,
+                                ...wir lernen nie aus ...</p>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <div id="divider-16561" class="divider-before-after clearfix" style="height:50px;"></div>
+        <div id="section-16562" class="section-grey-bg-spacing">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-2   ">
+
+
+                        <div id="c16563" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+                            <div class="ce-textpic ce-center ce-above">
+
+
+                                <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+
+                                    <div class="ce-outer">
+                                        <div class="ce-inner">
+
+
+                                            <div class="ce-row">
+
+
+                                                <div class="ce-column">
+
+
+                                                    <figure class="image">
+
+
+                                                        <img class="img-responsive image-embed-item"
+                                                             src="https://www.emso-gmbh.com/fileadmin/_processed_/8/b/csm_ico_prueftechnik_dd3074f6bd.png"
+                                                             width="100" height="116" alt="">
+
+
+                                                    </figure>
+
+
+                                                </div>
+
+
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-10   ">
+                        <div id="divider-16564" class="divider-before-after clearfix" style="height:30px;"></div>
+
+
+                        <div id="c16565" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+                            <header>
+
+
+                                <h3>Prüfanlagen</h3>
+
+
+                                <h4 class="">
+                                    exakt - variabel - dokumentiert
+                                </h4>
+
+
+                            </header>
+
+
+                            <div class="ce-textpic ce-center ce-above">
+
+
+                                <div class="ce-bodytext">
+
+                                    <p>Prüfstand, Kameraprüfung, Teststand, Optische Prüfungen, ...</p>
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="divider-16566" class="divider-before-after clearfix" style="height:50px;"></div>
+        <div class="row ">
+            <div class="col-md-2   ">
+
+
+                <div id="c16568" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+                    <div class="ce-textpic ce-center ce-above">
+
+
+                        <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+
+                            <div class="ce-outer">
+                                <div class="ce-inner">
+
+
+                                    <div class="ce-row">
+
+
+                                        <div class="ce-column">
+
+
+                                            <figure class="image">
+
+
+                                                <img class="img-responsive image-embed-item"
+                                                     src="https://www.emso-gmbh.com/fileadmin/_processed_/b/9/csm_ico_reinraum_ba4bea94ce.png"
+                                                     width="80" height="86" alt="">
+
+
+                                            </figure>
+
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <div class="col-md-10   ">
+                <div id="divider-16569" class="divider-before-after clearfix" style="height:30px;"></div>
+
+
+                <div id="c16570" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+                    <header>
+
+
+                        <h3>Reinraum</h3>
+
+
+                        <h4 class="">
+                            partikelfrei - präzise - zertifiziert
+                        </h4>
+
+
+                    </header>
+
+
+                    <div class="ce-textpic ce-center ce-above">
+
+
+                        <div class="ce-bodytext">
+
+                            <p>Maschinenbau und Reinraum unter einem Dach - Leistung aus einer Hand</p>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <div id="divider-16571" class="divider-before-after clearfix" style="height:50px;"></div>
+        <div id="section-16572" class="section-grey-bg-spacing">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-2   ">
+
+
+                        <div id="c16573" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+                            <div class="ce-textpic ce-center ce-above">
+
+
+                                <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+
+                                    <div class="ce-outer">
+                                        <div class="ce-inner">
+
+
+                                            <div class="ce-row">
+
+
+                                                <div class="ce-column">
+
+
+                                                    <figure class="image">
+
+
+                                                        <img class="img-responsive image-embed-item"
+                                                             src="https://www.emso-gmbh.com/fileadmin/_processed_/2/2/csm_ico_cobots_423f4444d1.png"
+                                                             width="100" height="92" alt="">
+
+
+                                                    </figure>
+
+
+                                                </div>
+
+
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-10   ">
+                        <div id="divider-16574" class="divider-before-after clearfix" style="height:30px;"></div>
+
+
+                        <div id="c16575" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+                            <header>
+
+
+                                <h3>Roboteranlagen</h3>
+
+
+                                <h4 class="">
+                                    modular - integriert - angepasst
+                                </h4>
+
+
+                            </header>
+
+
+                            <div class="ce-textpic ce-center ce-above">
+
+
+                                <div class="ce-bodytext">
+
+                                    <p>Fanuc,&nbsp;Yaskawa, fruitcore, Omron,&nbsp;Stäubli, KUKA,&nbsp;weitere auf
+                                        Anfrage</p>
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="divider-16246" class="divider-before-after clearfix" style="height:50px;"></div>
+    </div>
+</div>
+<div id="content-box-16251" class="content-blue-bg-logo-emso-normal">
+
+
+    <div id="c16251" class="frame frame-default frame-type-textmedia frame-layout-146">
+
+
+        <div class="ce-textpic ce-center ce-above">
+
+
+            <div class="ce-bodytext">
+
+                <h2 class="text-center">Gerne erhalten Sie eine individuelle Beratung oder ein konkretes Angebot von
+                    uns. Sprechen Sie uns einfach an:</h2>
+                <h2 class="text-center">Tel.: +49 9547 9449-0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;E-Mail:
+                    sales@emso-gmbh.com</h2>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</div>
+<div id="section-16531" class="section-grey-bg-spacing">
+    <div class="container">
+
+
+        <div id="c16531" class="frame frame-default frame-type-textmedia frame-layout-115">
+
+
+            <div class="ce-textpic ce-center ce-above">
+
+
+                <div class="ce-bodytext">
+
+                    <h2 class="text-center">SONDERMASCHINENBAU MASCHINENBAU ENDMONTAGELINIEN FERTIGUNGSLINIEN
+                        MONTAGELINIEN SONDERMASCHINEN HANDARBEITSPLÄTZE MASCHINENBAU PALETTIERER LOHNFERTIGUNG REINRAUM
+                        ELEKTROMOTORENPRODUKTION TESTSTATIONEN PRODUKTIONSANLAGEN ROBOTERTECHNIK KLEBETECHNIK ADDITIVE
+                        FERTIGUNG INFRASPOT&nbsp;</h2>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+</div>
+<div id="section-16256" class="section-white-bg-spacing">
+    <div class="container">
+
+
+        <div id="c16256" class="frame frame-default frame-type-textmedia frame-layout-110">
+
+
+            <header>
+
+
+                <h2>Sondermaschinen für viele Branchen</h2>
+
+
+            </header>
+
+
+            <div class="ce-textpic ce-center ce-above">
+
+
+                <div class="ce-bodytext">
+
+                    <p>national und international</p>
+                    <p><br> Als Ihr Partner für den Sondermaschinen- und Anlagenbau sehen wir es als unsere wichtigste
+                        Aufgabe, Ihnen innovative und individuelle Konzepte und Produkte für die Umsetzung zu liefern.
+                    </p>
+                    <p><br> Innovative Weiterentwicklung garantiert Wettbewerbsfähigkeit in vielen unterschiedlichen
+                        Branchen:<br> + Automobil<br> + Optik<br> + Nuklartechnik<br> + Elektronik<br> +
+                        Maschinenbau<br> + Verpackung<br> + Lebensmittel<br> + Pharma</p>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+</div>
+<div id="divider-16259" class="divider-before-after clearfix" style="height:50px;"></div>
+<div id="section-16578" class="section-grey-bg-spacing">
+    <div class="container">
+
+
+        <div id="c16578" class="frame frame-default frame-type-textmedia frame-layout-115">
+
+
+            <div class="ce-textpic ce-left ce-intext ce-nowrap">
+
+
+                <div class="ce-gallery" data-ce-columns="2" data-ce-images="2">
+
+
+                    <div class="ce-row">
+
+
+                        <div class="ce-column">
+
+
+                            <figure class="image">
+
+
+                                <img class="img-responsive image-embed-item"
+                                     src="https://www.emso-gmbh.com/fileadmin/user_upload/2021-09-FlyerDigital_V01.pdf"
+                                     width="0" height="0" alt="">
+
+
+                            </figure>
+
+
+                        </div>
+
+
+                        <div class="ce-column">
+
+
+                            <figure class="image">
+
+
+                                <img class="img-responsive image-embed-item"
+                                     src="https://www.emso-gmbh.com/fileadmin/_processed_/6/9/csm_Ico_flyerdigital_114fd9a426.png"
+                                     width="100" height="140" alt="">
+
+
+                            </figure>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="ce-bodytext">
+
+
+                    <header>
+
+
+                        <h3>Sondermaschinenbau - auf einen Blick</h3>
+
+
+                    </header>
+
+
+                    <p>Unsere Leistungen sind Ihre Lösungen. <a
+                            href="https://www.emso-gmbh.com/fileadmin/user_upload/2021-09-FlyerDigital_V01.pdf"
+                            title="Emso - digitaler Flyer" target="_blank">Hier unser digitaler Flyer für Sie.</a></p>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+</div>
+<div id="section-16261" class="section-white-bg-spacing">
+    <div class="container">
+
+
+        <div id="c16261" class="frame frame-default frame-type-textmedia frame-layout-110">
+
+
+            <header>
+
+
+                <h2>Full Service</h2>
+
+
+            </header>
+
+
+            <div class="ce-textpic ce-center ce-above">
+
+
+                <div class="ce-bodytext">
+
+                    <p>Wir denken in Lösungen</p>
+                    <p><br> Unsere Leistungen erstrecken sich von der eigenen Entwicklung und Konstruktion, Fertigung
+                        und Montage bis zur Inbetriebnahme bei unseren Kunden vor Ort.<br> Alles aus einer Hand.</p>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+</div>
+
+
+<div id="c16263" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+    <div class="ce-textpic ce-center ce-above">
+
+
+        <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+
+            <div class="ce-outer">
+                <div class="ce-inner">
+
+
+                    <div class="ce-row">
+
+
+                        <div class="ce-column">
+
+
+                            <figure class="image">
+
+                                <a href="https://www.emso-gmbh.com/de/"
+                                   title="Full Service im Maschinenbau, alles aus einer Hand">
+
+                                    <img class="img-responsive image-embed-item"
+                                         title="Full Service im Maschinenbau, alles aus einer Hand"
+                                         alt="Full Service im Maschinenbau, alles aus einer Hand"
+                                         src="https://www.emso-gmbh.com/fileadmin/_processed_/2/7/csm_Emso_diagramm_02_a82d234ad2.png"
+                                         width="600" height="655">
+
+                                </a>
+
+
+                            </figure>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+<div id="divider-16270" class="divider-before-after clearfix" style="height:50px;"></div>
+
+
+<div id="c16265" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+    <div class="ce-textpic ce-center ce-above">
+
+
+        <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+
+            <div class="ce-outer">
+                <div class="ce-inner">
+
+
+                    <div class="ce-row">
+
+
+                        <div class="ce-column">
+
+
+                            <figure class="image">
+
+                                <a href="https://www.emso-gmbh.com/de/"
+                                   title="Reinraum, Lohnreinigung, Iso6, Lohnfertigung, Reinraum mieten">
+
+                                    <img class="img-responsive image-embed-item"
+                                         title="Reinraum, Lohnreinigung, Iso6, Lohnfertigung, Reinraum mieten"
+                                         alt="Reinraum, Lohnreinigung, Iso6, Lohnfertigung, Reinraum mieten"
+                                         src="https://www.emso-gmbh.com/fileadmin/_processed_/7/e/csm_Reinraum_97c693a3c8.png"
+                                         width="1170" height="251">
+
+                                </a>
+
+
+                            </figure>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+<div id="section-16269" class="section-white-bg-spacing">
+    <div class="container">
+
+
+        <div id="c16269" class="frame frame-default frame-type-textmedia frame-layout-110">
+
+
+            <header>
+
+
+                <h2>Reinraum</h2>
+
+
+            </header>
+
+
+            <div class="ce-textpic ce-center ce-above">
+
+
+                <div class="ce-bodytext">
+
+                    <p>Unser Reinraum - Ihr professioneller Partner</p>
+                    <p><br> Ihr Kunde stellt Sauberkeitsanforderungen, die Sie nicht erfüllen können? Wir montieren im
+                        eigenen ISO-6-Reinraum (erweiterbar für ISO 5) nach ISO 14644-1. Kundenzertifizierte Sauberkeit,
+                        festgelegte<br> Prozessketten und geschultes Fachpersonal sind unsere Schlüssel zu Ihrem
+                        Projekterfolg.</p>
+                    <p>Marc Bernhardt beantwortet Ihnen gerne alle offenen Fragen.<br> Rufen Sie ihn gerne an: +49 9547
+                        9449 152</p>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+</div>
+
+
+<div id="c16532" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+    <div class="ce-textpic ce-center ce-above">
+
+
+        <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+
+            <div class="ce-outer">
+                <div class="ce-inner">
+
+
+                    <div class="ce-row">
+
+
+                        <div class="ce-column">
+
+
+                            <figure class="image">
+
+                                <a href="https://www.emso-gmbh.com/de/reinraum/" title="Lohnfertigung im Reinraum">
+
+                                    <img class="img-responsive image-embed-item" title="Lohnfertigung im Reinraum"
+                                         alt="Lohnfertigung im Reinraum"
+                                         src="https://www.emso-gmbh.com/fileadmin/user_upload/CallToActionReinraum.png"
+                                         width="1142" height="204">
+
+                                </a>
+
+
+                            </figure>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+<div id="section-16274" class="section-white-bg-spacing">
+    <div class="container">
+
+
+        <div id="c16275" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+            <div class="ce-textpic ce-center ce-above">
+
+
+                <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+
+                    <div class="ce-outer">
+                        <div class="ce-inner">
+
+
+                            <div class="ce-row">
+
+
+                                <div class="ce-column">
+
+
+                                    <figure class="image">
+
+                                        <a href="https://www.emso-gmbh.com/de/infraspot/"
+                                           title="Geschoss-Geschwindigkeits-Messsystem">
+
+                                            <img class="img-responsive image-embed-item"
+                                                 title="Geschoss-Geschwindigkeits-Messsystem"
+                                                 alt="Geschoss-Geschwindigkeits-Messsystem"
+                                                 src="https://www.emso-gmbh.com/fileadmin/_processed_/a/b/csm_Infraspot_d63e24873d.png"
+                                                 width="1170" height="251">
+
+                                        </a>
+
+
+                                    </figure>
+
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+        <div id="section-16276" class="section-white-bg-spacing">
+            <div class="container">
+
+
+                <div id="c16276" class="frame frame-default frame-type-textmedia frame-layout-110">
+
+
+                    <header>
+
+
+                        <h2>Infraspot</h2>
+
+
+                    </header>
+
+
+                    <div class="ce-textpic ce-center ce-above">
+
+
+                        <div class="ce-bodytext">
+
+                            <p>Geschoss-Geschwindigkeits-Messsystem</p>
+                            <p><br> Höchste Stabilität. Pure Präzision. Robuste Materialien. Kompatible Schnittstellen.
+                                Made in Germany. Powered by EMSO &amp; IFSYS.</p>
+                            <p>Unsere Geschoss-Geschwindigkeits-Messsysteme: Auswerteeinheit, Infraspot 400 oder 600
+                                sowie Infraspot smart.</p>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<div id="carousel-generic-16313" class="container carousel slide carousel-fade" data-ride="carousel"
+     data-interval="3000" data-wrap="1">
+
+    <div class="carousel-inner">
+        <div class="item active left"><img src="https://www.emso-gmbh.com/fileadmin/user_upload/01.png" width="620"
+                                           height="170"
+                                           alt="Sondermaschinenbau - Einzelteilfertigung - Reinraum - Automation"
+                                           title="Sondermaschinenbau - Einzelteilfertigung - Reinraum - Automation">
+            <div class="container carousel-caption">
+                <div class="carousel-caption-box"><h3>Unsere Referenzen</h3></div>
+            </div>
+        </div>
+        <div class="item next left"><img src="https://www.emso-gmbh.com/fileadmin/user_upload/02.png" width="620"
+                                         height="170"
+                                         alt="Sondermaschinenbau - Einzelteilfertigung - Reinraum - Automation"
+                                         title="Sondermaschinenbau - Einzelteilfertigung - Reinraum - Automation">
+            <div class="container carousel-caption">
+                <div class="carousel-caption-box"><h3>Unsere Referenzen</h3></div>
+            </div>
+        </div>
+        <div class="item"><img src="https://www.emso-gmbh.com/fileadmin/user_upload/03.png" width="620" height="170"
+                               alt="">
+            <div class="container carousel-caption">
+                <div class="carousel-caption-box"><h3>Unsere Referenzen</h3></div>
+            </div>
+        </div>
+        <div class="item"><img src="https://www.emso-gmbh.com/fileadmin/user_upload/04.png" width="620" height="170"
+                               alt="Sondermaschinenbau - Einzelteilfertigung - Reinraum - Automation"
+                               title="Sondermaschinenbau - Einzelteilfertigung - Reinraum - Automation">
+            <div class="container carousel-caption">
+                <div class="carousel-caption-box"><h3>Unsere Referenzen</h3></div>
+            </div>
+        </div>
+    </div>
+
+    <a class="left carousel-control" href="#carousel-generic-16313" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-generic-16313" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+
+</div>
+<div id="divider-16325" class="divider-before-after clearfix" style="height:50px;"></div>
+
+
+<div id="c16327" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+    <div class="ce-textpic ce-center ce-above">
+
+
+        <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+
+            <div class="ce-outer">
+                <div class="ce-inner">
+
+
+                    <div class="ce-row">
+
+
+                        <div class="ce-column">
+
+
+                            <figure class="image">
+
+
+                                <img class="img-responsive image-embed-item"
+                                     title="Grundlagen und Herausforderungen im Sondermaschinenbau"
+                                     alt="Grundlagen und Herausforderungen im Sondermaschinenbau"
+                                     src="https://www.emso-gmbh.com/fileadmin/_processed_/7/7/csm_UnserKnowHow_5013450467.png"
+                                     width="1170" height="251">
+
+
+                            </figure>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+<div id="section-16328" class="section-white-bg-spacing">
+    <div class="container">
+
+
+        <div id="c16328" class="frame frame-default frame-type-textmedia frame-layout-110">
+
+
+            <header>
+
+
+                <h2>Unser Know How - Ihr Partner</h2>
+
+
+            </header>
+
+
+            <div class="ce-textpic ce-center ce-above">
+
+
+                <div class="ce-bodytext">
+
+                    <p>Grundlagen und Herausforderungen im Sondermaschinenbau</p>
+                    <p>Sie suchen ein erfahrenes Sondermaschinenbau-Unternehmen zur Optimierung und/oder Neuanschaffung
+                        Ihrer&nbsp;Produktionsanlagen? Dann sind Sie bei uns genau richtig. Mit der Produktion bei Emso
+                        haben sie einen erfahrenen Partner an Ihrer Seite.<br> Emso ist der Komplettanbieter für
+                        individuelle Sondermaschinen und liefert innovative, individualisierte Lösungen&nbsp;für
+                        spezielle Kundenbedürfnisse weltweit. Mit den speziell für Sie gefertigten Sondermaschinen
+                        erhöhen wir die Produktivität und Prozesssicherheit Ihrer Fertigungslinien und realisieren
+                        Einsparpotentiale damit wir gemeinsam&nbsp;Ihre Wettbewerbsfähigkeit sichern.<br> Als Experte
+                        für den Sondermaschinenbau übernehmen wir alle Schritte von der Planung, Konstruktion,
+                        Elektroplanung,&nbsp;SPS-Programmierung bis hin zur Baugruppen- und Einzelteilfertigung, Montage
+                        und Inbetriebnahme. Durch die Abbildung der kompletten Prozesskette im eigenen Werk bieten wir
+                        Ihnen Komplettlösungen aus einer&nbsp;Hand. Das bedeutet hohe Flexibilität und
+                        partnerschaftliche Betreuung bis zum Ende der Projektphase.</p>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+</div>
+<div id="content-box-16330" class="content-blue-bg-logo-emso-normal">
+
+
+    <div id="c16330" class="frame frame-default frame-type-textmedia frame-layout-146">
+
+
+        <div class="ce-textpic ce-center ce-above">
+
+
+            <div class="ce-bodytext">
+
+                <h2 class="text-center">Unser Service ist Charaktersache und nicht nur eine Leistung!</h2>
+                <h2 class="text-center">Wir denken in Lösungen - für den Anlagen- und Sondermaschinenbau.<br> Tel.: +49
+                    (0) 9547 9449 0&nbsp; &nbsp; &nbsp; &nbsp;Email: info@emso-gmbh.com</h2>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</div>
+<div id="section-16332" class="section-grey-bg-spacing">
+    <div class="container">
+
+
+        <div id="c16332" class="frame frame-default frame-type-textmedia frame-layout-115">
+
+
+            <div class="ce-textpic ce-center ce-above">
+
+
+                <div class="ce-bodytext">
+
+                    <h2 class="text-center">SONDERMASCHINENBAU MASCHINENBAU ENDMONTAGELINIEN FERTIGUNGSLINIEN
+                        MONTAGELINIEN SONDERMASCHINEN HANDARBEITSPLÄTZE MASCHINENBAU PALETTIERER LOHNFERTIGUNG REINRAUM
+                        ELEKTROMOTORENPRODUKTION TESTSTATIONEN PRODUKTIONSANLAGEN ROBOTERTECHNIK KLEBETECHNIK ADDITIVE
+                        FERTIGUNG INFRASPOT&nbsp;</h2>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+</div>
+
+
+<div id="c16334" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+    <div class="ce-textpic ce-center ce-above">
+
+
+        <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+
+            <div class="ce-outer">
+                <div class="ce-inner">
+
+
+                    <div class="ce-row">
+
+
+                        <div class="ce-column">
+
+
+                            <figure class="image">
+
+
+                                <img class="img-responsive image-embed-item" title="Nachhaltigkeit im Maschinenbau"
+                                     alt="Nachhaltigkeit im Maschinenbau"
+                                     src="https://www.emso-gmbh.com/fileadmin/_processed_/b/c/csm_Nachhaltigkeit_a4b5128228.png"
+                                     width="1170" height="251">
+
+
+                            </figure>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+<div id="section-16335" class="section-white-bg-spacing">
+    <div class="container">
+
+
+        <div id="c16335" class="frame frame-default frame-type-textmedia frame-layout-110">
+
+
+            <header>
+
+
+                <h2>Nachhaltigkeit im Maschinenbau</h2>
+
+
+            </header>
+
+
+            <div class="ce-textpic ce-center ce-above">
+
+
+                <div class="ce-bodytext">
+
+                    <p>Effizienz an den richtigen Stellen</p>
+                    <p><br> Zu unserem strategischem Ziel gehört neben der Energieeffizienz in der Produktion auch eine
+                        sparsame und verantwortungsbewusste Rohstoffnutzung. Damit erfüllen wir gesetzliche Standards
+                        und senken gleichzeitig Kosten.</p>
+                    <p><strong>Unser 8-Punkte Plan:</strong></p>
+                    <p>1. Beständige Produkte<br> Durch die Langlebigkeit der Produkte werden Ressourcen geschont. Wir
+                        setzen auf eine lange Einsatzzeit der Produkte, über den natürlichen Verschleiß einzelner
+                        Bauteile hinaus. Bei regelmäßigen Wartungen und Inspektionen können Einzelteile nachgearbeitet
+                        werden und damit sowohl der Lebenszyklus einzelner Bauteile als auch ganzer Maschinen zu
+                        verlängern.</p>
+                    <p><br> 2. Effizienz<br> Die Wirtschaftlichkeit eines Unternehmens hat höchste Priorität.
+                        Nachhaltigkeit und Wirtschaftlichkeit stehen eng zusammen. Spart man Ressourcen, Energie, Zeit
+                        und Platz ist dies nicht nur effizienter sondern auch nachhaltiger.</p>
+                    <p><br> 3. Alles aus einer Hand<br> Unterschiedliche Bearbeitungsschritte weitestgehend in einer
+                        Maschine zu vereinen ist sehr ressourcenschonend. Nicht nur der Prozess wird effizienter,<br>
+                        auch der Teiletransport innerhalb der Prozesskette wird minimiert.</p>
+                    <p><br> 4. Gute Planung ist die halbe Miete<br> Je näher bereits das Rohteil am fertigen Bauteil
+                        ist, desto schneller ist der Job erledigt und als Zusatznutzen entsteht weniger Späneabfall in
+                        der Fertigung. In der Konsequenz sinkt beispielsweise die Schruppbearbeitung beim Fräsen,
+                        während die Schlichtbearbeitung an Bedeutung gewinnt.</p>
+                    <p><br> 5. Recycling der Abfälle<br> Auch das Recycling der Abfälle ist in der
+                        Metallbearbeitungsindustrie seit langem eingespielt. Metallspäne und andere Produktionsabfälle
+                        werden von den Fertigungsbetrieben selbst oder von spezialisierten Verwertungsunternehmen
+                        gesammelt und wieder der Rohmetallgewinnung zugeführt.</p>
+                    <p><br> 6. Weniger Schmierung<br> Ein weiterer Nachhaltigkeitstrend in der metallverarbeitenden
+                        Industrie: Statt großen Mengen an Kühl- und anderen Schmiermitteln setzt man immer häufiger auf
+                        die Minimalmengenschmierung.</p>
+                    <p><br> 7. Co2 Bilanz der Lieferkette<br> Langfristig ist es für Unternehmen unabdingbar, die
+                        gesamte Produktions- und Lieferkette auf ihre Nachhaltigkeit zu überprüfen. Made in Germany
+                        steht bei uns an erster Stelle, auch bei unseren Zulieferern.</p>
+                    <p><br> 8. Genauere Software<br> Nicht nur bei den Maschinen selbst, auch bei der Software ist in
+                        Sachen Nachhaltigkeit noch viel drin. Wenn mehr bearbeitete Teile Gut-Teile sind, weil die
+                        Wiederholbarkeit der Prozesse verbessert sei, habe dies direkte Auswirkungen auf die Schonung
+                        von Ressourcen.</p>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+</div>
+<div id="section-16533" class="section-grey-bg-spacing">
+    <div class="container">
+
+
+        <div id="c16533" class="frame frame-default frame-type-textmedia frame-layout-115">
+
+
+            <div class="ce-textpic ce-center ce-above">
+
+
+                <div class="ce-bodytext">
+
+                    <h2 class="text-center">KLEBETECHNIK MONTAGETECHNIK KUNSTSTOFFSCHWEISSEN ADDITIVE FERTIGUNG
+                        ZERSPANUNGSTECHNIK AUTOMOBILBRANCHE RETROFIT ELEKTRONIKBRANCHE NUKLARTECHNIK REINRAUM
+                        LOHNFERTIGUNG ELEKTRONIK-CHIP-FERTIGUNG PRÜFSTAND STICHHEMMUNG SCHWEISSPLATZ PALETTIERER
+                        DEPALETTIERER RUNDTAKTER KAMERAPRÜFUNG LASERSCHWEISSEN TESTSTAND OPTISCHE PRÜFUNGEN
+                        HANDLINGSYSTEME CLEANROOM SAUBERRAUM PHARMAZIE</h2>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+</div>
+<div id="section-10304" class="section-image"
+     style="background-image:url( fileadmin/user_upload/ifsys/images/Kompetenzen-startseite.jpg );">
+    <div class="container">
+
+
+        <div id="c10301" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+            <div class="ce-textpic ce-center ce-above">
+
+
+                <div class="ce-bodytext">
+
+                    <h2 class="text-center" style="font-size:36px; color:#fff;">Kompetenzen</h2>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+        <div id="divider-10302" class="divider-before-after clearfix" style="height:50px;"></div>
+
+
+        <div id="c10303" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+            <div class="ce-textpic ce-center ce-above">
+
+
+                <div class="ce-gallery" data-ce-columns="6" data-ce-images="6">
+
+                    <div class="ce-outer">
+                        <div class="ce-inner">
+
+
+                            <div class="ce-row">
+
+
+                                <div class="ce-column">
+
+
+                                    <figure class="image">
+
+
+                                        <img class="img-responsive image-embed-item"
+                                             title="[Translate to German:] Technologien"
+                                             alt="[Translate to German:] Technologien"
+                                             src="https://www.emso-gmbh.com/fileadmin/user_upload/emso/images/Button-rund-technologie-de.png"
+                                             width="167" height="167">
+
+
+                                    </figure>
+
+
+                                </div>
+
+
+                                <div class="ce-column">
+
+
+                                    <figure class="image">
+
+
+                                        <img class="img-responsive image-embed-item"
+                                             title="[Translate to German:] Entwicklung"
+                                             alt="[Translate to German:] Entwicklung"
+                                             src="https://www.emso-gmbh.com/fileadmin/user_upload/emso/images/Button-rund-entwicklung-de.png"
+                                             width="167" height="167">
+
+
+                                    </figure>
+
+
+                                </div>
+
+
+                                <div class="ce-column">
+
+
+                                    <figure class="image">
+
+
+                                        <img class="img-responsive image-embed-item"
+                                             title="[Translate to German:] Projektmanagement"
+                                             alt="[Translate to German:] Projektmanagement"
+                                             src="https://www.emso-gmbh.com/fileadmin/user_upload/emso/images/Button-rund-projektmanagemen-de.png"
+                                             width="167" height="167">
+
+
+                                    </figure>
+
+
+                                </div>
+
+
+                                <div class="ce-column">
+
+
+                                    <figure class="image">
+
+
+                                        <img class="img-responsive image-embed-item"
+                                             title="[Translate to German:] Qualitätsmanagement"
+                                             alt="[Translate to German:] Qualitätsmanagement"
+                                             src="https://www.emso-gmbh.com/fileadmin/user_upload/emso/images/Button-rund-quality-de.png"
+                                             width="167" height="167">
+
+
+                                    </figure>
+
+
+                                </div>
+
+
+                                <div class="ce-column">
+
+
+                                    <figure class="image">
+
+
+                                        <img class="img-responsive image-embed-item"
+                                             title="[Translate to German:] Produktion"
+                                             alt="[Translate to German:] Produktion"
+                                             src="https://www.emso-gmbh.com/fileadmin/user_upload/emso/images/Button-rund-produktion-de.png"
+                                             width="167" height="167">
+
+
+                                    </figure>
+
+
+                                </div>
+
+
+                                <div class="ce-column">
+
+
+                                    <figure class="image">
+
+
+                                        <img class="img-responsive image-embed-item"
+                                             title="[Translate to German:] Service" alt="[Translate to German:] Service"
+                                             src="https://www.emso-gmbh.com/fileadmin/user_upload/emso/images/Button-rund-service-de-en.png"
+                                             width="167" height="167">
+
+
+                                    </figure>
+
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+</div>
+<div id="section-10319" class="section-white-bg-spacing">
+    <div class="container">
+        <div id="content-box-10318" class="content-box-white-bg-p40">
+            <div class="row ">
+                <div class="col-md-4   ">
+
+
+                    <div id="c10314" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+                        <div class="ce-textpic ce-left ce-above">
+
+
+                            <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+
+
+                                <div class="ce-row">
+
+
+                                    <div class="ce-column">
+
+
+                                        <figure class="image">
+
+                                            <a href="https://www.ifsys.com"
+                                               title="[Translate to German:] Website IFSYS INTEGRATED FEEDING SYSTEMS  Feeding Technology"
+                                               target="_blank">
+
+                                                <img class="img-responsive image-embed-item"
+                                                     title="[Translate to German:] Website IFSYS INTEGRATED FEEDING SYSTEMS  Feeding Technology"
+                                                     alt="[Translate to German:] Website IFSYS INTEGRATED FEEDING SYSTEMS  Feeding Technology"
+                                                     src="https://www.emso-gmbh.com/fileadmin/user_upload/global/images/logo-ifsys-uebersicht-180x60.png"
+                                                     width="180" height="60">
+
+                                            </a>
+
+
+                                        </figure>
+
+
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div id="c10315" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+                        <div class="ce-textpic ce-center ce-above">
+
+
+                            <div class="ce-bodytext">
+
+                                <h3>IFSYS GmbH</h3>
+                                <p><a href="https://www.ifsys.com" title="IFSYS® Integrated Feeding Systems GmbH"
+                                      target="_blank" class="external-link-new-window">www.ifsys.com</a></p>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+                <div class="col-md-4   ">
+
+
+                    <div id="c10312" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+                        <div class="ce-textpic ce-left ce-above">
+
+
+                            <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+
+
+                                <div class="ce-row">
+
+
+                                    <div class="ce-column">
+
+
+                                        <figure class="image">
+
+                                            <a href="http://www.ifsys.us"
+                                               title="[Translate to German:] Website IFSYS North America Inc."
+                                               target="_blank">
+
+                                                <img class="img-responsive image-embed-item"
+                                                     title="[Translate to German:] Website IFSYS North America Inc."
+                                                     alt="[Translate to German:] Website IFSYS North America Inc."
+                                                     src="https://www.emso-gmbh.com/fileadmin/user_upload/global/images/logo-ifsys-uebersicht-180x60.png"
+                                                     width="180" height="60">
+
+                                            </a>
+
+
+                                        </figure>
+
+
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div id="c10313" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+                        <div class="ce-textpic ce-right ce-intext">
+
+
+                            <div class="ce-bodytext">
+
+                                <h3>IFSYS North America Inc.</h3>
+                                <p><a href="http://www.ifsys.us" title="Website IFSYS North America" target="_blank"
+                                      class="external-link-new-window">www.ifsys.us</a></p>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+                <div class="col-md-4   ">
+
+
+                    <div id="c10316" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+                        <div class="ce-textpic ce-left ce-above">
+
+
+                            <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+
+
+                                <div class="ce-row">
+
+
+                                    <div class="ce-column">
+
+
+                                        <figure class="image">
+
+                                            <a href="https://www.jopp.com/zh/"
+                                               title="[Translate to German:] Website Jopp Technology (Suzhou) Co., Ltd."
+                                               target="_blank" rel="noreferrer">
+
+                                                <img class="img-responsive image-embed-item"
+                                                     title="[Translate to German:] Website Jopp Technology (Suzhou) Co., Ltd."
+                                                     alt="[Translate to German:] Website Jopp Technology (Suzhou) Co., Ltd."
+                                                     src="https://www.emso-gmbh.com/fileadmin/user_upload/global/images/logo-jopp-uebersicht-180x60.png"
+                                                     width="180" height="60">
+
+                                            </a>
+
+
+                                        </figure>
+
+
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div id="c10317" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+
+                        <div class="ce-textpic ce-left ce-above">
+
+
+                            <div class="ce-bodytext">
+
+                                <h3>Jopp Technology (Suzhou) Co., Ltd.</h3>
+                                <p><a href="https://www.jopp.com/zh/" title="Website JOPP China" target="_blank"
+                                      class="external-link-new-window" rel="noreferrer">www.jopp.com/zh/</a></p>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- TYPO3SEARCH_end-->
+
+<div id="section-719" class="section-image"
+     style="background-image:url( fileadmin/user_upload/ifsys/images/kompetenzen-produktion.jpg );">
+    <div class="container">
+        <div id="divider-731" class="divider-before-after clearfix" style="height:100px;"></div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row ">
+            <div class="col-sm-4 col-md-3   ">
+
+
+                <div id="c8698" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+                    <a id="c8705"></a>
+
+
+                    <header>
+
+
+                        <h3>Site Map &amp; Navigation</h3>
+
+
+                    </header>
+
+
+                    <div class="ce-textpic ce-right ce-intext">
+
+
+                        <div class="ce-bodytext">
+
+                            <p><a href="/de/unternehmen/allgemeine-informationen/" title="Unternehmen"
+                                  class="internal-link">Unternehmen</a><br> <a href="/de/unternehmen/kompetenzen/">Kompetenzen</a><br>
+                                <a href="/de/sondermaschinenbau/" title="Lösungen"
+                                   class="internal-link">Lösungen</a><br> <a href="/de/unternehmen/karriere/"
+                                                                             title="Karriere" class="internal-link">Karriere</a><br>
+                                Aktuelles<br> <a href="/de/kontakt/" title="Kontakt"
+                                                 class="internal-link">Kontakt</a><br> <a href="/de/impressum/"
+                                                                                          title="Impressum"
+                                                                                          class="internal-link">Impressum</a><br>
+                                <a href="/de/datenschutz/" title="Datenschutzerklärung" class="internal-link">Datenschutzerklärung</a>
+                            </p>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <div class="col-sm-4 col-md-3   ">
+
+
+                <div id="c8694" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+                    <a id="c8701"></a>
+
+
+                    <header>
+
+
+                        <h3>Kompetenzen</h3>
+
+
+                    </header>
+
+
+                    <div class="ce-textpic ce-right ce-intext">
+
+
+                        <div class="ce-bodytext">
+
+                            <p><a href="https://www.emso-gmbh.com/de/unternehmen/kompetenzen/#c9757"
+                                  title="Technologien" target="_blank" class="internal-link">Technologien</a><br><a
+                                    href="https://www.emso-gmbh.com/de/unternehmen/kompetenzen/#c9762"
+                                    title="Entwicklung" target="_blank" class="internal-link">Entwicklung</a><br><a
+                                    href="https://www.emso-gmbh.com/de/unternehmen/kompetenzen/#c9767"
+                                    title="Projekt-Management" target="_blank"
+                                    class="internal-link">Projekt-Management</a><br><a
+                                    href="https://www.emso-gmbh.com/de/unternehmen/kompetenzen/#c9772"
+                                    title="Qualitätsmanagement" target="_blank" class="internal-link">Qualitätsmanagement</a><br><a
+                                    href="https://www.emso-gmbh.com/de/unternehmen/kompetenzen/#c9777"
+                                    title="Produktion" target="_blank" class="internal-link">Produktion</a><br><a
+                                    href="https://www.emso-gmbh.com/de/unternehmen/kompetenzen/#c9782" title="Service"
+                                    target="_blank" class="internal-link">Service</a></p>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <div class="col-sm-4 col-md-3   ">
+
+
+                <div id="c8693" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+                    <a id="c8700"></a>
+
+
+                    <header>
+
+
+                        <h3>Sondermaschinenbau</h3>
+
+
+                    </header>
+
+
+                    <div class="ce-textpic ce-right ce-intext">
+
+
+                        <div class="ce-bodytext">
+
+                            <p>Mechanische Konstruktion<br> Elektrokonstruktion<br> Softwareentwicklung<br>
+                                Sondermaschinenbau<br> Steuerungstechnik<br> Teilefertigung</p>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <div class="col-sm-4 col-md-3   hidden-xs hidden-sm">
+
+
+                <div id="c8695" class="frame frame-default frame-type-textmedia frame-layout-0">
+
+                    <a id="c8702"></a>
+
+
+                    <div class="ce-textpic ce-right ce-above">
+
+
+                        <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+
+
+                            <div class="ce-row">
+
+
+                                <div class="ce-column">
+
+
+                                    <figure class="image">
+
+
+                                        <img class="img-responsive image-embed-item"
+                                             title="ELECTRICAL MECHANICAL SOLUTIONSELECTRICAL MECHANICAL SOLUTIONSELECTRICAL MECHANICAL SOLUTIONS"
+                                             alt="ELECTRICAL MECHANICAL SOLUTIONS"
+                                             src="https://www.emso-gmbh.com/fileadmin/_processed_/6/4/csm_emso-logo_96a7d5d541.png"
+                                             width="120" height="42">
+
+
+                                    </figure>
+
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://www.emso-gmbh.com/typo3temp/assets/compressed/merged-6d4a461dfd47f0b3ce286626b1bc969d-4ce433616dd4c0dda28560f1faaea4de.1660299143.js"></script>
+<script src="https://www.emso-gmbh.com/typo3temp/assets/compressed/merged-6a558eddf580193d38191ee7ecaadc58-d76475a23bdd283671843f79ff2ea046.1660298861.js"></script>
+
+<!--
+  ~ Copyright (c) 2021.
+  ~
+  ~ @category   TYPO3
+  ~
+  ~ @copyright  2021 Dirk Persky (https://github.com/DirkPersky)
+  ~ @author     Dirk Persky <info@dp-wired.de>
+  ~ @license    MIT
+  -->
+
+
+<!-- Begin Cookie Consent plugin by Dirk Persky - https://github.com/DirkPersky/typo3-dp_cookieconsent -->
+<script type="text/plain" data-ignore="1" data-dp-cookiedesc="layout">
+    <!--
+  ~ Copyright (c) 2021.
+  ~
+  ~ @category   TYPO3
+  ~
+  ~ @copyright  2021 Dirk Persky (https://github.com/DirkPersky)
+  ~ @author     Dirk Persky <info@dp-wired.de>
+  ~ @license    MIT
+  -->
+
+Um unsere Webseite für Sie optimal zu gestalten und fortlaufend verbessern zu können, verwenden wir Cookies. Durch die weitere Nutzung der Webseite stimmen Sie der Verwendung von Cookies zu. Weitere Informationen zu Cookies erhalten Sie in unserer Datenschutzerklärung.
+
+
+    <a aria-label="learn more about cookies"
+       role=button tabindex="1"
+       class="cc-link"
+       href="/de/datenschutz/"
+       rel="noopener noreferrer nofollow"
+       target="_self"
+    >
+        Mehr Infos
+    </a>
+
+
+
+</script>
+<script type="text/plain" data-ignore="1" data-dp-cookieselect="layout">
+    <!--
+  ~ Copyright (c) 2021.
+  ~
+  ~ @category   TYPO3
+  ~
+  ~ @copyright  2021 Dirk Persky (https://github.com/DirkPersky)
+  ~ @author     Dirk Persky <info@dp-wired.de>
+  ~ @license    MIT
+  -->
+
+<div class="dp--cookie-check" xmlns:f="http://www.w3.org/1999/html">
+    <label for="dp--cookie-require">
+        <input type="hidden" name="" value="" /><input disabled="disabled" class="dp--check-box" id="dp--cookie-require" tabindex="-1" type="checkbox" name="" value="" checked="checked" />
+        Notwendig
+    </label>
+    <label for="dp--cookie-statistics">
+        <input class="dp--check-box" id="dp--cookie-statistics" tabindex="1" type="checkbox" name="" value="" />
+        Statistiken
+    </label>
+    <label for="dp--cookie-marketing">
+        <input class="dp--check-box" id="dp--cookie-marketing" tabindex="1" type="checkbox" name="" value="" />
+        Marketing
+    </label>
+</div>
+
+
+</script>
+<script type="text/plain" data-ignore="1" data-dp-cookierevoke="layout">
+    <div class="cc-revoke dp--revoke {{classes}}">
+    <i class="dp--icon-fingerprint"></i>
+    <span class="dp--hover">Cookies</span>
+</div>
+
+
+
+
+</script>
+<script type="text/plain" data-ignore="1" data-dp-cookieiframe="layout">
+    <div class="dp--overlay-inner">
+    <div class="dp--overlay-header">{{notice}}</div>
+    <div class="dp--overlay-description">{{desc}}</div>
+    <div class="dp--overlay-button">
+        <button class="db--overlay-submit" onclick="window.DPCookieConsent.forceAccept(this)"
+                data-cookieconsent="{{type}}" {{style}}>
+        {{btn}}
+        </button>
+    </div>
+</div>
+
+
+</script>
+<script type="text/javascript" data-ignore="1">
+    window.cookieconsent_options = {
+        overlay: {
+            notice: true,
+            box: {
+                background: '#FFFFFF',
+                text: '#666666'
+            },
+            btn: {
+                background: '#B81839',
+                text: '#FFFFFF'
+            }
+        },
+        content: {
+            message:'Um unsere Webseite für Sie optimal zu gestalten und fortlaufend verbessern zu können, verwenden wir Cookies. Durch die weitere Nutzung der Webseite stimmen Sie der Verwendung von Cookies zu. Weitere Informationen zu Cookies erhalten Sie in unserer Datenschutzerklärung.',
+            dismiss:'Ablehnen',
+            allow:'Speichern',
+            deny: 'Ablehnen',
+            link:'Mehr Infos',
+            href:'/de/datenschutz/',
+            target:'_self',
+            'allow-all': 'Akzeptieren',
+
+            media: {
+                notice: 'Cookie-Hinweis',
+                desc: 'Durch das Laden dieser Ressource wird eine Verbindung zu externen Servern hergestellt, die Cookies und andere Tracking-Technologien verwenden, um die Benutzererfahrung zu personalisieren und zu verbessern. Weitere Informationen finden Sie in unserer Datenschutzerklärung.',
+                btn: 'Erlaube Cookies und lade diese Ressource',
+            }
+        },
+        theme: 'edgeless',
+        position: 'bottom-right',
+        type: 'opt-in',
+        revokable: true,
+        reloadOnRevoke: false,
+        checkboxes: {"statistics":"false","marketing":"false"},
+        palette: {
+            popup: {
+                background: '#FFFFFF',
+                text: '#666666'
+            },
+            button: {
+                background: '#006092',
+                text: '#FFFFFF',
+            }
+        }
+    };
+
+</script>
+<!-- End Cookie Consent plugin -->
+
+<div id="back-to-top"><i class="fa fa-angle-up fa-3x"></i></div>
+<div class="cc-revoke dp--revoke cc-bottom-right cc-type-opt-in cc-theme-edgeless cc-hide"
+     style="background-color: rgb(255, 255, 255); color: rgb(102, 102, 102);">
+    <i class="dp--icon-fingerprint"></i>
+    <span class="dp--hover">Cookies</span>
+</div>
+</body>
+</html>

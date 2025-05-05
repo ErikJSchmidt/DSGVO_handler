@@ -1,0 +1,218 @@
+<html><head>
+		<meta name="author" content="SYSTEAM GmbH">
+		<meta name="description" content="IT-Distribution aus Ebensfeld, Deutschland. Systeam vertreibt Drucker und Hardware Komponenten an Händler in Deutschland, Österreich und in der Schweiz">
+		<meta name="keywords" content="Systeam, Distributor, Distribution, Drucker, Deutschland">
+		<meta name="robots" content="index,follow">
+		<meta name="google-site-verification" content="Z00t691LpPRlmE-wYZdsgsarIuGFpRnHJXkhSGn30tM">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta charset="utf-8">
+		<link rel="icon" type="image/ico" href="favicon.ico">
+		<title>Systeam - Topadresse der deutschen Distribution</title>
+		<!-- general/main stylesheet -->
+		<!-- <link rel="stylesheet" href="css/200526/index.min.css" type="text/css"> --> <!-- minify before use -->
+		<link rel="stylesheet" href="css/210719/index.min.css" type="text/css"> <!-- minify before use -->
+		<link rel="stylesheet" href="css/200616/start.min.css" type="text/css"> <!-- minify before use -->
+	</head>
+	<body>
+		<div class="shopbody"><div class="header" id="header">
+	<div class="logo" onclick="openPage('home')">
+		<!--<img src="/bilder/img/general/logo_190206.png" width="241px">-->
+		<img src="/bilder/img/general/Logo_2022.png" width="241px" style="cursor:pointer;">
+		<h1>Topadresse der deutschen Distribution</h1>
+		<div class="weAreHere">
+			<span>Wir sind für Sie da !</span> 
+			<a href="tel:+499573922120"><span id="telNbr" onclick="event.stopPropagation();">+49 9573/9221-20</span></a> 
+			<a href="mailto:verkauf@systeam.de" style="color: white;"><span onclick="event.stopPropagation();" style="text-decoration: underline;font-size: 10pt;">verkauf@systeam.de</span></a>
+			<span>Mo-Fr 8-18 Uhr</span>
+		</div>
+	</div>
+	<div class="box">
+		<img src="/bilder/img/general/systeam.jpg" id="logo" onclick="openPage('home')">
+		<form name="loginForm" id="loginForm">
+			<input type="number" placeholder="Kundennummer" min="110000" max="999999" name="user" id="user">
+			<input type="password" placeholder="Passwort" maxlength="12" name="password" id="pw">
+			<input type="hidden" id="searchPro">
+			&nbsp;ID-&nbsp;<input type="tel" value="001" min="0" max="999" name="uid" id="uid">
+			<button class="green" id="login">LOGIN</button>
+			<a href="javascript:openPage('help', 'hmanager')" class="forgot">Passwort vergessen</a><a href="javascript:openPage('customer')" class="new">Noch kein Kunde?</a>
+		</form>
+		<div class="error">Alle Felder müssen ausgefüllt werden.</div>
+	</div>
+	<div class="naviElements">
+		<div onclick="$('.naviElements ul').toggle();" class="menu"><img src="../Bilder/img/general/menu.jpg"> Menu</div>
+		<ul>
+			<li class="home" onclick="openPage('home')" id="active">Home</li>
+			<li class="customer" onclick="openPage('customer')">Kunde werden</li>
+			<li class="company" onclick="openPage('company')">Unternehmen</li>
+			<li class="career" onclick="openPage('career')">Karriere</li>
+			<li class="team last" onclick="openPage('team')">Ansprechpartner</li>
+		</ul>
+	</div>
+</div>
+<div class="popupContainer"></div>
+<!--[if lt IE 10]>
+	<script type="text/javascript">document.getElementById('header').outerHTML = "";</script>
+	<div class="caution">
+		<h2>Achtung</h2>
+		<p><b>Liebe/r Kunde/in, Ihr Browser ist veraltet!</b><br>Dadurch kann es zu technischen Problemen mit der Webseite kommen,<br>führen Sie bitte ein Update durch oder steigen Sie auf einen anderen Browser um.<br><br><b>Vielen Dank!<br>Ihr SYSTEAM Webmaster-Team.</b></p>
+	</div>
+<![endif]-->
+<div class="content"><div class="bannerWrapper" style="height: 276.375px;">
+	<a id="a0" class="bannerRotation" onclick="location.hash='?O=#HP_Speed_Pricing'; loginPop(); countClick('20221111104623288')" style="left: 0px;"><img id="nr0" src="/bilder/img/bnr/de/leader/2022/KW45_HP_SpeedPricing_Leader.jpg" alt="HP" title="HP" style="height: 256.375px; width: 896px;"></a>
+	<a id="a1" class="bannerRotation" onclick="location.hash='?S=818012'; loginPop(); countClick('20221228101357307')" style="left: 896px;"><img id="nr1" src="/bilder/img/bnr/de/leader/2023/KW01_SEH_Leader.jpg" alt="SEH" title="SEH" style="height: 256.375px; width: 896px;"></a>
+	<div class="bannerDots" style="margin-left: -100px;"><img src="/bilder/img/general/pause.gif" id="state" title="anhalten" onclick="togglePlayStatus()" height="18px"><div class="dot d0" id="active" onclick="selectBanner(0)"></div><div class="dot d1" onclick="selectBanner(1)"></div><div class="dot d2" onclick="selectBanner(2)"></div><div class="dot d3" onclick="selectBanner(3)"></div><div class="dot d4" onclick="selectBanner(4)"></div><div class="dot d5" onclick="selectBanner(5)"></div><div class="dot d6" onclick="selectBanner(6)"></div><div class="dot d7" onclick="selectBanner(7)"></div></div>
+</div>
+<div class="bannerTop" style="width:0px; cursor:pointer" onclick="openPage('company', 'exhibition')"></div>
+<div class="bannerMiddle">
+	<!-- bitte nicht löschen!//-->
+	<!-- <div class="message">
+		<h3>Aufgrund von Wartungsarbeiten wird die Website am kommenden Wochenende (08.05 / 09.05) nicht für Sie erreichbar sein. <br><br> Vielen Dank für Ihr Verständnis</h3>
+	</div> -->
+	<div class="dividers" id="nr1">
+		<img src="/bilder/img/bnr/becomeCustomer_190206.jpg" class="becomeLogin" onclick="openPage('customer')">
+		<img src="/bilder/img/bnr/partnerLogin_190206.jpg" class="becomeLogin" onclick="loginPop()">
+		<div class="press">
+			<h3>PRESSE</h3>
+			<ul><li onclick="countClick('20220711115453885'); openPage('news','16')">SYSTEAM erhält Fujitsu Award</li><li onclick="countClick('20220127110333407'); openPage('news','15')">Kooperation zwischen GO Europe und SYSTEAM um HP-Lizenz-Produkte im Bereich Bürotechnik erweitert</li><li onclick="countClick('20220127102323058'); openPage('news','14')">Erweiterung des Speicher und Computer Zubehör-Bereichs: SYSTEAM jetzt offizieller MediaRange  - Distributor</li><li onclick="countClick('20211207124451457'); openPage('news','12')">Man &amp; Machine und Systeam vereinbaren Vertriebspartnerschaft</li><li onclick="countClick('20211206093555793'); openPage('news','11')">SYSTEAM ist CANON Distributor des Jahres</li></ul>
+		</div>
+		<div class="partner">
+			<img src="/bilder/img/bnr/de/KW47_Acer_HB-Banner.jpg" alt="Acer-Partner" onclick="javascript:location.hash='?M=Acer';loginPop();">
+			<!--<img src="/bilder/img/bnr/de/Acer_fastlane_010817.jpg" alt="Acer Fast Lane" onclick="loginPop('#acer')">
+			<img src="/bilder/img/general/INFORM_Banner-Fotos.jpg" alt="SYSTEAM Hausmesse INFORM2019" onclick="openPage('company', 'exhibition')" style='cursor:pointer'>//-->
+			<a href="../download/Auftragsverarbeitungsvertrag_Systeam.pdf" target="blank" onclick="location.href='https://www.systeam.de/Datenschutz/'"><img src="../bilder/img/general/Datenschutz.gif"></a>
+			<br>
+			<a href="/#?p=Fujitsu"><div style="background:url('/bilder/img/bnr/de/Fujitsu_HP_Banner.jpg') no-repeat;width:100%;height:100px" alt="Fujitsu-Partner" onclick="location.href='/#?p=Fujitsu';location.reload()"></div></a><br>
+			<h3>PARTNER INFO</h3>
+			<ul>
+				<li><a href="javascript:openPage('fujitsu')" alt="Fujitsu Landingpage">Fujitsu Landingpage &gt;&gt;</a></li>
+				<li><a href="javascript:location.hash='?M=Acer';loginPop();">Acer Lounge &gt;&gt;</a></li>
+				<li><a href="https://pn.canon-europe.com/" target="_blank">Canon Partnernet &gt;&gt;</a></li>
+				<li><a href="hp_business/" alt="Lassen Sie sich von den Vorteilen des HP Business Partner Programms überzeugen">HP Business Partner Programm &gt;&gt;</a></li>
+				<li><a href="hp_speed/" alt="HP Speed Pricing - Ihr Business Beschleuniger für kleinere Projekte">HP Speed Pricing: Ihr Business Beschleuniger &gt;&gt;</a></li>
+				<!-- <li><a href="https://partner.samsung.de/de/partner/prelogin.aspx" target="_new">Samsung Partnerlounge &gt;&gt;</a></li> -->
+				<li><a href="javascript:openPage('customer', 'hersteller')">Hersteller Überblick &gt;&gt;</a></li>
+			</ul>
+			<span style="display:inline-block; width:48%; vertical-align:top"><!--Temp Lösung für INFORM Banner //-->
+				<!--<img onclick="location.href='/inform/Feedback_K/'" src="/bilder/inform/Landingpage_Feedback_footer.jpg" alt="Feedback Hausmesse INFORM2022" style='max-width:100%; width:auto;cursor:pointer'>
+				<!--<img src="bilder/img/bnr/de/Inform.jpg" onclick="location.href='/inform/'"  style='max-width:100%; width:auto;cursor:pointer'>-->
+				<img src="/bilder/img/general/Schulungen-u-Events-Button.jpg" onclick="openPage('company','courses')" style="max-width:100%; width:auto;cursor:pointer">
+			</span>
+			<br>
+		
+		</div>
+	</div>
+	<div class="dividers" id="nr2">
+		<table>
+			<thead>
+				<tr><th colspan="3">MEIN TEAM - MEINE VORTEILE</th></tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="link" onclick="changeService('service')">
+						<img src="/bilder/img/general/service_btn.jpg" height="90px"><br>
+						UNSER VERTRIEB
+					</td>
+					<td class="link" onclick="changeService('tech')">
+						<img src="/bilder/img/general/tech_btn.jpg" height="90px"><br>
+						TECHNISCHER SERVICE
+					</td>
+					<td class="link" onclick="changeService('delivery')">
+						<img src="/bilder/img/general/delivery_btn.jpg" height="90px"><br>
+						MAXIMALE VERFÜGBARKEIT
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<span id="serviceHead">UNSER VERTRIEB</span><br>
+						<p id="serviceDesc">
+							Unser kompetentes Vertriebsteam steht Ihnen gerne zur Verfügung.
+							Für Ihre Anliegen steht Ihnen ein persönlicher Ansprechpartner mit Telefondurchwahl zur Verfügung.
+						</p>
+					</td>
+					<td>
+						<button class="blue" onclick="openPage('customer', 'advantages')">Mehr Vorteile erfahren</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<div class="hotline gradient">
+			<p>WIR SIND FÜR SIE DA!<br><br>
+			Rufen Sie uns einfach an unter: <a href="tel:09573922120">(09573) 9221-20</a><br><br>
+			Oder schreiben Sie uns unter: <a href="mailto:info@systeam.de">info@systeam.de</a>
+			</p>
+			<img src="/bilder/img/general/hotline.gif">
+		</div>
+		<div class="newsletter gradient" onclick="loginPop('&amp;p=download')">
+			<img src="/bilder/img/general/at.png" height="100px"><br>
+			NEWSLETTER<br>ANMELDUNG
+		</div>
+		<div class="newsletterBenefits">
+			<h3>Ihre Vorteile</h3>
+			<p><img src="/bilder/img/general/check.jpg" height="18px"> EXKLUSIVE ANGEBOTE FÜR SIE!</p>
+			<p><img src="/bilder/img/general/check.jpg" height="18px"> SIE VERPASSEN KEINE AKTION!</p>
+			<p><img src="/bilder/img/general/check.jpg" height="18px"> AKTUELLE NEWS &amp; TRENDS!</p>
+			<p><img src="/bilder/img/general/check.jpg" height="18px"> SIE BESTIMMEN ART &amp; UMFANG!</p>
+		</div>
+	</div>
+</div>
+<div style="clear:both"></div>
+<!--
+<script>
+	var CoronaCount = 1;
+	var Corona = setInterval(function(){ if(toDay.length > 1 || CoronaCount > 20){clearInterval(Corona)}; $(".toDay").text(toDay); CoronaCount++ }, 500)
+</script>
+//--></div>
+<div class="rewards">
+	<!--<img src="/bilder/img/general/SysteamSponsors.jpg" alt="Brose - FCN CLUBFREUNDE-" style="cursor:pointer" onclick="openPage('company', 'sponsor')"/>-->
+	<img src="/bilder/img/general/SysteamAwards.jpg" alt="CRN Excellent Distributor - Channelpartner Preferred Distributor">
+	<img src="/bilder/img/general/SysteamPresse.jpg" alt="Pressemitteilungen - Bayerns Best 50" style="cursor:pointer" onclick="openPage('news', '10')">
+</div>
+<br>
+<br>
+<div class="footer">
+	<table class="links">
+		<tbody>
+			<tr>
+				<td onclick="openPage('company')">Unternehmen</td>
+				<td onclick="openPage('career')">Karriere</td>
+				<td onclick="openPage('team')">Ansprechpartner</td>
+				<td onclick="openPage('customer')">Kunde werden</td>
+			</tr>
+			<tr>
+				<td onclick="openPage('company','contact')">Kontakt</td>
+				<td onclick="openPage('privacy')">Datenschutz</td>
+				<td><a href="download/systeam_agb.pdf" target="_blank">AGB</a></td>
+				<td onclick="openPage('imprint')">Impressum</td>
+			</tr>
+		</tbody>
+	</table>
+	<table class="miniImprint">
+		<tbody>
+			<tr>
+				<td>Industriestr. 8</td>
+				<td>Tel&nbsp;&nbsp;(09573) 9221-0</td>
+				<td rowspan="2"><a href="mailto:info@systeam.de">info@systeam.de</a></td>
+			</tr>
+			<tr>
+				<td>96250 Ebensfeld</td>
+				<td>Fax (09573) 9221-199</td>
+			</tr>
+		</tbody>
+	</table>
+</div></div>
+		<!-- JS -->
+		<!-- jQuery JS -->
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-1.12.1.min.js"></script>
+		<!-- general/main JS -->
+		<!-- <script type="text/javascript" src="js/190211/translate.js"></script> -->
+		<script type="text/javascript" src="js/220308/translate.js"></script>
+		<script type="text/javascript" src="js/210204/Team.js"></script>
+		<script type="text/javascript" src="js/sha1.js"></script>
+		<script type="text/javascript" src="js/211124/index.js"></script>
+		<!-- <script type="text/javascript" src="js/220209/start.js"></script> -->
+		<script type="text/javascript" src="js/220317/start.js"></script>
+		<script type="text/javascript" src="js/advent.js"></script>
+		<script type="text/javascript">/*initializeFlocks();*/ startCheckURL();</script>
+	
+</body></html>

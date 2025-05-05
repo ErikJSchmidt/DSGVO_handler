@@ -1,0 +1,11 @@
+# shadow-root                                              Selecting an option will immediately
+                                                                        change the language        Privatsphären-Einstellungen     Wir nutzen teils Technologien Dritter, um unsere Webseite
+                                                            stetig zu verbessern und Multimediainhalte anzuzeigen. Dabei
+                                                            werden Cookies von sowie Server-Verbindungen zu Dritten
+                                                            eingesetzt. Durch Klicken auf "Allen zustimmen" erklären Sie
+                                                            sich damit einverstanden. Sie können Ihre Einwilligung
+                                                            jederzeit
+                                                            mit Wirkung für die Zukunft für alle oder einzelne Dienste
+                                                            widerrufen.     Datenschutz Impressum                Anpassen  Alle ablehnen  Allen
+                                                    zustimmen     Powered by Usercentrics
+                                        Consent Management         

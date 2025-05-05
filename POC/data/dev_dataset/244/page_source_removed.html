@@ -1,0 +1,76 @@
+<div id="cookieNotice" class="confirmBeforeLoadExternRessources  blockPage">
+    <div id="cookieNoticeInner">
+        <div>
+            <div id="cookieNoticeCloser" onclick="closeCookieNotice()"></div>
+            <div class="elementSection elementSection_var0  elementSectionPadding_var10 elementSectionMargin_var0 elementSectionInnerWidth_var100 elementSectionBackgroundColor_var0">
+                <div class="sectionInner">
+                    <div></div>
+                    <div class="elementText elementText_var0 elementTextListStyle_var0"><h3>Datenschutzhinweis</h3>
+                        <p>Diese Webseite nutzt externe Komponenten, wie z.B. Schriftarten, Karten, Videos oder
+                            Analysewerkzeuge, welche alle dazu genutzt werden können, Daten über Ihr Verhalten zu
+                            sammeln. <a class="box" href="/de/datenschutz" data-hasinitlightbox="1">Datenschutzinformationen</a>
+                        </p></div>
+                    <button id="cookieNoticeAcceptCloser" onclick="wAcceptExternalRessources()">Mit externen Komponenten
+                        nutzen
+                    </button>
+                    <button id="cookieNoticeDeclineCloser" onclick="wDeclineExternalRessources();" class="buttonReset">
+                        Ohne externe Komponenten nutzen
+                    </button>
+                    <div id="containerRememberDataSecurityPreferences"><input type="checkbox"
+                                                                              id="rememberDataSecurityPreferences"
+                                                                              value="1"><label
+                            for="rememberDataSecurityPreferences">Diese Auswahl 30 Tage merken</label></div>
+                    <script>
+  /*<![CDATA[*/
+  wAcceptExternalRessources = function(){
+    var expires = document.getElementById('rememberDataSecurityPreferences') && document.getElementById('rememberDataSecurityPreferences').checked ? ';expires='+(new Date(new Date().getTime() + 30 * 1000 * 60 * 60 * 24).toGMTString()) : '';
+    if(jQuery('#bePanel').length != 0 && jQuery('#cookieNotice .elementInfo').length != 0){
+      expires = '';
+    }
+    document.cookie = 'allowTracking=1;path=/'+expires+';sameSite=lax';
+    document.cookie = 'allowLoadExternRessources=1;path=/'+expires+';sameSite=lax';
+    document.cookie = 'hideCookieNotice'+(typeof(wCookieNoticeVar) != 'undefined' ? wCookieNoticeVar : '')+'=1;path=/'+expires+';sameSite=lax';
+    jQuery('#cookieNotice').slideUp();
+
+    if(typeof wOnAfterAcceptExternalRessources == 'function'){
+      wOnAfterAcceptExternalRessources();
+    }
+    else{
+      document.location.reload(true);
+    }
+  };
+
+  wDeclineExternalRessources = function(){
+
+    var expires = document.getElementById('rememberDataSecurityPreferences') && document.getElementById('rememberDataSecurityPreferences').checked ? ';expires='+(new Date(new Date().getTime() + 30 * 1000 * 60 * 60 * 24).toGMTString()) : '';
+    if(jQuery('#bePanel').length != 0 && jQuery('#cookieNotice .elementInfo').length != 0){
+      expires = '';
+    }
+    document.cookie = 'allowTracking=0;path=/'+expires+';sameSite=lax';
+    document.cookie = 'allowLoadExternRessources=0;path=/'+expires+';sameSite=lax';
+    document.cookie = 'hideCookieNotice'+(typeof(wCookieNoticeVar) != 'undefined' ? wCookieNoticeVar : '')+'=1;path=/'+expires+';sameSite=lax';
+
+    var domainMain = location.hostname.replace(/^.*\.([^\.]+\.\w+)$/, '$1');
+    document.cookie = '_ga=;path=/;domain='+domainMain+';expires=Thu, 01 Jan 1970 00:00:01 GMT;sameSite=lax';
+    document.cookie = '_gat=;path=/;domain='+domainMain+';expires=Thu, 01 Jan 1970 00:00:01 GMT;sameSite=lax';
+    document.cookie = '_gid=;path=/;domain='+domainMain+';expires=Thu, 01 Jan 1970 00:00:01 GMT;sameSite=lax';
+
+    jQuery('#cookieNotice').slideUp();
+    if(typeof wOnAfterDeclineExternalRessources == 'function'){
+      wOnAfterDeclineExternalRessources();
+    }
+  };
+  /*]]>*/
+
+                    </script>
+                    <div class="elementLink elementLink_var0 elementLinkPosition_var30"><a href="/de/impressum/"
+                                                                                           class="box"
+                                                                                           data-scrollingauto="yes"
+                                                                                           data-scrollsmoothtotargetduration="400"
+                                                                                           data-hasinitlightbox="1"><span>Impressum</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

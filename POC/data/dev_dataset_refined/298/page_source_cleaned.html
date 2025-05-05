@@ -1,0 +1,1255 @@
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="content-language" content="de">
+    <title>Frachtenbörse Couriernet</title>
+    <link rel="shortcut icon" href="assets/img/anim_neu.gif">
+    <meta name="description" content="Couriernet GmbH Seitenbeschreibung">
+    <meta name="author" content="Couriernet GmbH">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="assets/css/font-lato.min.css" as="style"
+          onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" href="bootstrap/4.3.1-dist/css/bootstrap.min.css" as="style"
+          onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" href="assets/css/font-awesome-4.7.0/css/font-awesome.min.css?v=20210112" as="style"
+          onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css" as="style"
+          onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css?v=20180227" as="style"
+          onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/font-lato.min.css">
+    </noscript>
+    <noscript>
+        <link rel="stylesheet" href="bootstrap/4.3.1-dist/css/bootstrap.min.css">
+    </noscript>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/font-awesome-4.7.0/css/font-awesome.min.css?v=20210112">
+    </noscript>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css">
+    </noscript>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/bootstrap-select.min.css?v=20180227">
+    </noscript>
+    <style type="text/css">
+        /*bootstrap-select.min.css*/
+        :root {
+            --blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange:#fd7e14;--yellow:#ffc107;--green:#28a745;--teal:#20c997;--cyan:#17a2b8;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#007bff;--secondary:#6c757d;--success:#28a745;--info:#17a2b8;--warning:#ffc107;--danger:#dc3545;--light:#f8f9fa;--dark:#343a40;--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px;--font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace
+        }
+
+        *,::after,::before {
+            box-sizing: border-box
+        }
+
+        html {
+            font-family: sans-serif;
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+            -webkit-tap-highlight-color: transparent
+        }
+
+        article,aside,figcaption,figure,footer,header,hgroup,main,nav,section {
+            display: block
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Lato', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            text-align: left;
+            background-color: #fff
+        }
+        dl,ol,ul {
+            margin-top: 0;
+            margin-bottom: 1rem
+        }
+        b,strong {
+            font-weight: bolder
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+            background-color: transparent
+        }
+        a:hover {
+            color: #0056b3;
+            text-decoration: underline
+        }
+        img {
+            vertical-align: middle;
+            border-style: none
+        }
+        button {
+            border-radius: 0
+        }
+        button,input,optgroup,select,textarea {
+            margin: 0;
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit
+        }
+
+        button,input {
+            overflow: visible
+        }
+
+        button,select {
+            text-transform: none
+        }
+        [type=button],[type=reset],[type=submit],button {
+            -webkit-appearance: button
+        }
+
+        [type=button]:not(:disabled),[type=reset]:not(:disabled),[type=submit]:not(:disabled),button:not(:disabled) {
+            cursor: pointer
+        }
+        .row {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px
+        }
+        .col,.col-1,.col-10,.col-11,.col-12,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-auto,.col-lg,.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-auto,.col-md,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-auto,.col-sm,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-auto,.col-xl,.col-xl-1,.col-xl-10,.col-xl-11,.col-xl-12,.col-xl-2,.col-xl-3,.col-xl-4,.col-xl-5,.col-xl-6,.col-xl-7,.col-xl-8,.col-xl-9,.col-xl-auto {
+            position: relative;
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px
+        }
+        .col-2 {
+            -ms-flex: 0 0 16.666667%;
+            flex: 0 0 16.666667%;
+            max-width: 16.666667%
+        }
+        .col-6 {
+            -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+            max-width: 50%
+        }
+        .col-10 {
+            -ms-flex: 0 0 83.333333%;
+            flex: 0 0 83.333333%;
+            max-width: 83.333333%
+        }
+
+        .col-12 {
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%
+        }
+        .order-1 {
+            -ms-flex-order: 1;
+            order: 1
+        }
+
+        .order-2 {
+            -ms-flex-order: 2;
+            order: 2
+        }
+        .collapse:not(.show) {
+            display: none
+        }
+        .nav-link {
+            display: block;
+            padding: .5rem 1rem
+        }
+        .navbar {
+            position: relative;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            padding: .5rem 1rem
+        }
+        .navbar-nav {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none
+        }
+        .navbar-collapse {
+            -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+            -ms-flex-align: center;
+            align-items: center
+        }
+
+        .navbar-toggler {
+            padding: .25rem .75rem;
+            font-size: 1.25rem;
+            line-height: 1;
+            background-color: transparent;
+            border: 1px solid transparent;
+            border-radius: .25rem
+        }
+
+        .navbar-nav .nav-link {
+            padding-right: 0;
+            padding-left: 0
+        }
+        .navbar-light .navbar-nav .nav-link {
+            color: rgba(0,0,0,.5)
+        }
+        .navbar-light .navbar-nav .active>.nav-link,.navbar-light .navbar-nav .nav-link.active,.navbar-light .navbar-nav .nav-link.show,.navbar-light .navbar-nav .show>.nav-link {
+            color: rgba(0,0,0,.9)
+        }
+
+        .navbar-light .navbar-toggler {
+            color: rgba(0,0,0,.5);
+            border-color: rgba(0,0,0,.1)
+        }
+        .alert {
+            position: relative;
+            padding: .75rem 1.25rem;
+            margin-bottom: 1rem;
+            border: 1px solid transparent;
+            border-radius: .25rem
+        }
+        .alert-danger {
+            color: #721c24;
+            background-color: #f8d7da;
+            border-color: #f5c6cb
+        }
+        .carousel {
+            position: relative
+        }
+        .carousel-inner {
+            position: relative;
+            width: 100%;
+            overflow: hidden
+        }
+
+        .carousel-inner::after {
+            display: block;
+            clear: both;
+            content: ""
+        }
+
+        .carousel-item {
+            position: relative;
+            display: none;
+            float: left;
+            width: 100%;
+            margin-right: -100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            transition: -webkit-transform .6s ease-in-out;
+            transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out
+        }
+        .carousel-item-next,.carousel-item-prev,.carousel-item.active {
+            display: block
+        }
+        .carousel-control-next,.carousel-control-prev {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            z-index: 1;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            width: 15%;
+            color: #fff;
+            text-align: center;
+            opacity: .5;
+            transition: opacity .15s ease
+        }
+        .carousel-control-next:focus,.carousel-control-next:hover,.carousel-control-prev:focus,.carousel-control-prev:hover {
+            color: #fff;
+            text-decoration: none;
+            outline: 0;
+            opacity: .9
+        }
+
+        .carousel-control-prev {
+            left: 0
+        }
+
+        .carousel-control-next {
+            right: 0
+        }
+
+        .carousel-control-next-icon,.carousel-control-prev-icon {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: no-repeat 50%/100% 100%
+        }
+
+        .carousel-control-prev-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e")
+        }
+
+        .carousel-control-next-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e")
+        }
+        .d-none {
+            display: none!important
+        }
+        .d-block {
+            display: block!important
+        }
+        .text-right {
+            text-align: right!important;
+        }
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            overflow: hidden;
+            clip: rect(0,0,0,0);
+            white-space: nowrap;
+            border: 0
+        }
+        .w-100 {
+            width: 100%!important
+        }
+        .ml-auto,.mx-auto {
+            margin-left: auto!important
+        }
+        @media (min-width: 576px) {
+            .container {
+                max-width:540px
+            }
+            .col-sm-3 {
+                -ms-flex: 0 0 25%;
+                flex: 0 0 25%;
+                max-width: 25%
+            }
+
+            .col-sm-4 {
+                -ms-flex: 0 0 33.333333%;
+                flex: 0 0 33.333333%;
+                max-width: 33.333333%
+            }
+            .col-sm-6 {
+                -ms-flex: 0 0 50%;
+                flex: 0 0 50%;
+                max-width: 50%
+            }
+            .col-sm-8 {
+                -ms-flex: 0 0 66.666667%;
+                flex: 0 0 66.666667%;
+                max-width: 66.666667%
+            }
+
+            .col-sm-9 {
+                -ms-flex: 0 0 75%;
+                flex: 0 0 75%;
+                max-width: 75%
+            }
+            .d-sm-block {
+                display: block!important
+            }
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                max-width:720px
+            }
+        }
+
+        @media (min-width: 992px) {
+            .container {
+                max-width:960px
+            }
+            .navbar-expand-lg {
+                -ms-flex-flow:row nowrap;
+                flex-flow: row nowrap;
+                -ms-flex-pack: start;
+                justify-content: flex-start
+            }
+
+            .navbar-expand-lg .navbar-nav {
+                -ms-flex-direction: row;
+                flex-direction: row
+            }
+            .navbar-expand-lg .navbar-nav .nav-link {
+                padding-right: .5rem;
+                padding-left: .5rem
+            }
+            .navbar-expand-lg .navbar-collapse {
+                display: -ms-flexbox!important;
+                display: flex!important;
+                -ms-flex-preferred-size: auto;
+                flex-basis: auto
+            }
+
+            .navbar-expand-lg .navbar-toggler {
+                display: none
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .container {
+                max-width:1140px
+            }
+        }
+
+    </style>
+    <style type="text/css">
+        .fa {
+            display: inline-block;
+            font: normal normal normal 14px/1 FontAwesome;
+            font-size: inherit;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale
+        }
+        .fa-ul {
+            padding-left: 0;
+            margin-left: 2.14285714em;
+            list-style-type: none
+        }
+        .fa-ul>li {
+            position: relative
+        }
+
+        .fa-li {
+            position: absolute;
+            left: -2.14285714em;
+            width: 2.14285714em;
+            top: .14285714em;
+            text-align: center
+        }
+        .fa-check-circle:before {
+            content: "\f058"
+        }
+        .fa-key:before {
+            content: "\f084"
+        }
+        .fa-gears:before,.fa-cogs:before {
+            content: "\f085"
+        }
+        .fa-lightbulb-o:before {
+            content: "\f0eb"
+        }
+        .fa-rocket:before {
+            content: "\f135"
+        }
+
+    </style>
+    <style type="text/css">
+        .container {
+            width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+            padding-right: 50px;
+            padding-left: 50px;
+        }
+
+        .navbar {
+            min-height: 0;
+        }
+
+        .navbar-light {
+            background-color: rgb(0, 159, 227);
+            border-color: rgb(0, 159, 227);
+        }
+
+        .navbar-light .navbar-toggle {
+            border-color: #ddd;
+            background-color: #FFFFFF;
+        }
+
+        #footer {
+            border-color: rgb(205, 23, 25);
+            border-width: 0;
+            border-top-width: 15px;
+            border-top-style: solid;
+        }
+
+        #footer .navbar-nav .nav-link {
+            padding: 0.1rem 1rem;
+        }
+
+        ul.navbar-nav > li > a {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .navbar {
+            border-radius: 0;
+            margin-bottom: 20px;
+            padding: 0.1rem 1rem;
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            font-weight: bold;
+            color: #FFFFFF;
+        }
+
+        .navbar-light .navbar-nav .nav-link:focus,
+        .navbar-light .navbar-nav .nav-link:hover {
+            color: #BBBBBB;
+            background-color: transparent;
+        }
+
+        .navbar-light .navbar-nav .nav-link.active,
+        .navbar-light .navbar-nav .nav-link.active > a:focus,
+        .navbar-light .navbar-nav .nav-link.active > a:hover {
+            font-weight: bold;
+            color: #DDDDDD;
+            background-color: rgb(0, 159, 227);
+        }
+
+        .alert {
+            border-radius: 0;
+        }
+
+        .flagImg {
+            border: 0;
+            vertical-align: bottom;
+            height: 16px;
+        }
+
+        .fa-ul > li {
+            margin-bottom: 15px;
+        }
+
+        .bgLightBlue {
+            background-color: rgb(234, 241, 250);
+        }
+
+        .bgRed {
+            background-color: rgb(205, 23, 25);
+        }
+
+        .txtRed {
+            color: rgb(205, 23, 25);
+        }
+
+        .borderRed {
+            border-color: rgb(205, 23, 25);
+        }
+
+        .txtWhite {
+            color: #FFFFFF;
+        }
+
+        .bgRed.txtWhite {
+            font-size: 20px;
+        }
+
+        .txtBlue {
+            color: rgb(0, 159, 227);
+        }
+
+        .bold {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .p0 {
+            padding: 0 !important;
+        }
+
+        .sm-flex {
+            display: flex;
+        }
+
+        .sm-pl0 {
+            padding-left: 0;
+        }
+
+        a {
+            color: #000000;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #666666;
+            text-decoration: none;
+        }
+
+        .linkBackToIndex {
+            display: none;
+        }
+
+        #toRegistration {
+            margin-top: 50px;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        #toRegistration > a > img {
+            height: 65px;
+        }
+
+        #cnetc {position: fixed; bottom: 0; left: 0; right: 0; background: #eee; padding: 20px; font-size: 14px;}
+        #cnetc a.button {cursor: pointer; background: #ccc; color:#333333; padding: 8px 20px; margin-left: 10px; border-radius: 5px; font-weight: bold; float: right;}
+        #cnetc a.button:hover {background-color: #aaa;}
+        #cnetc p.cookiemessage {display: block; padding: 0; margin: 0;}
+
+        #sliderBox {
+            height: 145px;
+        }
+        @media (min-width: 576px) {
+            #sliderBox {
+                height: 170px;
+            }
+        }
+        @media (min-width: 768px) {
+
+            #sliderBox {
+                height: 235px;
+            }
+        }
+        @media (min-width: 992px) {
+            #sliderBox {
+                height: 325px;
+            }
+        }
+        @media (min-width: 1200px) {
+            #sliderBox {
+                height: 390px;
+            }
+        }
+        @media (max-width: 768px) {
+            .sm-flex {
+                display: block;
+            }
+
+            .sm-pl0 {
+                padding-right: 0;
+            }
+        }
+
+    </style>
+</head>
+<body style="background-color: lightgrey;">
+
+<div class="container" style="background: white;">
+    <div class="row" style="height: 55px; padding: 5px 0;">
+        <div class="col-6">
+            <a href="index.php">
+                <img src="assets/img/logo_klein_save.png" width="170" height="45" alt="Logo courier.net">
+            </a>
+        </div>
+        <div class="col-6 text-right">
+            <a href="?lang=de" title="de"><img alt="de" src="images_neu/flggerm.ico" class="flagImg" width="16"
+                                               height="16"></a>
+            <a href="?lang=en" title="en"><img alt="en" src="images_neu/flguk.ico" class="flagImg" width="16"
+                                               height="16"></a>
+            <a href="//www.facebook.com/couriernet.de" target="_blank" title="facebook" rel="noopener">
+                <img alt="facebook" src="assets/img/facebook.png" class="flagImg" width="16" height="16">
+            </a>
+        </div>
+    </div>
+</div>
+<div class="container" style="background: white;">
+    <div class="row" style="height:67px;">
+        <nav class="navbar navbar-expand-lg navbar-light w-100" style="z-index: 2;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topmenu"
+                    aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="topmenu">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link active" href="index.php" title="Start">Start</a>
+                    <a class="nav-item nav-link" href="kurzprofil_neu.php" title="Kurzprofil">Kurzprofil</a>
+                    <a class="nav-item nav-link" href="preise_neu.php" title="Preise">Preise</a>
+                    <a class="nav-item nav-link" href="kontakt_neu.php" title="Kontakt">Kontakt</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<div class="container" style="background: white;">
+    <div id="sliderBox" class="row d-sm-block">
+        <div class="col-12 p0">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" style=" z-index: 1;">
+                    <div class="carousel-item">
+                        <picture>
+                            <source type="image/webp" srcset="assets/img/SLIDER_CN-1.webp">
+                            <source type="image/jpeg" srcset="assets/img/SLIDER_CN-1.jpg">
+                            <img src="assets/img/SLIDER_CN-1.jpg" alt="..." width="1070" height="388"
+                                 class="d-block w-100" style="max-width: 100%; height: auto;">
+                        </picture>
+                    </div>
+                    <div class="carousel-item">
+                        <picture>
+                            <source type="image/webp" srcset="assets/img/SLIDER_CN-2.webp">
+                            <source type="image/jpeg" srcset="assets/img/SLIDER_CN-2.jpg">
+                            <img src="assets/img/SLIDER_CN-2.jpg" alt="..." width="1070" height="388"
+                                 class="d-block w-100" style="max-width: 100%; height: auto;">
+                        </picture>
+                    </div>
+                    <div class="carousel-item">
+                        <picture>
+                            <source type="image/webp" srcset="assets/img/SLIDER_CN-3.webp">
+                            <source type="image/jpeg" srcset="assets/img/SLIDER_CN-3.jpg">
+                            <img src="assets/img/SLIDER_CN-3.jpg" alt="..." width="1070" height="388"
+                                 class="d-block w-100" style="max-width: 100%; height: auto;">
+                        </picture>
+                    </div>
+                    <div class="carousel-item active">
+                        <picture>
+                            <source type="image/webp" srcset="assets/img/SLIDER_CN-4.webp">
+                            <source type="image/jpeg" srcset="assets/img/SLIDER_CN-4.jpg">
+                            <img src="assets/img/SLIDER_CN-4.jpg" alt="..." width="1070" height="388"
+                                 class="d-block w-100" style="max-width: 100%; height: auto;">
+                        </picture>
+                    </div>
+                    <div class="carousel-item">
+                        <picture>
+                            <source type="image/webp" srcset="assets/img/SLIDER_CN-5.webp">
+                            <source type="image/jpeg" srcset="assets/img/SLIDER_CN-5.jpg">
+                            <img src="assets/img/SLIDER_CN-5.jpg" alt="..." width="1070" height="388"
+                                 class="d-block w-100" style="max-width: 100%; height: auto;">
+                        </picture>
+                    </div>
+                    <div class="carousel-item">
+                        <picture>
+                            <source type="image/webp" srcset="assets/img/SLIDER_CN-6.webp">
+                            <source type="image/jpeg" srcset="assets/img/SLIDER_CN-6.jpg">
+                            <img src="assets/img/SLIDER_CN-6.jpg" alt="..." width="1070" height="388"
+                                 class="d-block w-100" style="max-width: 100%; height: auto;">
+                        </picture>
+                    </div>
+                    <div class="carousel-item">
+                        <picture>
+                            <source type="image/webp" srcset="assets/img/SLIDER_CN-7.webp">
+                            <source type="image/jpeg" srcset="assets/img/SLIDER_CN-7.jpg">
+                            <img src="assets/img/SLIDER_CN-7.jpg" alt="..." width="1070" height="388"
+                                 class="d-block w-100" style="max-width: 100%; height: auto;">
+                        </picture>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="carousel-control-prev" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">zurück</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">vor</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container" style="background: white; height:15px;"></div>
+<div class="container" style="background: white; position: relative;">
+    <img src="assets/img/FONDLINES_2018-CN.png" alt="background waves"
+         style="overflow: hidden; position: absolute; left: 0; bottom: 0; width: 100%; z-index: 0">
+    <div class="row">
+        <div class="col-sm-4 order-2">
+
+            <div class="row">
+                <div id="divErrorMsg" class="alert alert-danger d-none " role="alert" style="">
+
+                </div>
+            </div>
+            <div class="row" id="loginbox">
+                <form method="post" action="index.php" name="login1" class="bgLightBlue"
+                      style="padding: 15px; width: 100%">
+                    <input type="hidden" name="action" value="login">
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="usereingabe" class="sr-only">NAME</label>
+                                    <input id="usereingabe" name="usereingabe" type="text" placeholder="NAME" value=""
+                                           maxlength="30" class="borderRed" style="padding-left: 3px; width: 100%;">
+                                </div>
+                            </div>
+                            <div class="row" style="margin-top: 5px; margin-bottom: 5px;">
+                                <div class="col-12">
+                                    <label for="pweingabe" class="sr-only">PASSWORT</label>
+                                    <input id="pweingabe" name="pweingabe" placeholder="PASSWORT" type="password"
+                                           value="" class="borderRed" style="padding-left: 3px; width: 100%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <button class="bgRed" style="border:0; color: #FFFFFF;" name="sLogin">
+                                <i class="fa fa-key"
+                                   style="font-size: 28px; padding-left: 10px; padding-right: 10px;"></i>
+                                <div>Login</div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 10px;">
+                        <div class="col-12">
+                            <b class="txtRed">&gt;</b>
+                            <b><a rel="nofollow" href="anmeldung_neu.php" title="Registrierung">Registrierung</a></b>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <b class="txtRed">&gt;</b>
+                            <b><a rel="nofollow" href="zugangsdaten_neu.php" title="Kennwort vergessen?">Kennwort
+                                vergessen?</a></b>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <b class="txtRed">&gt;</b>
+                            <b><a rel="nofollow" href="gastzugang_neu.php" title="Gastzugang">Gastzugang</a></b>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 10px;">
+                        <div class="col-12">
+                            <b class="txtRed">&gt;</b>
+                            <b><a rel="nofollow" href="ui-mob/login" title="Login courier.net to go">Login courier.net
+                                „to go“</a></b>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="row d-none d-sm-block" id="stats"
+                 style="margin-top:15px; background-color: rgb(234, 241, 250); padding: 15px;">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-2 bgRed txtWhite"
+                             style="background-color: #d52325; color: #FFFFFF; font-weight: bold; padding-top:10px; padding-bottom:10px;">
+                            <i class="fa fa-line-chart" style="font-size: 28px;"></i>
+                        </div>
+                        <div class="col-10 text-right bgRed txtWhite"
+                             style="background-color: #d52325; color: #FFFFFF; font-weight: bold; padding-top:11px; padding-bottom:11px;">
+                            Tagesübersicht
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-9">
+                            registrierte Partner:
+                        </div>
+                        <div class="col-sm-3">
+                            1775
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-9">
+                            Benutzer online:
+                        </div>
+                        <div class="col-sm-3">
+                            1110
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-9">
+                            gemeldete Fahrzeuge:
+                        </div>
+                        <div class="col-sm-3">
+                            134
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-9">
+                            inkl. Zwischenstops:
+                        </div>
+                        <div class="col-sm-3">
+                            138
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-9">
+                            verfügbare Frachten:
+                        </div>
+                        <div class="col-sm-3">
+                            313
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-9">
+                            gebuchte Aufträge:
+                        </div>
+                        <div class="col-sm-3">
+                            3064
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8 order-1">
+            <div class="row" style="padding-right:25px;">
+                <div class="col-12" style="font-size:20px; margin-top:10px; margin-bottom:20px;">
+                    <b>Herzlich willkommen bei courier.net !</b><br>
+                    <b class="txtRed">Die Laderaum- und Frachtenbörse für Kurierdienste</b>
+                </div>
+                <div class="col-12">Sie möchten Leerfahrten reduzieren? Sie wollen aus unzähligen Frachtangeboten die
+                    passende
+                    Ladung finden? Dann sind sie hier richtig. Als courier.net Teilnehmer haben Sie online Zugriff auf
+                    europaweite Frachtangebote und Leerfahrzeuge.<br><br>
+                    Und anstatt vieler Worte machen wir Ihnen lieber gleich ein unschlagbares Angebot:<br>
+                    Testen Sie courier.net völlig unverbindlich und kostenlos. Ganze 3 Monate lang.<br><br>
+                    Wir freuen uns auf Sie !
+                    <div id="toRegistration">
+                        <a rel="nofollow" href="anmeldung_neu.php"><img src="assets/img/checkbox.png" width="70"
+                                                                        height="65" alt="klicken und testen"> Hier
+                            klicken und kostenfrei drei Monate testen</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container" style="background: white; height:30px;"></div>
+<div class="container" style="background: white;">
+    <div class="row bgLightBlue" id="infoCollection" style="padding-bottom: 15px;">
+        <div class="col-sm-6">
+            <div class="row" style="padding: 15px;">
+                <div class="col-2 bgRed txtWhite" style="padding-top:10px; padding-bottom:10px;">
+                    <b><i class="fa fa-lightbulb-o" style="font-size: 28px;"></i></b>
+                </div>
+                <div class="col-10 text-right bgRed txtWhite" style="padding-top:11px; padding-bottom:11px;">
+                    <b>Warum courier.net?</b>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    Frachtenbörsen gibt es wie Sand am Meer.
+                    Wir bieten Ihnen handfeste Vorteile. Entdecken
+                    Sie auf den folgenden Seiten was uns auszeichnet
+                    und was wir anders machen als andere.<br><br><br>
+                    <b class="txtRed">&gt;</b>
+                    <b><a rel="nofollow" href="ueber_uns_neu.php">Lesen Sie hier weiter</a></b>
+                </div>
+            </div>
+            <div class="row" style="padding: 15px;">
+                <div class="col-2 bgRed txtWhite" style="padding-top:10px; padding-bottom:10px;">
+                    <b><i class="fa fa-cogs" style="font-size: 28px;"></i></b>
+                </div>
+                <div class="col-10 text-right bgRed txtWhite" style="padding-top:11px; padding-bottom:11px;">
+                    <b>Technologie</b>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    Integrieren Sie courier.net mühelos in Ihr Tagesgeschäft.
+                    Entwickelt von Kurierprofis für Kurierprofis bieten wir ein Höchstmaß an Effizienz und technischer
+                    Ausgereiftheit, die ihresgleichen sucht.<br><br>
+                    <b class="txtRed">&gt;</b> <b><a rel="nofollow" href="technologie_neu.php">Lesen Sie hier weiter</a></b>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="row" style="padding: 15px;">
+                <div class="col-2 bgRed txtWhite" style="padding-top:10px; padding-bottom:10px;">
+                    <b><i class="fa fa-handshake-o" style="font-size: 28px;"></i></b>
+                </div>
+                <div class="col-10 text-right bgRed txtWhite" style="padding-top:11px; padding-bottom:11px;">
+                    <b>Warum Partner werden?</b>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    Bei courier.net arbeiten Sie mit den führenden
+                    Kurierunternehmen in Europa.<br>
+                    Profitieren Sie darüber hinaus von attraktiven Einkaufsvorteilen und einem starken Netzwerk mit
+                    engagierten Kollegen.<br><br>
+                    <b class="txtRed">&gt;</b> <b><a rel="nofollow" href="partnerschaft_neu.php">Lesen Sie hier
+                    weiter</a></b>
+                </div>
+            </div>
+            <div class="row" style="padding: 15px;">
+                <div class="col-2 bgRed txtWhite" style="padding-top:10px; padding-bottom:10px;">
+                    <b><i class="fa fa-rocket" style="font-size: 28px;"></i></b>
+                </div>
+                <div class="col-10 text-right bgRed txtWhite" style="padding-top:11px; padding-bottom:11px;">
+                    <b>Am besten testen!</b>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    Wo andere bloß Worte machen wir ernst.<br>
+                    Testen Sie uns. Gleich hier und sofort. Und zwar volle drei Monate lang.<br>
+                    Völlig kostenlos und unverbindlich.<br><br>
+                    <b class="txtRed">&gt;</b> <b><a rel="nofollow" href="anmeldung_neu.php">Hier registrieren</a></b>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row sm-flex" style="margin-top: 30px;">
+        <div class="col-sm-8 sm-pl0" style="margin-bottom: 15px; padding-right: 30px;">
+            <div class="row" style="padding-bottom: 15px;">
+                <div class="col-12">
+                    <div class="bgLightBlue" style="height:100%; padding-left: 15px; padding-top: 15px;">
+                        <div class="row">
+                            <div class="col-12 txtBlue bold">
+                                Fair, offen, transparent
+                            </div>
+                        </div>
+                        <div class="row" style="padding-top: 5px;">
+                            <div class="col-12 txtRed bold">
+                                Ihre Vorteile auf einen Blick
+                            </div>
+                        </div>
+                        <div class="row" style="padding-top: 15px;">
+                            <div class="col-12">
+                                <ul class="fa-ul">
+                                    <li><i class="fa-li fa fa-check-circle txtRed"></i> Zugriff auf Fahrzeugkapazitäten
+                                        in ganz Europa
+                                    </li>
+                                    <li><i class="fa-li fa fa-check-circle txtRed"></i> Hundertprozentige Nähe zu
+                                        unseren Teilnehmern - wir sind da wenn Sie uns brauchen.
+                                    </li>
+                                    <li><i class="fa-li fa fa-check-circle txtRed"></i> Partnerschaftliche und faire
+                                        Zusammenarbeit
+                                    </li>
+                                    <li><i class="fa-li fa fa-check-circle txtRed"></i> Umfangreiche technologische
+                                        Innovationen
+                                    </li>
+                                    <li><i class="fa-li fa fa-check-circle txtRed"></i> Auf Bonität geprüfte Teilnehmer
+                                    </li>
+                                    <li><i class="fa-li fa fa-check-circle txtRed"></i> lange kostenlose Testphase</li>
+                                    <li><i class="fa-li fa fa-check-circle txtRed"></i> faire Preise - maßgeschneiderte
+                                        Leistungspakete
+                                    </li>
+                                    <li><i class="fa-li fa fa-check-circle txtRed"></i> Attraktive Rahmenabkommen mit
+                                        zahlreichen Kooperationspartnern
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 15px; padding-bottom: 15px;">
+                <div class="col-12">
+                    <div class="bgLightBlue" style="height:100%; padding-left: 15px; padding-top: 15px;">
+                        <div class="row">
+                            <div class="col-sm-4 col-12">
+                                <div class="row">
+                                    <div class="col-12 txtBlue bold" style="padding-left: 25px;">
+                                        Besser informiert
+                                    </div>
+                                    <div class="col-12 txtRed bold" style="padding-left: 25px;">
+                                        Unser Newsletter
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 col-12">
+                                <picture>
+                                    <source type="image/webp" srcset="assets/img/Platzhalter-CNN.webp?v=20180116">
+                                    <source type="image/png" srcset="assets/img/Platzhalter-CNN.png?v=20180116">
+                                    <img src="assets/img/Platzhalter-CNN.png?v=20180116" alt="CNN" width="180"
+                                         height="230" style="height: 230px;">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4" style="margin-bottom: 15px;">
+            <div class="row bgLightBlue" style="padding-top: 15px; padding-bottom: 15px;">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="bgLightBlue" style="padding-left: 10px; padding-right: 10px;">
+                                <div class="row">
+                                    <div class="col-12 txtBlue bold">
+                                        Starke Partner
+                                    </div>
+                                    <div class="col-12 txtRed bold">
+                                        Wir sind schon dabei
+                                    </div>
+                                    <div class="col-12" style="padding-top: 10px; text-align: center">
+                                        <img id="jQBanner" style="background-color:#FFFFFF; width: 100%; height: auto;"
+                                             src="banner/p_177.png" width="201" height="105" alt="frachtenboerse">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row bgLightBlue" style="margin-top: 30px; padding-top: 15px; padding-bottom: 15px;">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="bgLightBlue" style="padding-left: 10px; padding-right: 10px;">
+                                <div class="row">
+                                    <div class="col-12 txtBlue bold">
+                                        Clever einkaufen
+                                    </div>
+                                    <div class="col-12 txtRed bold">
+                                        Unsere Kooperationspartner
+                                    </div>
+                                    <div class="col-12" style="text-align: center">
+                                        <div id="carousel-koop" class="carousel slide" data-ride="carousel">
+                                            <!-- Wrapper for slides -->
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item">
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                                srcset="assets/img/LOGOS_CN_KOOP-1.webp">
+                                                        <source type="image/jpeg"
+                                                                srcset="assets/img/LOGOS_CN_KOOP-1.jpg">
+                                                        <img src="assets/img/LOGOS_CN_KOOP-1.jpg" width="248"
+                                                             height="220" alt="..." class="d-block w-100"
+                                                             style="max-width: 100%:; height: auto;">
+                                                    </picture>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                                srcset="assets/img/LOGOS_CN_KOOP-1.webp">
+                                                        <source type="image/jpeg"
+                                                                srcset="assets/img/LOGOS_CN_KOOP-1.jpg">
+                                                        <img src="assets/img/LOGOS_CN_KOOP-1.jpg" alt="..." width="248"
+                                                             height="220" class="d-block w-100"
+                                                             style="max-width: 100%; height: auto;">
+                                                    </picture>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                                srcset="assets/img/LOGOS_CN_KOOP-2.webp">
+                                                        <source type="image/jpeg"
+                                                                srcset="assets/img/LOGOS_CN_KOOP-2.jpg">
+                                                        <img src="assets/img/LOGOS_CN_KOOP-2.jpg" alt="..." width="248"
+                                                             height="220" class="d-block w-100"
+                                                             style="max-width: 100%; height: auto;">
+                                                    </picture>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                                srcset="assets/img/LOGOS_CN_KOOP-5.webp">
+                                                        <source type="image/jpeg"
+                                                                srcset="assets/img/LOGOS_CN_KOOP-5.jpg">
+                                                        <img src="assets/img/LOGOS_CN_KOOP-5.jpg" alt="..." width="248"
+                                                             height="220" class="d-block w-100"
+                                                             style="max-width: 100%; height: auto;">
+                                                    </picture>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                                srcset="assets/img/LOGOS_CN_KOOP-7.webp">
+                                                        <source type="image/jpeg"
+                                                                srcset="assets/img/LOGOS_CN_KOOP-7.jpg">
+                                                        <img src="assets/img/LOGOS_CN_KOOP-7.jpg" alt="..." width="248"
+                                                             height="220" class="d-block w-100"
+                                                             style="max-width: 100%; height: auto;">
+                                                    </picture>
+                                                </div>
+                                                <div class="carousel-item active">
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                                srcset="assets/img/LOGOS_CN_KOOP-12.webp">
+                                                        <source type="image/jpeg"
+                                                                srcset="assets/img/LOGOS_CN_KOOP-12.jpg">
+                                                        <img src="assets/img/LOGOS_CN_KOOP-12.jpg" alt="..." width="248"
+                                                             height="220" class="d-block w-100"
+                                                             style="max-width: 100%; height: auto;">
+                                                    </picture>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                                srcset="assets/img/LOGOS_CN_KOOP-13.webp">
+                                                        <source type="image/jpeg"
+                                                                srcset="assets/img/LOGOS_CN_KOOP-13.jpg">
+                                                        <img src="assets/img/LOGOS_CN_KOOP-13.jpg" alt="..." width="248"
+                                                             height="220" class="d-block w-100"
+                                                             style="max-width: 100%; height: auto;">
+                                                    </picture>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                                srcset="assets/img/LOGOS_CN_KOOP-14.webp">
+                                                        <source type="image/jpeg"
+                                                                srcset="assets/img/LOGOS_CN_KOOP-14.jpg">
+                                                        <img src="assets/img/LOGOS_CN_KOOP-14.jpg" alt="..." width="248"
+                                                             height="220" class="d-block w-100"
+                                                             style="max-width: 100%; height: auto;">
+                                                    </picture>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                                srcset="assets/img/LOGOS_CN_KOOP-15.webp">
+                                                        <source type="image/jpeg"
+                                                                srcset="assets/img/LOGOS_CN_KOOP-15.jpg">
+                                                        <img src="assets/img/LOGOS_CN_KOOP-15.jpg" alt="..." width="248"
+                                                             height="220" class="d-block w-100"
+                                                             style="max-width: 100%; height: auto;">
+                                                    </picture>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                                srcset="assets/img/LOGOS_CN_KOOP-16.webp">
+                                                        <source type="image/jpeg"
+                                                                srcset="assets/img/LOGOS_CN_KOOP-16.jpg">
+                                                        <img src="assets/img/LOGOS_CN_KOOP-16.jpg" alt="..." width="248"
+                                                             height="220" class="d-block w-100"
+                                                             style="max-width: 100%; height: auto;">
+                                                    </picture>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                                srcset="assets/img/LOGOS_CN_KOOP-17.webp">
+                                                        <source type="image/jpeg"
+                                                                srcset="assets/img/LOGOS_CN_KOOP-17.jpg">
+                                                        <img src="assets/img/LOGOS_CN_KOOP-17.jpg" alt="..." width="248"
+                                                             height="220" class="d-block w-100"
+                                                             style="max-width: 100%; height: auto;">
+                                                    </picture>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <nav id="footer" class="navbar navbar-expand-lg navbar-light w-100">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="impressum_neu.php" title="Impressum">Impressum</a>
+                <a class="nav-item nav-link" href="attachments/AGB.pdf?v=20201113" target="_blank" rel="nofollow"
+                   title="AGB">AGB</a>
+                <a class="nav-item nav-link" href="attachments/cn-datenschutzerklaerung-praep-de.pdf" target="_blank"
+                   rel="nofollow" title="Datenschutz">Datenschutz</a>
+            </div>
+        </nav>
+    </div>
+</div>
+<!--! end of #container -->
+<!-- Cookie Banner Script Start -->
+
+<script src="assets/js/dist/jquery-1.12.2-compiled.min.js"></script>
+<script src="assets/js/dist/popper.min.js"></script>
+<script src="bootstrap/4.3.1-dist/js/bootstrap.min.js"></script>
+<script src="assets/js/dist/jquery.couriernet-compiled.min.js?v=20220616"></script>
+<script src="assets/js/dist/cnet.banner-rotate-compiled.min.js"></script>
+<script src="assets/js/dist/cnet.register-compiled.min.js"></script>
+<script src="assets/js/dist/cnet.accept.cookie-compiled.min.js"></script>
+<script src="assets/js/dist/cnet.carousel.init-compiled.min.js?v=20220727"></script>
+<!-- end scripts-->
+
+</body>
+</html>

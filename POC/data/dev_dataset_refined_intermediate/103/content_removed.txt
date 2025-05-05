@@ -1,0 +1,105 @@
+   Close      x  Unbedingt erforderlich  Unbedingt erforderliche Cookies ermöglichen grundlegende Funktionen und sind für die einwandfreie
+                    Funktion der Website erforderlich. Daher kann man sie nicht deaktivieren. Diese Art von Cookies wird
+                    ausschließlich von dem Betreiber der Website verwendet (First-Party-Cookie) und sämtliche
+                    Informationen, die in den Cookies gespeichert sind, werden nur an diese Website gesendet.           Alle zulassen             cookielaw   Cookielaw
+
+                                Dieses Cookie zeigt das Cookie-Banner an und speichert die Cookie-Einstellungen des
+                                Besuchers.
+
+                                Anbieter:
+                                Jimdo GmbH, Stresemannstrasse 375, 22761 Hamburg, Deutschland.
+
+                                Cookie-Name: ckies_cookielaw
+                                Cookie-Laufzeit: 1 Jahr
+
+                                Cookie-Richtlinie:
+                                https://www.jimdo.com/de/info/cookies/policy/
+
+                                Datenschutzerklärung:
+                                https://www.jimdo.com/de/info/datenschutzerklaerung/            ckies_*   Jimdo Control Cookies
+
+                                Steuerungs-Cookies zur Aktivierung der vom Website-Besucher ausgewählten Dienste/Cookies
+                                und zur Speicherung der entsprechenden Cookie-Einstellungen.
+
+                                Anbieter:
+                                Jimdo GmbH, Stresemannstraße 375, 22761 Hamburg, Deutschland.
+
+                                Cookie-Namen: ckies_*, ckies_postfinance, ckies_stripe, ckies_powr, ckies_google,
+                                ckies_cookielaw, ckies_ga, ckies_jimdo_analytics, ckies_fb_analytics, ckies_fr
+
+                                Cookie-Laufzeit: 1 Jahr
+
+                                Cookie-Richtlinie:
+                                https://www.jimdo.com/de/info/cookies/policy/
+
+                                Datenschutzerklärung:
+                                https://www.jimdo.com/de/info/datenschutzerklaerung/         x  Funktionell  Funktionelle Cookies ermöglichen dieser Website, bestimmte Funktionen zur Verfügung zu stellen und
+                    Informationen zu speichern, die vom Nutzer eingegeben wurden – beispielsweise bereits registrierte
+                    Namen oder die Sprachauswahl. Damit werden verbesserte und personalisierte Funktionen
+                    gewährleistet.           Alle zulassen             Google Maps   Die Aktivierung und Speicherung dieser Einstellung schaltet die
+                                Anzeige der Google Maps frei.
+                                Anbieter: Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA oder
+                                Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland, wenn Sie in der
+                                EU ansässig sind.
+                                Cookie Name und Laufzeit: google_maps ( Laufzeit: 1 Jahr)
+                                Cookie Richtlinie: https://policies.google.com/technologies/cookies
+                                Datenschutzerklärung: https://policies.google.com/privacy            cookie-settings.cookie.youtube.title   cookie-settings.cookie.youtube.description            Dailymotion   Wenn du diese Einstellung aktivierst und speicherst, wird das Anzeige
+                                von Dailymotion-Videoinhalten auf dieser Website aktiviert.
+
+                                Anbieter: Dailymotion, 140 boulevard Malesherbes, 75017 Paris, Frankreich
+                                Cookie-Name und -Lebensdauer: dailymotion_consent (Lebensdauer: 1 Jahr).
+                                Cookie-Richtlinie: https://legal.dailymotion.com/en/cookie-policy/
+                                Datenschutzrichtlinie: https://legal.dailymotion.com/en/privacy-policy/
+
+                                Wenn du dem Laden und Anzeigen von Dailymotion-Inhalten zustimmst, werden vom
+                                Dienstanbieter Dailymotion zusätzliche Cookies gesetzt. Sie registrieren anonyme
+                                statistische Daten, z. B. wie oft das Video angezeigt wird und welche Einstellungen für
+                                die Wiedergabe verwendet werden. Es werden keine sensiblen Informationen gesammelt, es
+                                sei denn, der/die Nutzer*in meldet sich bei seinem Dailymotion-Konto an. In diesem Fall
+                                wird die Auswahl des/der Nutzer*in mit seinem/ihrem Konto verknüpft, z. B. wenn er/sie
+                                bei einem Video auf "Gefällt mir" klickt. Weitere Informationen findest du in der
+                                Datenschutzrichtlinie von Dailymotion.
+
+                                Cookie-Namen und -Lebensdauer: ts (Lebensdauer: 13 Monate), usprivacy (Lebensdauer: 13
+                                Monate), dmvk (Lebensdauer: Sitzung), v1st (Lebensdauer: 13 Monate)            Vimeo   Wenn du diese Einstellung aktivierst und speicherst, wird das
+                                Anzeigen von Vimeo-Videoinhalten auf dieser Website aktiviert.
+
+                                Anbieter: Vimeo, Inc., 555 West 18th Street, New York, New York 10011, USA
+                                Cookie-Name und -Lebensdauer: vimeo_consent (Lebensdauer: 1 Jahr).
+                                Cookie-Richtlinie: https://vimeo.com/cookie_policy
+                                Datenschutzrichtlinie: https://vimeo.com/privacy
+
+                                Wenn du dem Laden und Anzeigen von Vimeo-Inhalten zustimmst, werden zusätzliche Cookies
+                                vom Dienstanbieter Vimeo gesetzt. Der einbettbare Videoplayer von Vimeo verwendet
+                                Cookies von Erstanbietern, die als wesentlich für das Erlebnis des Videoplayers
+                                angesehen werden. Vimeo verwendet keine Analyse- oder Werbe-Cookies von Drittanbietern,
+                                wenn der Videoplayer auf einer Website von Drittanbietern erscheint, es sei denn,
+                                der/die Website-Besucher*in ist bei seinem/ihrem Vimeo-Konto angemeldet. Weitere
+                                Informationen findest du in der Datenschutzrichtlinie von Vimeo.
+
+                                Cookie-Namen und -Laufzeiten: __cf_bm (Lebenszeit: 1 Tag), player (Lebenszeit: 1 Jahr),
+                                vuid (Lebenszeit: 2 Jahre)         x  Performance  Die Performance-Cookies sammeln Informationen darüber, wie diese Website genutzt wird. Der Betreiber
+                    der Website nutzt diese Cookies um die Attraktivität, den Inhalt und die Funktionalität der Website
+                    zu verbessern.           Alle zulassen             jimdo_analytics   Jimdo Statistics
+
+                                Die sog. Jimdo Statistikfunktion ist eine Tracking-Technologie, basierend auf Google
+                                Analytics, welche von der Jimdo GmbH betrieben wird.
+
+                                Anbieter:
+                                Jimdo GmbH, Stresemannstrasse 375, 22761 Hamburg, Deutschland.
+
+                                Cookie-Namen und Laufzeiten:
+                                ckies_jimdo_analytics (Laufzeit: 2 Jahre), __utma (Laufzeit: 2 Jahre), __utmb (Laufzeit:
+                                30 Minuten), __utmc (Laufzeit: Sitzung), __utmz (Laufzeit: 6 Monate), __utmt_b
+                                (Laufzeit: 1 Tag), __utm[unique ID] (Laufzeit: 2 Jahre), __ga (Laufzeit: 2 Jahre), __gat
+                                (Laufzeit: 1 Min), __gid (Laufzeit: 24 Stunden), __ga_disable_* (Laufzeit: 100 Jahre).
+
+                                Cookie-Richtlinie:
+                                https://www.jimdo.com/de/info/cookies/policy/
+
+                                Datenschutzerklärung:
+                                https://www.jimdo.com/de/info/datenschutzerklaerung/         x  Marketing / Third Party  Marketing- / Third Party-Cookies stammen unter anderem von externen Werbeunternehmen und werden
+                    verwendet, um Informationen über die vom Nutzer besuchten Websites zu sammeln, um z. B.
+                    zielgruppenorientierte Werbung für den Benutzer zu erstellen.      Keine Cookies in dieser Kategorie          x  Cookie-Richtlinie  Cookies werden zur Benutzerführung und Webanalyse verwendet und helfen dabei, diese Webseite zu
+                    verbessern. Durch die weitere Nutzung dieser Webseite erklären Sie sich mit unserer
+                    Cookie-Richtlinie einverstanden. Es gelten unsere Datenschutzrichtlinien.   Impressum  Datenschutzerklärung            Unbedingt erforderlich            Funktionell            Performance            Marketing / Third Party          Alle akzeptieren  Nur Auswahl akzeptieren  Alle ablehnen    Speichern und zurück    

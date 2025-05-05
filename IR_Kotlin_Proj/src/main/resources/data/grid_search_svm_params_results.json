@@ -1,0 +1,12 @@
+{
+  "restults": [
+    {
+      "c": 0.01,
+      "eps": 1.0E-4,
+      "p": 0.001,
+      "accuracy": 0.7143222506393861,
+      "truePositiveRate": 1.0,
+      "trueNegativeRate": 0.4494912494912494
+    }
+  ]
+}

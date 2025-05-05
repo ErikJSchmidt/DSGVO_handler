@@ -1,0 +1,182 @@
+<html><head>
+<meta name="description" content="BVS GmbH Hard- und Software Stockheim, n�he Kronach; Beratung Vertrieb Service">
+<meta name="author" content="BVS GmbH">
+<meta name="keywords" content="BVS,Beratung,Vertrieb,Service,EDV,Erfassung,Datenerfassung,Lohndatenerfassung,Maschienendatenerfassung,Warenwirtschaft,Lagerverwaltung,Bauhof,Gemeinden,Opticon,ES3,Siemens,Terminal,PDA,MDA,Mobile Datenerfassung,Urlaubsverwaltung,Maschinenzust�nde,Kommt,Geht,Lohndaten,Zeitdatenerfassung,Erfolg,Kompetenz">
+<meta name="date" content="2009-10-09T12:00:00+02:00">
+<meta name="robots" content="index,follow">
+<meta http-equiv="Language" content="de">
+<meta name="revisit-after" content="2 weeks">
+
+<title>BVS GmbH --- Startseite</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="style_php.css">
+
+<script type="text/javascript" src="funktionen.js"></script>
+
+
+<script language="javascript" type="text/javascript"> 
+   var http_request_linfo =false;
+   var check_request_linfo =false;
+   var surl_linfo ='';
+   var saKey_linfo =false;
+function doRequest_linfo(url) {
+  surl_linfo =url;
+  if (!check_request_linfo) {
+  http_request_linfo = false;
+  ergebnisdiv_linfo= document.getElementById('linfo');  
+  ergebnisdiv_linfo.innerHTML='Bitte warten.....';    
+  if (window.XMLHttpRequest) {
+	 http_request_linfo = new XMLHttpRequest();
+    if (http_request_linfo.overrideMimeType) {
+      http_request_linfo.overrideMimeType('text/xml');
+    }
+  } else if (window.ActiveXObject) { 
+    try {
+      http_request_linfo = new ActiveXObject("Msxml2.XMLHTTP");
+    } catch (e) { 
+      try {
+        http_request_linfo = new ActiveXObject("Microsoft.XMLHTTP");
+      } catch (e) {}
+    } 
+  }   
+   check_request_linfo=true; 
+   saKey_linfo =false;
+  if (!http_request_linfo) { 
+    alert('Es kann kein Request Objekt erzeugt werden.');
+    check_request_linfo=false; 
+    return false;
+  } 
+  http_request_linfo.onreadystatechange = myHandler_linfo; 
+  http_request_linfo.open('GET', url, true);
+  http_request_linfo.send(null);  
+    } else {  
+  saKey_linfo =true;
+    }   
+}  
+function myHandler_linfo() {  
+  if (http_request_linfo.readyState == 4) {
+    if (http_request_linfo.status == 200) {
+	   ergebnisverarbeiten_linfo(); 
+    } else {
+	   //alert('Die URL konnte nicht ge�ffnet werden.');
+      ergebnisdiv2_linfo= document.getElementById('linfo');  
+      ergebnisdiv2_linfo.innerHTML='Die URL konnte nicht ge�ffnet werden.';    
+    } 
+  }  
+} 
+function ergebnisverarbeiten_linfo(){  
+  ergebnisdiv_linfo= document.getElementById('linfo');  
+  ergebnisdiv_linfo.innerHTML='<button align="left" onClick=ergebnisdiv_linfo.innerHTML="" >x</button><br>'+http_request_linfo.responseText;    
+   check_request_linfo=false;
+if (saKey_linfo){  saKey_linfo =false;
+  doRequest(surl_linfo);
+} 
+} 
+</script>
+
+</head>
+<body style="background-image:url(./img/back.jpg); background-repeat:no-repeat;">
+<!--background="./img/back.jpg" background-repeat:no-repeat;-->
+
+<div id="linfo" class="info_win">
+
+</div>
+
+
+<div class="main_back">
+    <div class="us1_back">
+      <img class="us2_back" src="./img/LOGO2.png">
+      <a href="index.php" class="m_h_link1" title="Startseite">
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </a>
+      <a href="http://www.ubkraus.de" target="_blank" class="m_h_link2" title="Beratergruppe&nbsp;Kraus&amp;Kraus">
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </a>
+    </div>
+    
+
+    
+      <div class="us3_back">
+      <!--  BEGINN INHALT  -->
+
+         <br>
+         <br>
+         <br>
+         <br>
+         <b>Sparen Sie Zeit und Geld !</b>
+         <br>
+         <br>
+         <b>Durch DATENERFASSUNG VOR ORT !</b>
+         <br> 
+         <b>Sparen Sie Zeit und Geld !</b>
+         <br>
+         <br>
+         <b>Durch DATENERFASSUNG VOR ORT !</b>
+         <br> 
+         
+         <ul>
+            <li>
+            Sofortige Kontrolle über Maschinenzustände
+            </li>
+            <li>
+            Personalressourcen
+            </li>
+            <li>
+            Verbräuche
+            </li>
+         </ul>
+         
+         
+        <b> Wir bieten Ihnen Hauseigene Softwarelösungen in den Bereichen:</b><br>
+        <table width="80%">
+          <tbody><tr>
+            <td>Auftragsbearbeitung</td>
+            <td>Bruttolohn</td>
+          </tr>
+          <tr>  
+            <td>Zeitwirtschaft</td>
+            <td>Materialwirtschaft</td>
+          </tr>
+          <tr>
+            <td>Kalkulation</td>
+            <td>Maschinendatenerfassung</td>
+          </tr>
+          <!--<tr>
+            <td>Fertigungslisten</td>
+            <td>OBMS</td>
+          </tr>-->
+          <tr>
+            <td>Zutrittskontrolle</td>
+            <td>Zeitplanung</td>
+          </tr>
+          <tr>
+            <td>Mobile Datenerfassung</td>
+            <td>Störmeldeanlage</td>
+          </tr>
+        </tbody></table>
+        <br>
+        
+        Unsere Softwarelösungen werden direkt auf Ihre Bedürfnisse angepasst und ggf. benötigte Schnittstellen zu anderen Programmen erstellt. Darüber hinaus erhalten Sie kompetente Beratung in Sachen PC Hardware, Netzwerke, Internetzugang sowie  Office Software und werden bei Bedarf mit entsprechenden Komponenten versorgt. 
+        
+
+
+        <div class="us4_back2">
+          <span class="r_head">Startseite</span>
+         </div>
+         
+	 <a href="progr_info1.php">
+         <img src="./img/up2.jpg" title="Link zu: IV im Unternehmen" class="r_image"> 
+         </a>
+         
+         <div class="us4_back">
+
+<!--
+          <br />
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function mysql_connect() in /homepages/11/d13353839/htdocs/php_data/db/vdb.php:4
+Stack trace:
+#0 /homepages/11/d13353839/htdocs/php_data/news/newsticker.php(6): include()
+#1 /homepages/11/d13353839/htdocs/index.php(82): include('/homepages/11/d...')
+#2 {main}
+  thrown in <b>/homepages/11/d13353839/htdocs/php_data/db/vdb.php</b> on line <b>4</b><br />
+--></div></div></div></body></html>

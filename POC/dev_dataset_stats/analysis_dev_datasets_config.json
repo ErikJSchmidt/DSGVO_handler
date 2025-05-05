@@ -1,0 +1,6 @@
+{
+  "dev_dataset_path": "/home/erik/Desktop/WiSe2022_23/IR-Project/dsgvo_handler/POC/data/dev_dataset",
+  "dev_dataset_refined_path": "/home/erik/Desktop/WiSe2022_23/IR-Project/dsgvo_handler/POC/data/dev_dataset_refined",
+  "save_figures_to_path": "/home/erik/Desktop/WiSe2022_23/IR-Project/dsgvo_handler/POC/dev_dataset_stats/figures"
+
+}

@@ -1,0 +1,7 @@
+   Wir benötigen Ihre Zustimmung, bevor Sie unsere Website weiter besuchen können.  Wir verwenden Cookies und andere Technologien auf unserer Website. Einige von Ihnen sind essenziell,
+                während andere uns helfen, diese Website und Ihre Erfahrung zu verbessern. Personenbezogene Daten können
+                verarbeitet werden (z. B. IP-Adressen), z. B. für personalisierte Anzeigen und Inhalte oder Anzeigen-
+                und Inhaltsmessung. Weitere Informationen über die Verwendung Ihrer Daten finden Sie in unserer Datenschutzerklärung . Sie können Ihre Auswahl
+                jederzeit unter Einstellungen widerrufen oder anpassen.     Essenziell   Details einblenden  Details ausblenden      Contao HTTPS CSRF Token  Schützt vor Cross-Site-Request-Forgery Angriffen.   Speicherdauer: Dieses Cookie bleibt nur für die aktuelle Browsersitzung
+                                bestehen.      PHP SESSION ID  Speichert die aktuelle PHP-Session.   Speicherdauer: Dieses Cookie bleibt nur für die aktuelle Browsersitzung
+                                bestehen.        Statistik   Details einblenden  Details ausblenden      LinkedIn Insight Tag     SalesViewer     Hubspot     Google Analytics       Externe Medien   Details einblenden  Details ausblenden      YouTube       Auswahl speichern  Alle akzeptieren  Alle ablehnen    Impressum  Datenschutz   

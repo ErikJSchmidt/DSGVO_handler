@@ -1,0 +1,237 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>cadexperience ·&nbsp;CAD · EDM · PDM ·&nbsp;Konstruktion · Entwicklung</title>
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background: #42413C;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background-color: #404040;
+	background-image: url(bilddaten/hintergrund.jpg);
+	background-repeat: repeat-x;
+}
+
+/* ~~ Element-/Tag-Selektoren ~~ */
+ul, ol, dl { /* Aufgrund von Abweichungen zwischen verschiedenen Browsern empfiehlt es sich, die Auffüllung und den Rand in Listen auf 0 einzustellen. Zu Konsistenzzwecken können Sie die gewünschten Werte entweder hier oder in den enthaltenen Listenelementen (LI, DT, DD) eingeben. Beachten Sie, dass die hier eingegebenen Werte hierarchisch auf die .nav-Liste angewendet werden, sofern Sie keinen spezifischeren Selektor festlegen. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* Durch Verschieben des oberen Rands wird das Problem behoben, dass Ränder aus dem zugehörigen div-Tag geraten können. Der übrig gebliebene untere Rand hält ihn getrennt von allen folgenden Elementen. */
+	padding-right: 15px;
+	padding-left: 15px; /* Durch Hinzufügen der Auffüllung zu den Seiten der Elemente innerhalb der div-Tags anstelle der div-Tags selbst entfallen jegliche Box-Modell-Berechnungen. Alternativ kann auch ein verschachteltes div-Tag mit seitlicher Auffüllung verwendet werden. */
+}
+a img { /* Dieser Selektor entfernt den standardmäßigen blauen Rahmen, der in einigen Browsern um ein Bild angezeigt wird, wenn es von einem Hyperlink umschlossen ist. */
+	border: none;
+}
+/* ~~ Die Reihenfolge der Stildefinitionen für die Hyperlinks der Site, einschließlich der Gruppe der Selektoren zum Erzeugen des Hover-Effekts, muss erhalten bleiben. ~~ */
+a:link {
+	color: #999;
+	text-decoration: none; /* Sofern Ihre Hyperlinks nicht besonders hervorgehoben werden sollen, empfiehlt es sich, zur schnellen visuellen Erkennung Unterstreichungen zu verwenden. */
+}
+a:visited {
+	color: #999;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus { /* Durch diese Gruppe von Selektoren wird bei Verwendung der Tastatur der gleiche Hover-Effekt wie beim Verwenden der Maus erzielt. */
+	text-decoration: none;
+}
+
+/* ~~ Dieser Container mit fester Breite umschließt alle anderen Elemente. ~~ */
+.container {
+	width: 919px;
+	background: #FFF;
+	margin: 0 auto; /* Der mit der Breite gekoppelte automatische Wert an den Seiten zentriert das Layout. */
+}
+
+/* ~~ Dies sind die Layoutinformationen. ~~ 
+
+1) Eine Auffüllung wird nur oben und/oder unten im div-Tag positioniert. Die Elemente innerhalb dieses div-Tags verfügen über eine seitliche Auffüllung. Dadurch müssen Sie keine Box-Modell-Berechnungen durchführen. Zu beachten: Wenn Sie dem div-Tag eine seitliche Auffüllung oder einen Rahmen hinzufügen, werden diese zu der festgelegten Breite addiert und ergeben die *gesamte* Breite. Sie können auch die Auffüllung für das Element im div-Tag entfernen und ein zweites div-Tag ohne Breite und mit der gewünschten Auffüllung im ersten div-Tag einfügen.
+
+*/
+.content {
+
+	padding: 0px 0;
+}
+
+/* ~~ Verschiedene float/clear-Klassen ~~ */
+.fltrt {  /* Mit dieser Klasse können Sie ein Element auf der Seite nach rechts fließen lassen. Das fließende Element muss vor dem Element stehen, neben dem es auf der Seite erscheinen soll. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* Mit dieser Klasse können Sie ein Element auf der Seite nach links fließen lassen. Das fließende Element muss vor dem Element stehen, neben dem es auf der Seite erscheinen soll. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* Diese Klasse kann in einem <br />-Tag oder leeren div-Tag als letztes Element nach dem letzten fließenden div-Tag (im #container) platziert werden, wenn overflow:hidden im .container entfernt wird. */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+body,td,th {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999;
+}
+a {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666;
+}
+a:hover {
+	color: #CCC;
+	text-decoration: none;
+}
+a:active {
+	color: #999;
+	text-decoration: none;
+}
+.hintergrundunten {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 140%;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #999;
+	background-color: #505050;
+	background-image: url(bilddaten/untenhintergrund.jpg);
+	background-repeat: repeat-x;
+	text-align: center;
+}
+.menuehintergrund {
+	background-color: #2C2C2C;
+	background-image: url(bilddaten/cadexperience_menuehintergrund.jpg);
+	background-repeat: no-repeat;
+	text-align: center;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #606060;
+}
+.mittehintergrund {
+	background-image: url(bilddaten/cadexperience_mittehintergrund.jpg);
+	background-repeat: no-repeat;
+}
+.menue {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #505050;
+}
+.container .content table tr .menuehintergrund table {
+	text-align: center;
+}
+-->
+</style>
+<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8427291-37']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="content">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tbody><tr>
+        <td><img src="bilddaten/cadexperience.jpg" width="919" height="101" alt="CAD Experience"></td>
+      </tr>
+      <tr>
+        <td height="63" align="center" valign="bottom" class="menuehintergrund"><table width="100%" height="42" border="0" cellpadding="0" cellspacing="0">
+          <tbody><tr>
+            <td width="223">&nbsp;</td>
+            <td width="118"><a href="index.html">HOME</a></td>
+            <td width="118"><a href="unternehmen.html">UNTERNEHMEN</a></td>
+            <td width="118"><a href="leistungen.html">LEISTUNGEN</a></td>
+            <td width="118"><a href="referenzen.html">REFERENZEN</a></td>
+            <td width="223">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center" valign="bottom">&nbsp;</td>
+            <td align="center" valign="bottom"><img src="bilddaten/aktivpfeil.png" width="22" height="11"></td>
+            <td align="center" valign="bottom">&nbsp;</td>
+            <td align="center" valign="bottom">&nbsp;</td>
+            <td align="center" valign="bottom">&nbsp;</td>
+            <td align="center" valign="bottom">&nbsp;</td>
+          </tr>
+        </tbody></table></td>
+      </tr>
+      <tr>
+        <td height="350" align="center" valign="bottom" class="mittehintergrund"><p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p></td>
+      </tr>
+    </tbody></table>
+  </div>
+</div>
+<div class="hintergrundunten">
+  <p><br>
+    CAD ·  EDM/PDM · KONSTRUKTION/ENTWICKLUNG<br>
+    <br>
+    <img src="bilddaten/querstrich.jpg" width="786" height="1"><br>
+    <br>
+    <a href="kontakt.html">KONTAKT</a> · <a href="impressum.html">IMPRESSUM</a><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<br>
+  </p>
+<p><span class="container">
+  <!-- end .container -->
+</span></p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</div>
+
+
+</body></html>

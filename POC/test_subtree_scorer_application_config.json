@@ -1,0 +1,10 @@
+{
+  "dev_dataset_refined_path":"/home/erik/Desktop/WiSe2022_23/IR-Project/dsgvo_handler/POC/data/dev_dataset_refined",
+  "svm_training_set_v1_path": "/home/erik/Desktop/WiSe2022_23/IR-Project/dsgvo_handler/POC/data/svm_training_sets/svm_training_set_v1.json",
+  "train_dataset_path":"/home/erik/Desktop/WiSe2022_23/IR-Project/dsgvo_handler/POC/data/train_dataset",
+  "test_dataset_path":"/home/erik/Desktop/WiSe2022_23/IR-Project/dsgvo_handler/POC/data/test_dataset",
+
+  "best_svm_model_path":"/home/erik/Desktop/WiSe2022_23/IR-Project/dsgvo_handler/POC/data/svm_models/svm_reg_3000_0.joblib",
+  "robust_scaler_path":"/home/erik/Desktop/WiSe2022_23/IR-Project/dsgvo_handler/POC/data/svm_models/robust_scaler.joblib",
+  "vectorizer_path":"/home/erik/Desktop/WiSe2022_23/IR-Project/dsgvo_handler/POC/data/svm_models/vectorizer.joblib"
+}

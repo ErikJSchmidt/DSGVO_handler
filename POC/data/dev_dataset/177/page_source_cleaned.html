@@ -1,0 +1,1880 @@
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <!--
+        This website is powered by TYPO3 - inspiring people to share!
+        TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+        TYPO3 is copyright 1998-2022 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+        Information and contribution at https://typo3.org/
+    -->
+
+
+    <title>Software development for AI, Machine Learning and Annotation</title>
+    <meta name="generator" content="TYPO3 CMS">
+    <meta name="description"
+          content="We provide outstanding software services for medical and industrial imaging. ✓ Certified Quality. ✓ Customized Solutions. ✓ Experts. → Request a demo! ">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="twitter:card" content="summary">
+
+
+    <link rel="stylesheet" type="text/css"
+          href="/typo3temp/assets/compressed/merged-9700be9e868621066f9b7d57a0ade02a-b606f392b69728a8c4eb0755e9e594c8.css?1669305776"
+          media="all">
+
+
+    <script type="text/javascript" async="" defer="" src="https://madixel.de/assets/tracking.js"></script>
+    <script src="/typo3temp/assets/compressed/merged-d20e916efa261721715901b4b435a9fb-0431e0dc5bf1c9ee1d9dee08dda75700.js?1617187463"></script>
+
+
+    <script id="om-cookie-consent" type="application/json">{
+        "group-1": {
+            "gtm": ""
+        },
+        "group-2": {
+            "gtm": "G-KKRLWF063E",
+            "cookie-1": {
+                "header": [
+                    "<script type=\"text\/plain\">\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https:\/\/www.google-analytics.com\/analytics.js','ga');\r\n  ga('create', 'G-KKRLWF063E', 'auto');\r\n  ga('set', 'anonymizeIp', true);\r\n  ga('send', 'pageview');\r\n<\/script>\r\n<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https:\/\/www.googletagmanager.com\/gtag\/js?id=UA-184020676-1\"><\/script>"
+                ]
+            }
+        }
+    }</script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
+    <script>
+    var _mmt = _mmt || [];
+    _mmt.push(['init', {
+        tracker: '602e88407b71d',
+        url: 'https://madixel.de/tracking.php'
+    }]);
+    _mmt.push(['trackPageView']);
+    (function() {
+        var url = 'https://madixel.de/assets/tracking.js',
+            d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=url; s.parentNode.insertBefore(g,s);
+    })();
+
+    </script>
+    <link rel="canonical" href="https://www.chimaera.de/en/">
+
+    <link rel="alternate" hreflang="en" href="https://www.chimaera.de/en/">
+    <link rel="alternate" hreflang="de" href="https://www.chimaera.de/de/">
+    <link rel="alternate" hreflang="x-default" href="https://www.chimaera.de/en/">
+</head>
+<body id="p21">
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="/" class="brand"><img src="/typo3conf/ext/m_projekt/Resources/Public/images/chimaeralogo.png"
+                                               width="2180" height="430" class="logo" alt="Chimaera GmbH"></a>
+            </div>
+            <div class="col-md-8 right">
+                <div class="contactinfos">
+                    <a href="tel:+499131691385" class="telephone"><i class="fas fa-phone-alt"></i> +49 9131 691 385</a>
+                    <a href="mailto:info@chimaera.de" class="email"><i class="far fa-envelope"></i> info@chimaera.de</a>
+                    <div class="sprache">
+                        <div class="langswitch">
+                            <div class="langswitch-header">
+                                <div class="de"><span>English</span></div>
+                            </div>
+                            <div class="langswitch-content">
+                                <ul>
+                                    <li><a href="/de/">
+                                        <div class="de"><span>Deutsch</span></div>
+                                    </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="button_container" id="toggle"><span class="top"></span><span class="middle"></span><span
+                        class="bottom"></span></div>
+                <div class="overlay" id="overlay">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <nav class="overlay-menu">
+                                    <div class="mainnav">
+                                        <ul class="dropDownMenu">
+                                            <li><a href="/en/services" data-toggle="dropdown">Services</a>
+                                                <ul>
+                                                    <li><a href="/en/services/development">Development</a></li>
+                                                    <li><a href="/en/services/annotation">Annotation</a></li>
+                                                    <li><a href="/en/services/innovation">Innovation</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="/en/products" data-toggle="dropdown">Products</a>
+                                                <ul>
+                                                    <li><a href="/en/products/chimaera-ai-b2">Chimaera AI-B2</a></li>
+                                                    <li><a href="/en/products/chimaera-sdk">Chimaera SDK</a></li>
+                                                    <li><a href="/en/products/image-registration">Image Registration</a>
+                                                    </li>
+                                                    <li><a href="/en/products/ai-well-prepared">AI - Well Prepared</a>
+                                                    </li>
+                                                    <li><a href="/en/products/hid-3d-reconstruction">HiD - 3D
+                                                        Reconstruction</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="/en/about-us">About Us</a></li>
+                                            <li><a href="/en/career">Career</a></li>
+                                            <li><a href="/en/blog" data-toggle="dropdown">Blog</a>
+                                                <ul>
+                                                    <li><a href="/en/blog/news">News</a></li>
+                                                    <li><a href="/en/blog/use-cases">Use Cases</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="/en/contact">Contact</a></li>
+                                            <li><a href="/en/privacy" data-toggle="dropdown">Privacy</a>
+                                                <ul>
+                                                    <li><a href="/en/privacy/privacy-policy">Privacy Policy</a></li>
+                                                    <li><a href="/en/privacy/policy-for-business-partners">Policy for
+                                                        Business Partners</a></li>
+                                                    <li><a href="/en/privacy/policy-for-job-applications">Policy for Job
+                                                        Applications</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div id="wrap" class="animsition">
+    <div id="main" class="clearfix">
+
+        <div class="elevator">
+            <div class="absolutepos">
+                <div id="c82" class="frame frame-absolutepos frame-type-text frame-layout-0"><p class="text-center"><a
+                        href="#c10" class="scroll"><img alt="Down" src="/assets/icons/Down.svg"
+                                                        style="height:70px; width:70px"></a></p></div>
+
+            </div>
+            <div class="spacer absolute layer white">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 ">
+                            <div id="c3" class="frame frame-default frame-type-text frame-layout-0"><h1>IMAGE PROCESSING
+                                AND ANALYSIS</h1>
+                                <p>We provide outstanding software services for medical and industrial imaging.</p>
+                                <p>Our solutions are flexible building blocks to create certified medical products,
+                                    support automation by leveraging the latest AI approaches, and enable new
+                                    breakthroughs in clinical research.</p>
+                                <p class="font-weight-500"><a href="/en/contact" class="button">Get Demo</a></p></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="c4" class="frame frame-default frame-type-image frame-layout-0">
+                <div class="ce-image ce-center ce-above">
+                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                        <div class="ce-outer">
+                            <div class="ce-inner">
+                                <div class="ce-row">
+                                    <div class="ce-column">
+                                        <figure class="image"><img class="image-embed-item"
+                                                                   src="/assets/_processed_/1/3/csm_MainHeader_c1b460a5c6.jpg"
+                                                                   width="1220" height="584" alt=""></figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="content">
+            <div class="spacer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 ">
+                            <div class="bluebox">
+                                <div id="c10" class="frame frame-default frame-type-text frame-layout-260"><h2 class="">
+                                    Our Mission
+                                </h2>
+                                    <p class="mediumfont">Supporting research and industry with latest image processing
+                                        and AI technologies</p></div>
+
+                            </div>
+                            <div id="c1891" class="frame frame-default frame-type-text frame-layout-0"><p>Chimaera is
+                                certified according to DIN EN ISO 13485 and has more than 15 years of experience in the
+                                development of technically demanding solutions.</p>
+                                <p>Our team of experts in image processing, AI, and hardware optimization creates
+                                    customized solutions for a wide range of use cases.</p></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 ">
+                            <div class="bluebox">
+                                <div id="c43" class="frame frame-default frame-type-text frame-layout-260"><h2 class="">
+                                    Services
+                                </h2>
+                                    <p class="mediumfont">From prototype to finished product - for over 15 years</p>
+                                </div>
+
+                            </div>
+                            <div id="c2121"
+                                 class="frame frame-default frame-type-textpic frame-layout-0 frame-space-after-extra-small">
+                                <div class="ce-textpic ce-center ce-above">
+                                    <div class="ce-bodytext"><p>We create innovative and specific solutions in image
+                                        processing for industrial and research partners.</p>
+                                        <p>By using the latest AI and machine learning technologies, we enable
+                                            automation of measurements, processing of large amounts of data and offer
+                                            customized solutions beyond the standard as an external IT partner.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-4 ">
+                                    <div id="c725" class="frame frame-default frame-type-shortcut frame-layout-0">
+                                        <div class="greenbox">
+                                            <div class="teaser">
+                                                <div id="c798"
+                                                     class="frame frame-produktteaser frame-type-textpic frame-layout-210">
+                                                    <div class="ce-textpic ce-center ce-above">
+                                                        <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                            <div class="ce-outer">
+                                                                <div class="ce-inner">
+                                                                    <div class="ce-row">
+                                                                        <div class="ce-column">
+                                                                            <figure class="image"><a
+                                                                                    href="/en/services/development"><img
+                                                                                    class="image-embed-item"
+                                                                                    src="/assets/content/Product-SWDev.jpg"
+                                                                                    width="1000" height="667"
+                                                                                    alt=""></a></figure>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="ce-bodytext"><h3>DEVELOPMENT</h3>
+                                                            <p>&nbsp;</p>
+                                                            <p>We offer a wide range of software services related to
+                                                                image processing, machine learning and AI.</p>
+                                                            <p><strong><a href="/en/services/development"
+                                                                          class="button">Learn More</a></strong></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4 ">
+                                    <div id="c800" class="frame frame-default frame-type-shortcut frame-layout-0">
+                                        <div class="yellowbox">
+                                            <div class="teaser">
+                                                <div id="c799"
+                                                     class="frame frame-produktteaser frame-type-textpic frame-layout-230">
+                                                    <div class="ce-textpic ce-left ce-above">
+                                                        <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                            <div class="ce-row">
+                                                                <div class="ce-column">
+                                                                    <figure class="image"><a
+                                                                            href="/en/services/annotation"><img
+                                                                            class="image-embed-item"
+                                                                            src="/assets/content/Product-Annotation.jpg"
+                                                                            width="1000" height="667" alt=""></a>
+                                                                    </figure>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="ce-bodytext"><h3>ANNOTATION</h3>
+                                                            <p>&nbsp;</p>
+                                                            <p>Professional data annotation services with our own
+                                                                experts and in-house software - when quality
+                                                                matters!</p>
+                                                            <p><strong><a href="/en/services/annotation" class="button">Learn
+                                                                More</a></strong></p></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4 ">
+                                    <div id="c802" class="frame frame-default frame-type-shortcut frame-layout-0">
+                                        <div class="redbox">
+                                            <div class="teaser">
+                                                <div id="c801"
+                                                     class="frame frame-produktteaser frame-type-textpic frame-layout-240">
+                                                    <div class="ce-textpic ce-center ce-above">
+                                                        <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                            <div class="ce-outer">
+                                                                <div class="ce-inner">
+                                                                    <div class="ce-row">
+                                                                        <div class="ce-column">
+                                                                            <figure class="image"><a
+                                                                                    href="/en/services/innovation"><img
+                                                                                    class="image-embed-item"
+                                                                                    src="/assets/content/Product-Research.jpg"
+                                                                                    width="1000" height="667"
+                                                                                    alt=""></a></figure>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="ce-bodytext"><h3>INNOVATION</h3>
+                                                            <p>&nbsp;</p>
+                                                            <p>We boost your innovation and research with our latest
+                                                                image processing technologies and services.</p>
+                                                            <p><strong><a href="/en/services/innovation" class="button">Learn
+                                                                More</a></strong></p></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer border-top border-bottom">
+                <div class="container">
+                    <div class="row comments owl-carousel">
+                        <div class="col-md-12 ">
+                            <div id="c21"
+                                 class="frame frame-default frame-type-shortcut frame-layout-0 owl-loaded owl-drag">
+                                <div class="owl-stage-outer">
+                                    <div class="owl-stage"
+                                         style="transform: translate3d(-1184px, 0px, 0px); transition: all 0s ease 0s; width: 4736px;">
+                                        <div class="owl-item cloned" style="width: 592px;">
+                                            <div id="c2500" class="frame frame-default frame-type-text frame-layout-0">
+                                                <blockquote><p class="text-center">"For us, it is always a motivation to
+                                                    see how we can successfully implement even challenging projects
+                                                    together with our customers."</p></blockquote>
+                                                <p class="text-center"><strong>Dr. Dieter Hahn, Chimaera General
+                                                    Management</strong></p></div>
+                                        </div>
+                                        <div class="owl-item cloned" style="width: 592px;">
+                                            <div id="c2551" class="frame frame-default frame-type-text frame-layout-0">
+                                                <blockquote><p class="text-center">"Even well-informed customers are
+                                                    often amazed at how well certain problems can be adressed using the
+                                                    latest processes and technologies."</p></blockquote>
+                                                <p class="text-center"><strong>Dr. Marcus Prümmer, Chimaera General
+                                                    Management</strong></p></div>
+                                        </div>
+                                        <div class="owl-item active" style="width: 592px;">
+                                            <div id="c2471" class="frame frame-default frame-type-text frame-layout-0">
+                                                <blockquote><p class="text-center">“Chimaera supported our AI/computer
+                                                    vision research project in a very flexible and constructive way,
+                                                    adapting to the specific needs of the academic partner.”</p>
+                                                </blockquote>
+                                                <p class="text-center"><strong>Dr. med. F. Laqua, Universitätsmedizin
+                                                    Greifswald</strong></p></div>
+                                        </div>
+                                        <div class="owl-item" style="width: 592px;">
+                                            <div id="c2472" class="frame frame-default frame-type-text frame-layout-0">
+                                                <blockquote><p class="text-center">“For us, Chimaera is a pivotal tool
+                                                    in our daily research activities ranging from experimental to
+                                                    clinical studies. Consequently, we highly recommend working with
+                                                    Chimaera without any restrictions.”</p></blockquote>
+                                                <p class="text-center"><strong>Prof. Dr. med. T. Bäuerle, Preclinical
+                                                    Imaging Platform, UK Erlangen</strong></p></div>
+                                        </div>
+                                        <div class="owl-item" style="width: 592px;">
+                                            <div id="c2500" class="frame frame-default frame-type-text frame-layout-0">
+                                                <blockquote><p class="text-center">"For us, it is always a motivation to
+                                                    see how we can successfully implement even challenging projects
+                                                    together with our customers."</p></blockquote>
+                                                <p class="text-center"><strong>Dr. Dieter Hahn, Chimaera General
+                                                    Management</strong></p></div>
+                                        </div>
+                                        <div class="owl-item" style="width: 592px;">
+                                            <div id="c2551" class="frame frame-default frame-type-text frame-layout-0">
+                                                <blockquote><p class="text-center">"Even well-informed customers are
+                                                    often amazed at how well certain problems can be adressed using the
+                                                    latest processes and technologies."</p></blockquote>
+                                                <p class="text-center"><strong>Dr. Marcus Prümmer, Chimaera General
+                                                    Management</strong></p></div>
+                                        </div>
+                                        <div class="owl-item cloned" style="width: 592px;">
+                                            <div id="c2471" class="frame frame-default frame-type-text frame-layout-0">
+                                                <blockquote><p class="text-center">“Chimaera supported our AI/computer
+                                                    vision research project in a very flexible and constructive way,
+                                                    adapting to the specific needs of the academic partner.”</p>
+                                                </blockquote>
+                                                <p class="text-center"><strong>Dr. med. F. Laqua, Universitätsmedizin
+                                                    Greifswald</strong></p></div>
+                                        </div>
+                                        <div class="owl-item cloned" style="width: 592px;">
+                                            <div id="c2472" class="frame frame-default frame-type-text frame-layout-0">
+                                                <blockquote><p class="text-center">“For us, Chimaera is a pivotal tool
+                                                    in our daily research activities ranging from experimental to
+                                                    clinical studies. Consequently, we highly recommend working with
+                                                    Chimaera without any restrictions.”</p></blockquote>
+                                                <p class="text-center"><strong>Prof. Dr. med. T. Bäuerle, Preclinical
+                                                    Imaging Platform, UK Erlangen</strong></p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-nav disabled">
+                                    <div class="owl-prev"></div>
+                                    <div class="owl-next"></div>
+                                </div>
+                                <div class="owl-dots">
+                                    <div class="owl-dot active"><span></span></div>
+                                    <div class="owl-dot"><span></span></div>
+                                    <div class="owl-dot"><span></span></div>
+                                    <div class="owl-dot"><span></span></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 ">
+                            <div class="bluebox">
+                                <div id="c32"
+                                     class="frame frame-default frame-type-text frame-layout-260 frame-space-before-small">
+                                    <h2 class="">
+                                        Products
+                                    </h2>
+                                    <p class="mediumfont">From clever AI solutions to a flexible development platform -
+                                        all from one source</p></div>
+
+                            </div>
+                            <div id="c1893"
+                                 class="frame frame-default frame-type-textpic frame-layout-0 frame-space-after-extra-small">
+                                <div class="ce-textpic ce-center ce-above">
+                                    <div class="ce-bodytext"><p>Chimaera provides software to support image processing
+                                        and analysis with latest AI technologies, to simplify the development of medical
+                                        software and to perform demanding research tasks.</p>
+                                        <p>Our customers are mainly in the fields of healthcare, clinical and
+                                            preclinical research, as well as life sciences.</p></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 ">
+                            <div id="c741" class="frame frame-default frame-type-shortcut frame-layout-0">
+                                <div class="greenbox">
+                                    <div class="teaser">
+                                        <div id="c77"
+                                             class="frame frame-produktteaser frame-type-textpic frame-layout-210">
+                                            <div class="ce-textpic ce-left ce-above">
+                                                <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                    <div class="ce-row">
+                                                        <div class="ce-column">
+                                                            <figure class="image"><a href="/en/products/chimaera-ai-b2"><img
+                                                                    class="image-embed-item"
+                                                                    src="/assets/content/Product-AIB2.jpg" width="1000"
+                                                                    height="667" alt=""></a></figure>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ce-bodytext"><h3>CHIMAERA AI-B2</h3>
+                                                    <p>&nbsp;</p>
+                                                    <p>Our AI Building Blocks (AI-B2) provide a comprehensive
+                                                        AI-Ecosystem for precision medicine, annotation, data curation
+                                                        and analysis.</p>
+                                                    <p><a href="/en/products/chimaera-ai-b2" class="button">Learn
+                                                        More</a></p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 ">
+                            <div id="c40" class="frame frame-default frame-type-shortcut frame-layout-0">
+                                <div class="yellowbox">
+                                    <div class="teaser">
+                                        <div id="c81"
+                                             class="frame frame-produktteaser frame-type-textpic frame-layout-230">
+                                            <div class="ce-textpic ce-left ce-above">
+                                                <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                    <div class="ce-row">
+                                                        <div class="ce-column">
+                                                            <figure class="image"><a
+                                                                    href="/en/products/chimaera-sdk"><img
+                                                                    class="image-embed-item"
+                                                                    src="/assets/content/Product-SDK.jpg" width="1000"
+                                                                    height="667" alt=""></a></figure>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ce-bodytext"><h3>CHIMAERA SDK</h3>
+                                                    <p>&nbsp;</p>
+                                                    <p>Scalable from hardware-optimized image processing to complete
+                                                        applications - our SDK brings your project from prototype to
+                                                        finished product.</p>
+                                                    <p><a href="/en/products/chimaera-sdk" class="button">Learn More</a>
+                                                    </p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 ">
+                            <div id="c39" class="frame frame-default frame-type-shortcut frame-layout-0">
+                                <div class="redbox">
+                                    <div class="teaser">
+                                        <div id="c80"
+                                             class="frame frame-produktteaser frame-type-textpic frame-layout-240">
+                                            <div class="ce-textpic ce-left ce-above">
+                                                <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                    <div class="ce-row">
+                                                        <div class="ce-column">
+                                                            <figure class="image"><a
+                                                                    href="/en/products/image-registration"><img
+                                                                    class="image-embed-item"
+                                                                    src="/assets/content/Product-Registration.gif"
+                                                                    width="500" height="334" alt=""></a></figure>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ce-bodytext"><h3>IMAGE REGISTRATION</h3>
+                                                    <p>&nbsp;</p>
+                                                    <p>Reliable and performant compensation of patient movements between
+                                                        different image acquisitions and modalities such as CT, MR or
+                                                        PET/SPECT.</p>
+                                                    <p><a href="/en/products/image-registration" class="button">Learn
+                                                        More</a></p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 ">
+                            <div id="c2541" class="frame frame-default frame-type-shortcut frame-layout-0">
+                                <div class="bluebox">
+                                    <div class="teaser">
+                                        <div id="c2540"
+                                             class="frame frame-produktteaser frame-type-textpic frame-layout-260">
+                                            <div class="ce-textpic ce-center ce-above">
+                                                <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                    <div class="ce-outer">
+                                                        <div class="ce-inner">
+                                                            <div class="ce-row">
+                                                                <div class="ce-column">
+                                                                    <figure class="image"><a
+                                                                            href="/en/products/ai-well-prepared"><img
+                                                                            class="image-embed-item"
+                                                                            src="/assets/content/Product-Research.jpg"
+                                                                            width="1000" height="667" alt=""></a>
+                                                                    </figure>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ce-bodytext"><h3>AI - WELL PREPARED</h3>
+                                                    <p>&nbsp;</p>
+                                                    <p>You want to reduce production costs? We guide you through the
+                                                        most important issues to identify and realize potentials for
+                                                        automating your production chain.</p>
+                                                    <p><a href="/en/products/ai-well-prepared" class="button">Learn
+                                                        More</a></p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 ">
+                            <div id="c41" class="frame frame-default frame-type-shortcut frame-layout-0">
+                                <div class="darkredbox">
+                                    <div class="teaser">
+                                        <div id="c79"
+                                             class="frame frame-produktteaser frame-type-textpic frame-layout-250">
+                                            <div class="ce-textpic ce-left ce-above">
+                                                <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                    <div class="ce-row">
+                                                        <div class="ce-column">
+                                                            <figure class="image"><a
+                                                                    href="/en/products/hid-3d-reconstruction"><img
+                                                                    class="image-embed-item"
+                                                                    src="/assets/content/Product-HiD3DReco.jpg"
+                                                                    width="1000" height="667" alt=""></a></figure>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ce-bodytext"><h3>3D RECONSTRUCTION</h3>
+                                                    <p>&nbsp;</p>
+                                                    <p>In collaboration with HiD, we create digital 3D reconstructions
+                                                        of anatomical tissue from histological slide images - in
+                                                        breathtaking image quality.</p>
+                                                    <p><a href="/en/products/hid-3d-reconstruction" class="button">Learn
+                                                        More</a></p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 "></div>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer" style="background-image: url(/assets/content/MainBreaker.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9 ">
+                            <div id="c31" class="frame frame-default frame-type-text frame-layout-0"><p
+                                    class="mediumfont">&nbsp;</p>
+                                <p class="mediumfont">We are specialists in the development of innovative solutions for
+                                    medical image processing and machine learning applications.</p>
+                                <p><br><strong><a href="/en/contact" class="button">Contact Us</a></strong></p>
+                                <p>&nbsp;</p></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 ">
+                            <div class="bluebox">
+                                <div id="c1946"
+                                     class="frame frame-default frame-type-text frame-layout-260 frame-space-before-medium">
+                                    <h2 class="">
+                                        About Chimaera
+                                    </h2></div>
+
+                            </div>
+                            <div id="c2122" class="frame frame-default frame-type-textpic frame-layout-0">
+                                <div class="ce-textpic ce-center ce-above">
+                                    <div class="ce-bodytext"><p>The idea for Chimaera emerged during the doctoral
+                                        studies of co-founders Dr. Marcus Prümmer, Dr. Dieter Hahn and Dr. Volker Daum
+                                        together with their mentor and supervisor Prof. Dr. Joachim Hornegger.</p>
+                                        <p>Based on their many years of experience in machine learning research, they
+                                            recognized the challenges of providing valuable services and developing the
+                                            right software tools for image processing and artificial intelligence
+                                            projects more than fifteen years ago.</p></div>
+                                </div>
+                            </div>
+
+
+                            <div id="c1947" class="frame frame-default frame-type-skvideo_ce frame-layout-0">
+                                <div class="sk-video-supercontainer" style="max-width:800px">
+                                    <div class="sk-video-container ratio169"><img
+                                            src="/assets/_processed_/d/a/csm_Thumb-IntroVideo_2963806a33.jpg"
+                                            width="889" height="500" alt="">
+                                        <div class="sk-video-titlecontainer" title=""></div>
+                                        <div title="" class="sk-video-playbutton" data-type="YOUTUBE"
+                                             data-cancel="Cancel" data-continue="I agree, show the video"
+                                             data-rememberme="Remember my decision for 30 days using a cookie"
+                                             data-remembermedays="30" data-disablerememberme="0"
+                                             data-message="This video is served by YouTube. If you continue, YouTube will be able to track information about you (e.g. your IP, your viewing behavior etc)"
+                                             data-cancelclass="btn" data-continueclass="btn"
+                                             data-videomarkup="<iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/3LF4ffSB6uA?vq=hd1080?autoplay=1&amp;rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen></iframe>"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div id="c1949"
+                                 class="frame frame-default frame-type-text frame-layout-0 frame-space-before-small"><p>
+                                This experience has now also extended to annotating and curating training data for AI
+                                projects.</p>
+                                <p>Starting with custom software development, Chimaera's portfolio has steadily
+                                    expanded. Today, Chimaera is a reliable partner for research, industry and
+                                    medium-sized businesses.</p>
+                                <p class="font-weight-500"><strong><a href="/en/about-us" class="button">About
+                                    Us</a></strong></p></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 ">
+                            <div class="bluebox">
+                                <div id="c2616" class="frame frame-default frame-type-text frame-layout-260"><h2
+                                        class="">
+                                    References
+                                </h2></div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row kunden owl-carousel">
+                        <div class="col-md-12 ">
+                            <div id="c2618"
+                                 class="frame frame-default frame-type-shortcut frame-layout-0 owl-loaded owl-drag">
+                                <div class="owl-stage-outer">
+                                    <div class="owl-stage"
+                                         style="transform: translate3d(-1552px, 0px, 0px); transition: all 0s ease 0s; width: 6014px;">
+                                        <div class="owl-item cloned" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2590" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0008_Adidas.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item cloned" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2589" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0007_aycan.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item cloned" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2584" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0005_dhip.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item cloned" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2583" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0006_UniklinikErlangen.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item cloned" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2585" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0003_UniklinikGreifswald.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item cloned" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2586" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0004_WSIC.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item cloned" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2587" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0000_PIPE.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item cloned" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2588" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0001_FAU.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item active" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2579" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0014_SiemensHealthineers.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item active" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2580" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0010_DentsplySirona.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item active" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2581" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0012_Symbios.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2577" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0011_Varian.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2582" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0002_PSI.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2591" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0009_WaveLight.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2578" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0013_Olea.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2590" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0008_Adidas.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2589" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0007_aycan.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2584" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0005_dhip.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2583" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0006_UniklinikErlangen.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2585" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0003_UniklinikGreifswald.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2586" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0004_WSIC.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2587" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0000_PIPE.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2588" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0001_FAU.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item cloned" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2579" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0014_SiemensHealthineers.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item cloned" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2580" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0010_DentsplySirona.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item cloned" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2581" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0012_Symbios.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item cloned" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2577" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0011_Varian.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item cloned" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2582" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0002_PSI.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item cloned" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2591" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0009_WaveLight.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item cloned" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2578" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0013_Olea.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item cloned" style="width: 174px; margin-right: 20px;">
+                                            <div id="c2590" class="frame frame-default frame-type-image frame-layout-0">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                class="image-embed-item"
+                                                                                src="/assets/content/references/Referenz_0008_Adidas.jpg"
+                                                                                width="340" height="120" alt="">
+                                                                        </figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-nav disabled">
+                                    <div class="owl-prev"></div>
+                                    <div class="owl-next"></div>
+                                </div>
+                                <div class="owl-dots">
+                                    <div class="owl-dot active"><span></span></div>
+                                    <div class="owl-dot"><span></span></div>
+                                    <div class="owl-dot"><span></span></div>
+                                    <div class="owl-dot"><span></span></div>
+                                    <div class="owl-dot"><span></span></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 ">
+                            <div class="bluebox">
+                                <div id="c67" class="frame frame-default frame-type-text frame-layout-260"><h2 class="">
+                                    Questions &amp; Answers
+                                </h2></div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row faq">
+                        <div class="col-md-4 ">
+                            <div class="faq-item" data-match-height="groupName" style="min-height: 334.562px;">
+                                <div id="c69" class="frame frame-faq frame-type-text frame-layout-0"><h3 class="">
+                                    Q&amp;A:
+                                </h3>
+                                    <p>How can you support me in my clinical research study?</p>
+                                    <p><strong>We offer:</strong></p>
+                                    <ul>
+                                        <li>Experience in automated measurement</li>
+                                        <li>Software for annotation</li>
+                                        <li>Active implementation support from our development team</li>
+                                    </ul>
+                                    <p>&nbsp;</p></div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 ">
+                            <div class="faq-item" data-match-height="groupName" style="min-height: 334.562px;">
+                                <div id="c70" class="frame frame-faq frame-type-text frame-layout-0"><h3 class="">
+                                    Q&amp;A:
+                                </h3>
+                                    <p>Can you help us automate time-consuming image-based planning steps in our
+                                        manufacturing process?</p>
+                                    <p><strong>We have longterm experience in:</strong></p>
+                                    <ul>
+                                        <li>High level automation using latest machine learning and AI techniques</li>
+                                        <li>Inputs for further CAD planning</li>
+                                    </ul>
+                                    <p>&nbsp;</p></div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 ">
+                            <div class="faq-item" data-match-height="groupName" style="min-height: 334.562px;">
+                                <div id="c71" class="frame frame-faq frame-type-text frame-layout-0"><h3 class="">
+                                    Q&amp;A:
+                                </h3>
+                                    <p>Can you develop scalable apps in our company design for us?</p>
+                                    <p><strong>Our Chimaera SDK may be a solution:</strong></p>
+                                    <ul>
+                                        <li>Building blocks from pure processing backend to full GUI components for
+                                            visualizations
+                                        </li>
+                                        <li>Completely customizable in terms of design and customer specifications</li>
+                                    </ul>
+                                    <p>&nbsp;</p></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 ">
+                            <div class="bluebox">
+                                <div id="c2021" class="frame frame-default frame-type-text frame-layout-260"><h2
+                                        class="">
+                                    News and Blog
+                                </h2></div>
+
+                            </div>
+                            <div id="c2027" class="frame frame-default frame-type-list frame-layout-0">
+                                <div class="news"><!--TYPO3SEARCH_end-->
+                                    <div class="news-list-view" id="news-container-2027">
+                                        <div class="list"><!--
+	=====================
+		Partials/List/Item.html
+-->
+                                            <div class="row article articlelist articletype-1" itemscope="itemscope"
+                                                 itemtype="http://schema.org/Article">
+                                                <div class="col-md-4">
+                                                    <div class="news-img-wrap"><a
+                                                            title="AI-based denoising of CT images"
+                                                            href="/en/blog/use-cases/ai-based-denoising-of-ct-images"><img
+                                                            src="/assets/_processed_/b/7/csm_AIBasedDenoising_Blog_307ae67139.jpg"
+                                                            width="260" height="195" alt=""></a></div>
+                                                </div><!-- teaser -->
+                                                <div class="col-md-8">
+                                                    <div class="teaser-text"><!-- header -->
+                                                        <div class="header"><h2><a
+                                                                title="AI-based denoising of CT images"
+                                                                href="/en/blog/use-cases/ai-based-denoising-of-ct-images"><span
+                                                                itemprop="headline">AI-based denoising of CT images</span></a>
+                                                        </h2></div>
+                                                        <span class="news-list-date"><time itemprop="datePublished"
+                                                                                           datetime="2022-09-21">
+                    09/21/2022
+                </time></span>
+                                                        <div itemprop="description"><p>In this use case, we show how we
+                                                            typically perform an initial project research for an
+                                                            Innovation service project for the use case of AI-based…</p>
+                                                        </div>
+                                                        <br><br><a class="button"
+                                                                   title="AI-based denoising of CT images"
+                                                                   href="/en/blog/use-cases/ai-based-denoising-of-ct-images">
+                                                            Read more
+                                                        </a></div><!-- footer information -->
+                                                    <div class="footer"><p><!-- author --></p></div>
+                                                </div>
+                                            </div><!--
+	=====================
+		Partials/List/Item.html
+-->
+                                            <div class="row article articlelist articletype-1" itemscope="itemscope"
+                                                 itemtype="http://schema.org/Article">
+                                                <div class="col-md-4">
+                                                    <div class="news-img-wrap"><a
+                                                            title="Road to Automatic Hip and Femur Segmentation from CT"
+                                                            href="/en/blog/road-to-automatic-hip-and-femur-segmentation-from-ct"><img
+                                                            src="/assets/_processed_/7/d/csm_Hip-CT-Segmentation-Blog_117c7502a1.jpg"
+                                                            width="260" height="195" alt=""></a></div>
+                                                </div><!-- teaser -->
+                                                <div class="col-md-8">
+                                                    <div class="teaser-text"><!-- header -->
+                                                        <div class="header"><h2><a
+                                                                title="Road to Automatic Hip and Femur Segmentation from CT"
+                                                                href="/en/blog/road-to-automatic-hip-and-femur-segmentation-from-ct"><span
+                                                                itemprop="headline">Road to Automatic Hip and Femur Segmentation from CT</span></a>
+                                                        </h2></div>
+                                                        <span class="news-list-date"><time itemprop="datePublished"
+                                                                                           datetime="2022-06-24">
+                    06/24/2022
+                </time></span>
+                                                        <div itemprop="description"><p>Using the example of the
+                                                            automatic segmentation of hip and femur from computed
+                                                            tomography, this blog post will show how the path to
+                                                            creating an AI…</p></div>
+                                                        <br><br><a class="button"
+                                                                   title="Road to Automatic Hip and Femur Segmentation from CT"
+                                                                   href="/en/blog/road-to-automatic-hip-and-femur-segmentation-from-ct">
+                                                            Read more
+                                                        </a></div><!-- footer information -->
+                                                    <div class="footer"><p><!-- author --></p></div>
+                                                </div>
+                                            </div><!--
+	=====================
+		Partials/List/Item.html
+-->
+                                            <div class="row article articlelist articletype-1" itemscope="itemscope"
+                                                 itemtype="http://schema.org/Article">
+                                                <div class="col-md-4">
+                                                    <div class="news-img-wrap"><a title="DNN Model Compression"
+                                                                                  href="/en/blog/use-cases/dnn-model-compression"><img
+                                                            src="/assets/_processed_/4/2/csm_DNNCompression_Blog_624bf41ac8.jpg"
+                                                            width="260" height="195" alt=""></a></div>
+                                                </div><!-- teaser -->
+                                                <div class="col-md-8">
+                                                    <div class="teaser-text"><!-- header -->
+                                                        <div class="header"><h2><a title="DNN Model Compression"
+                                                                                   href="/en/blog/use-cases/dnn-model-compression"><span
+                                                                itemprop="headline">DNN Model Compression</span></a>
+                                                        </h2></div>
+                                                        <span class="news-list-date"><time itemprop="datePublished"
+                                                                                           datetime="2021-11-18">
+                    11/18/2021
+                </time></span>
+                                                        <div itemprop="description"><p>We have developed an algorithm
+                                                            that intelligently reduces the number of parameters of a
+                                                            neural network, while trying to maintain the highest
+                                                            possible…</p></div>
+                                                        <br><br><a class="button" title="DNN Model Compression"
+                                                                   href="/en/blog/use-cases/dnn-model-compression">
+                                                            Read more
+                                                        </a></div><!-- footer information -->
+                                                    <div class="footer"><p><!-- author --></p></div>
+                                                </div>
+                                            </div><!--
+	=====================
+		Partials/List/Item.html
+-->
+                                            <div class="row article articlelist articletype-1" itemscope="itemscope"
+                                                 itemtype="http://schema.org/Article">
+                                                <div class="col-md-4">
+                                                    <div class="news-img-wrap"><a
+                                                            title="Registration of Melanoma Patient Scans"
+                                                            href="/en/blog/use-cases/registration-of-melanoma-pet-and-ct-scans"><img
+                                                            src="/assets/_processed_/a/a/csm_Melanoma-CT-PET-Blog_ad4d3eab0b.jpg"
+                                                            width="260" height="195" alt=""></a></div>
+                                                </div><!-- teaser -->
+                                                <div class="col-md-8">
+                                                    <div class="teaser-text"><!-- header -->
+                                                        <div class="header"><h2><a
+                                                                title="Registration of Melanoma Patient Scans"
+                                                                href="/en/blog/use-cases/registration-of-melanoma-pet-and-ct-scans"><span
+                                                                itemprop="headline">Registration of Melanoma Patient Scans</span></a>
+                                                        </h2></div>
+                                                        <span class="news-list-date"><time itemprop="datePublished"
+                                                                                           datetime="2021-11-16">
+                    11/16/2021
+                </time></span>
+                                                        <div itemprop="description"><p>Showcase for our Image
+                                                            Registration to compensate respiratory motion in a PET-CT
+                                                            image pair of a melanoma patient. The images were acquired
+                                                            at…</p></div>
+                                                        <br><br><a class="button"
+                                                                   title="Registration of Melanoma Patient Scans"
+                                                                   href="/en/blog/use-cases/registration-of-melanoma-pet-and-ct-scans">
+                                                            Read more
+                                                        </a></div><!-- footer information -->
+                                                    <div class="footer"><p><!-- author --></p></div>
+                                                </div>
+                                            </div><!--
+	=====================
+		Partials/List/Item.html
+-->
+                                            <div class="row article articlelist articletype-1" itemscope="itemscope"
+                                                 itemtype="http://schema.org/Article">
+                                                <div class="col-md-4">
+                                                    <div class="news-img-wrap"><a
+                                                            title="VDI: AI-based solutions in practice - from data management to deployment"
+                                                            href="/en/blog/test-format"><img
+                                                            src="/assets/_processed_/2/d/csm_VDI_Blog_7973295de1.jpg"
+                                                            width="260" height="195" alt=""></a></div>
+                                                </div><!-- teaser -->
+                                                <div class="col-md-8">
+                                                    <div class="teaser-text"><!-- header -->
+                                                        <div class="header"><h2><a
+                                                                title="VDI: AI-based solutions in practice - from data management to deployment"
+                                                                href="/en/blog/test-format"><span itemprop="headline">VDI: AI-based solutions in practice - from data management to deployment</span></a>
+                                                        </h2></div>
+                                                        <span class="news-list-date"><time itemprop="datePublished"
+                                                                                           datetime="2021-09-07">
+                    09/07/2021
+                </time></span>
+                                                        <div itemprop="description"><p>On 09/21/2021 17:00 - 18:30 our
+                                                            CEO Dr. Marcus Prümmer will give a presentation on
+                                                            Artificial Intelligence. The organization will be taken over
+                                                            by…</p></div>
+                                                        <br><br><a class="button"
+                                                                   title="VDI: AI-based solutions in practice - from data management to deployment"
+                                                                   href="/en/blog/test-format">
+                                                            Read more
+                                                        </a></div><!-- footer information -->
+                                                    <div class="footer"><p><!-- author --></p></div>
+                                                </div>
+                                            </div><!--
+	=====================
+		Partials/List/Item.html
+-->
+                                            <div class="row article articlelist articletype-1" itemscope="itemscope"
+                                                 itemtype="http://schema.org/Article">
+                                                <div class="col-md-4">
+                                                    <div class="news-img-wrap"><a
+                                                            title="Automated Organ Segmentation in MRI "
+                                                            href="/en/blog/use-cases/automated-organ-segmentation-in-mri"><img
+                                                            src="/assets/_processed_/5/e/csm_AutomatedOrganMRI_Blog_9aba35d20a.jpg"
+                                                            width="260" height="195" alt=""></a></div>
+                                                </div><!-- teaser -->
+                                                <div class="col-md-8">
+                                                    <div class="teaser-text"><!-- header -->
+                                                        <div class="header"><h2><a
+                                                                title="Automated Organ Segmentation in MRI "
+                                                                href="/en/blog/use-cases/automated-organ-segmentation-in-mri"><span
+                                                                itemprop="headline">Automated Organ Segmentation in MRI </span></a>
+                                                        </h2></div>
+                                                        <span class="news-list-date"><time itemprop="datePublished"
+                                                                                           datetime="2020-11-18">
+                    11/18/2020
+                </time></span>
+                                                        <div itemprop="description"><p>In this use case we realized a
+                                                            robust and accurate segmentation of the liver, the spleen,
+                                                            the kidneys and the heart in various Magnetic Resonance…</p>
+                                                        </div>
+                                                        <br><br><a class="button"
+                                                                   title="Automated Organ Segmentation in MRI "
+                                                                   href="/en/blog/use-cases/automated-organ-segmentation-in-mri">
+                                                            Read more
+                                                        </a></div><!-- footer information -->
+                                                    <div class="footer"><p><!-- author --></p></div>
+                                                </div>
+                                            </div><!--
+	=====================
+		Partials/List/Item.html
+-->
+                                            <div class="row article articlelist articletype-1" itemscope="itemscope"
+                                                 itemtype="http://schema.org/Article">
+                                                <div class="col-md-4">
+                                                    <div class="news-img-wrap"><a
+                                                            title="Compensation of Cardiac Motion in 3D MR Time Series"
+                                                            href="/en/blog/use-cases/compensation-of-cardiac-motion-in-3d-mr-time-series"><img
+                                                            src="/assets/_processed_/0/b/csm_CompensationCardiacMotion_Blog_34598af9d8.jpg"
+                                                            width="260" height="195" alt=""></a></div>
+                                                </div><!-- teaser -->
+                                                <div class="col-md-8">
+                                                    <div class="teaser-text"><!-- header -->
+                                                        <div class="header"><h2><a
+                                                                title="Compensation of Cardiac Motion in 3D MR Time Series"
+                                                                href="/en/blog/use-cases/compensation-of-cardiac-motion-in-3d-mr-time-series"><span
+                                                                itemprop="headline">Compensation of Cardiac Motion in 3D MR Time Series</span></a>
+                                                        </h2></div>
+                                                        <span class="news-list-date"><time itemprop="datePublished"
+                                                                                           datetime="2020-10-17">
+                    10/17/2020
+                </time></span>
+                                                        <div itemprop="description"><p>This use case demonstrates the
+                                                            compensation of cardiac motion in a 3D time series acquired
+                                                            with an MR scanner.</p></div>
+                                                        <br><br><a class="button"
+                                                                   title="Compensation of Cardiac Motion in 3D MR Time Series"
+                                                                   href="/en/blog/use-cases/compensation-of-cardiac-motion-in-3d-mr-time-series">
+                                                            Read more
+                                                        </a></div><!-- footer information -->
+                                                    <div class="footer"><p><!-- author --></p></div>
+                                                </div>
+                                            </div><!--
+	=====================
+		Partials/List/Item.html
+-->
+                                            <div class="row article articlelist articletype-1" itemscope="itemscope"
+                                                 itemtype="http://schema.org/Article">
+                                                <div class="col-md-4">
+                                                    <div class="news-img-wrap"><a
+                                                            title="Heidelberger BV: Challenges on Machine Learning - from Annotation to Productization"
+                                                            href="/en/krankenhauszukunftsgesetz-khzg-foerderung"><img
+                                                            src="/assets/_processed_/f/2/csm_HeidelbergerBV_Blog_bd438def0c.jpg"
+                                                            width="260" height="195" alt=""></a></div>
+                                                </div><!-- teaser -->
+                                                <div class="col-md-8">
+                                                    <div class="teaser-text"><!-- header -->
+                                                        <div class="header"><h2><a
+                                                                title="Heidelberger BV: Challenges on Machine Learning - from Annotation to Productization"
+                                                                href="/en/krankenhauszukunftsgesetz-khzg-foerderung"><span
+                                                                itemprop="headline">Heidelberger BV: Challenges on Machine Learning - from Annotation to Productization</span></a>
+                                                        </h2></div>
+                                                        <span class="news-list-date"><time itemprop="datePublished"
+                                                                                           datetime="2020-02-18">
+                    02/18/2020
+                </time></span>
+                                                        <div itemprop="description"><p>On March 3, 2020, the 74th
+                                                            Heidelberg Image Processing Forum will take place at the
+                                                            Sirona Dental Academy in Bensheim. The focus will be on
+                                                            machine…</p></div>
+                                                        <br><br><a class="button"
+                                                                   title="Heidelberger BV: Challenges on Machine Learning - from Annotation to Productization"
+                                                                   href="/en/krankenhauszukunftsgesetz-khzg-foerderung">
+                                                            Read more
+                                                        </a></div><!-- footer information -->
+                                                    <div class="footer"><p><!-- author --></p></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!--TYPO3SEARCH_begin--></div>
+                            </div>
+
+
+                            <div id="c3568" class="frame frame-default frame-type-text frame-layout-0"><p><strong><a
+                                    href="/en/blog" class="button">More</a></strong></p></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<footer>
+    <div id="footer">
+        <div class="spacer smallpad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 ">
+                        <div id="c73" class="frame frame-default frame-type-text frame-layout-0"><h6 class="">
+                            Chimaera GmbH
+                        </h6>
+                            <p>Am Weichselgarten 7<br> 91058 Erlangen<br> Germany</p>
+                            <p><i class="fa-phone-alt fas"></i>&nbsp;+49 9131 - 691 385<br><a
+                                    href="javascript:linkTo_UnCryptMailto(%27nbjmup%2BjogpAdijnbfsb%5C%2Fef%27);"><i
+                                    class="fa-envelope fas"></i> info(at)chimaera.de</a></p></div>
+
+
+                        <div id="c76" class="frame frame-default frame-type-image frame-layout-0">
+                            <div class="ce-image ce-left ce-above">
+                                <div class="ce-gallery" data-ce-columns="3" data-ce-images="3">
+                                    <div class="ce-row">
+                                        <div class="ce-column">
+                                            <figure class="image"><a
+                                                    href="https://www.linkedin.com/company/chimaera-gmbh"
+                                                    title="LinkedIn Chimaera" target="_blank" rel="noreferrer"><img
+                                                    class="image-embed-item" src="/assets/icons/LinkedIn.svg" width="94"
+                                                    height="94" alt=""></a></figure>
+                                        </div>
+                                        <div class="ce-column">
+                                            <figure class="image"><a href="https://www.youtube.com/@ChimaeraGmbH"
+                                                                     title="YouTube @ChimaeraGmbH" target="_blank"
+                                                                     rel="noreferrer"><img class="image-embed-item"
+                                                                                           src="/assets/icons/Youtube.svg"
+                                                                                           width="94" height="94"
+                                                                                           alt=""></a></figure>
+                                        </div>
+                                        <div class="ce-column">
+                                            <figure class="image"><a href="https://twitter.com/chimaeragmbh"
+                                                                     title="Twitter @ChimaeraGmbH" target="_blank"
+                                                                     rel="noreferrer"><img class="image-embed-item"
+                                                                                           src="/assets/icons/Twitter.svg"
+                                                                                           width="94" height="94"
+                                                                                           alt=""></a></figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 ">
+                        <div id="c74" class="frame frame-default frame-type-text frame-layout-0"><p>Innovative software
+                            development and services for AI projects using the Chimaera AI-Building Blocks for industry
+                            and research.</p>
+                            <p>Create computation backends, extensions for viewing workstations, or customized GUI
+                                stand-alone applications with our Chimaera SDK.</p></div>
+
+                    </div>
+                    <div class="col-md-4 ">
+                        <div id="c75" class="frame frame-default frame-type-image frame-layout-0">
+                            <div class="ce-image ce-right ce-above">
+                                <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                    <div class="ce-row">
+                                        <div class="ce-column">
+                                            <figure class="image"><img class="image-embed-item"
+                                                                       src="/assets/icons/QualityManagement.svg"
+                                                                       width="251" height="178" alt=""></figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer nopad ftbottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="meta">
+                            <li><a href="/en/imprint">Imprint</a></li>
+                            <li><a href="/en/privacy-policy">Privacy Policy</a></li>
+                            <li><a href="/en/contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 right"><span class="copyright">© 2022 Chimaera GmbH</span></div>
+                    <span data-omcookie-panel-show="">Cookie-Settings</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<a href="#" class="scrollup"><i class="fa fa-angle-up"></i></a>
+
+
+<script src="/typo3temp/assets/compressed/merged-7b03f7f61b18e16f44cf1c0edadce408-5c5d0a91278bf4be1cd85966d2aa8037.js?1669305967"></script>
+
+
+</body>
+</html>

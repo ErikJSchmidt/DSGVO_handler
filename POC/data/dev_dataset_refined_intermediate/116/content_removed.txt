@@ -1,0 +1,20 @@
+#shadow-root                                              Selecting an option will immediately
+                                                                        change the language        Privatsphäre-Informationen     Wir und unsere Drittanbieter nutzen Technologien (z. B.
+                                                            Cookies), um Informationen auf Nutzergeräten zu speichern
+                                                            und abzurufen, um persönliche Daten, wie IP-Adressen oder
+                                                            Browserdaten zu verarbeiten. Sie können der Verarbeitung
+                                                            Ihrer persönlichen Daten für die unten aufgelisteten
+                                                            Verarbeitungszwecke zustimmen. Alternativ können Sie Ihre
+                                                            bevorzugten Einstellungen vornehmen, bevor Sie zustimmen
+                                                            oder ablehnen. Bitte beachten Sie, dass manche Anbieter
+                                                            basierend auf legitimen Geschäftsinteressen Ihre
+                                                            persönlichen Daten verarbeiten, ohne nach Ihrer Zustimmung
+                                                            zu fragen. Um Ihr Recht auf Widerspruch gegen die
+                                                            Verarbeitung auf der Basis von legitimen Geschäftsinteressen
+                                                            auszuüben, sehen Sie sich bitte unsere Anbieterliste an.
+
+                                                            Sie können Ihre Privatsphäre-Einstellungen jederzeit ändern
+                                                            oder Ihre Zustimmung zurückziehen, indem Sie auf den Privacy
+                                                            Button klicken.     Datenschutzerklärung Impressum     Anbieterliste   Einstellungen verwalten            Verarbeitungszwecke, die
+                                                                    nicht vom IAB definiert wurden       Essenziell        Funktionell                         Marketing                                 Einstellungen speichern  Alles ablehnen  Akzeptiere alle    Powered by Usercentrics
+                                        Consent Management          

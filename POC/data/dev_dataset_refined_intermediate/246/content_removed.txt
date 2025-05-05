@@ -1,0 +1,29 @@
+                     Zustimmung   Details  [#IABV2SETTINGS#]  Über
+                    Cookies         Diese Webseite verwendet Cookies  Wir verwenden Cookies, um Inhalte und
+                            Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die
+                            Zugriffe auf unsere Website zu analysieren. Außerdem geben wir Informationen zu Ihrer
+                            Verwendung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen
+                            weiter. Unsere Partner führen diese Informationen möglicherweise mit weiteren Daten
+                            zusammen, die Sie ihnen bereitgestellt haben oder die sie im Rahmen Ihrer Nutzung der
+                            Dienste gesammelt haben.            Consent Selection   Notwendig       Präferenzen       Statistiken       Marketing               Details zeigen               Notwendig  1         Notwendige Cookies helfen dabei, eine Webseite nutzbar zu machen,
+                                                    indem sie Grundfunktionen wie Seitennavigation und Zugriff auf
+                                                    sichere Bereiche der Webseite ermöglichen. Die Webseite kann ohne
+                                                    diese Cookies nicht richtig funktionieren.      Cookiebot 1  Erfahren
+                                                                Sie mehr über diesen Anbieter   CookieConsent Speichert den Zustimmungsstatus des Benutzers für Cookies auf der aktuellen Domäne.   Ablauf : 1 Jahr Typ : HTTP             Präferenzen  0         Präferenz-Cookies ermöglichen einer Webseite sich an Informationen
+                                                    zu erinnern, die die Art beeinflussen, wie sich eine Webseite
+                                                    verhält oder aussieht, wie z. B. Ihre bevorzugte Sprache oder die
+                                                    Region in der Sie sich befinden.     Wir nutzen diese Cookie-Typen nicht.         Statistiken  0         Statistik-Cookies helfen Webseiten-Besitzern zu verstehen, wie
+                                                    Besucher mit Webseiten interagieren, indem Informationen anonym
+                                                    gesammelt und gemeldet werden.     Wir nutzen diese Cookie-Typen nicht.         Marketing  0         Marketing-Cookies werden verwendet, um Besuchern auf Webseiten zu
+                                                    folgen. Die Absicht ist, Anzeigen zu zeigen, die relevant und
+                                                    ansprechend für den einzelnen Benutzer sind und daher wertvoller für
+                                                    Publisher und werbetreibende Drittparteien sind.     Wir nutzen diese Cookie-Typen nicht.        Nicht klassifiziert 0   Nicht
+                                                    klassifizierte Cookies sind Cookies, die wir gerade versuchen zu
+                                                    klassifizieren, zusammen mit Anbietern von individuellen Cookies.      Wir nutzen diese Cookie-Typen nicht.         Domainübergreifende
+                            Zustimmung [#BULK_CONSENT_DOMAINS_COUNT#] [#BULK_CONSENT_TITLE#] Liste der Domains, für die Ihre Zustimmung gilt: [#BULK_CONSENT_DOMAINS#]   Die Cookie-Erklärung wurde das letzte Mal
+                            am 5/5/23 von Cookiebot aktualisiert          [#IABV2_TITLE#] [#IABV2_BODY_INTRO#]  [#IABV2_BODY_LEGITIMATE_INTEREST_INTRO#]  [#IABV2_BODY_PREFERENCE_INTRO#]    [#IABV2_LABEL_PURPOSES#]  [#IABV2_BODY_PURPOSES_INTRO#]   [#IABV2_BODY_PURPOSES#]     [#IABV2_LABEL_FEATURES#]  [#IABV2_BODY_FEATURES_INTRO#]   [#IABV2_BODY_FEATURES#]     [#IABV2_LABEL_PARTNERS#]  [#IABV2_BODY_PARTNERS_INTRO#]   [#IABV2_BODY_PARTNERS#]         Cookies sind kleine Textdateien, die von Webseiten verwendet werden, um die Benutzererfahrung
+                    effizienter zu gestalten. Laut Gesetz können wir Cookies auf Ihrem Gerät
+                    speichern, wenn diese für den Betrieb dieser Seite unbedingt notwendig sind. Für alle anderen
+                    Cookie-Typen benötigen wir Ihre Erlaubnis. Diese Seite verwendet
+                    unterschiedliche Cookie-Typen. Einige Cookies werden von Drittparteien platziert, die auf unseren
+                    Seiten erscheinen.         Meine persönlichen Daten nicht verkaufen oder weitergeben    Nur notwendige Cookies verwenden  Auswahl erlauben  Anpassen   Cookies zulassen    Powered by Cookiebot by Usercentrics        

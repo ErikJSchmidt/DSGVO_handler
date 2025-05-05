@@ -1,0 +1,84 @@
+<div id="uc-central-banner-modal" class="layout-1">
+
+    <div id="uc-banner-centered" role="dialog" aria-describedby="uc-banner-text"
+         class="uc-border-radius-small uc-box-shadow uc-banner-">
+        <style>
+    #usercentrics-button .uc-banner-content {
+      background-color: #021836;
+    }
+    #usercentrics-button .uc-banner-text {
+      color: #ffffff;
+      font-size: 14px;
+    }
+    #usercentrics-button .uc-btn-new.uc-btn-deny {
+      background-color: #42b983;
+      color: #ffffff;
+    }
+    #usercentrics-button .uc-btn-new.uc-btn-accept {
+      background-color: #42b983;
+      color: #e6e6e6;
+    }
+    #usercentrics-button .uc-btn-new.uc-btn-more {
+      background-color: #021836;
+      color: #ffffff;
+    }
+    #usercentrics-button .uc-banner-links a,
+    #usercentrics-button .uc-banner-links-separator {
+      color: #ffffff !important;
+    }
+
+        </style>
+        <div class="uc-banner-content">
+            <div class="uc-banner-text" id="uc-banner-text">
+            <span id="uc-full-optin-description" tabindex="0" style="display: inline;">
+                Diese Seite nutzt Website-Tracking-Technologien von Dritten, um ihre Dienste anzubieten, stetig zu verbessern und Werbung entsprechend den Interessen der Nutzer anzuzeigen.
+            </span>
+            </div>
+            <div class="uc-banner-btn-list">
+                <div class="uc-btn-accept-wrapper">
+                    <button aria-label="Akzeptieren" id="uc-btn-accept-banner" class="uc-btn-new  uc-btn-accept">
+                        Akzeptieren
+                        <span id="uc-optin-timer-display"></span></button>
+                </div>
+                <div class="uc-btn-deny-wrapper">
+                    <button aria-label="Ablehnen" id="uc-btn-deny-banner" class="uc-btn-new  uc-btn-deny">Ablehnen
+                    </button>
+                </div>
+                <div class="uc-btn-accept-wrapper uc-btn-more-info-wrapper">
+                    <button aria-label="mehr" id="uc-btn-more-info-banner" class="uc-btn-new  uc-btn-more">mehr</button>
+                </div>
+            </div>
+
+            <div class="uc-powered-by-footer uc-flex-container" style="color: #fff !important;">
+                <span class="uc-powered-by-label">Powered by </span>
+                <a class="uc-powered-by-logo" href="https://usercentrics.com/?utm_source=cmp&amp;utm_medium=powered_by"
+                   target="_blank" rel="sponsored noopener" alt="Usercentrics Consent Management Platform">
+                    <div class="uc-powered-by-icon" style="fill: #fff !important;">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" fill-rule="evenodd" stroke-linejoin="round"
+                             stroke-miterlimit="1.4142" clip-rule="evenodd" viewBox="0 0 4930 1100"
+                             aria-labelledby="uc-poweredby-title" role="img"><title id="uc-poweredby-title">Usercentrics
+                            Consent Management Platform Logo</title>
+                            <g fill-rule="nonzero">
+                                <path d="M1487.68 736.708h-72.96v-65.974c-22.75 46.962-64.999 67.924-120.41 68.574-77.185 0-123.497-49.561-123.497-129.997V399.529h72.798v189.47c0 50.699 29.9 81.248 78.648 81.248 58.336-1.3 92.461-46.149 92.461-105.135V399.529h72.96v337.179zM1814.13 430.565l-26.65 53.949a198.739 198.739 0 0 0-97.497-29.899c-28.437 0-48.749 9.587-48.749 33.637 0 62.073 178.746 28.599 178.746 150.796 0 69.061-61.586 100.26-129.997 100.26-49.297.881-97.34-15.768-135.522-46.962l25.837-51.998c32.083 26.42 72.192 41.204 113.747 41.924 31.037 0 55.086-10.888 55.086-36.237 0-69.061-177.445-30.387-176.795-152.096 0-68.411 59.473-97.498 124.147-97.498 41.697-.322 82.594 11.541 117.647 34.124zM2197.13 595.986h-254.632c9.051 49.979 53.887 86.113 104.648 84.336 35.705.386 70.063-13.827 95.06-39.324l38.674 41.274c-36.183 38.022-86.964 58.796-139.422 57.036-103.997 0-172.408-69.224-172.408-170.621s70.361-171.108 170.459-171.596c118.459 0 166.72 77.186 157.621 198.895zm-63.374-53.136c-2.6-54.598-38.674-87.585-93.76-87.585-50.728-1.74-94.524 37.022-98.96 87.585h192.72zM2346.3 466.64c21.24-44.447 67.307-71.946 116.509-69.549v69.549c-67.76-3.738-110.822 36.236-116.509 93.922v176.146h-72.961V399.529h72.961v67.111zM2798.37 450.877l-27.3 34.937c-26.807-25.492-62.624-39.398-99.61-38.674-69.061 0-118.459 50.049-118.459 122.847s48.748 123.659 118.459 123.659c39.219 2.289 77.433-13.32 103.835-42.411l28.599 30.549c-33.472 38.529-82.739 59.78-133.734 57.686-97.497 0-165.421-69.223-165.421-168.671 0-99.447 69.061-168.508 165.421-168.508 47.615-2.362 94.118 15.261 128.21 48.586zM3165.77 588.999h-272.506c5.466 61.727 59.141 108.917 121.06 106.435 38.69 1.048 76.115-14.098 103.185-41.762l27.299 29.25c-34.628 37.089-83.671 57.43-134.384 55.736-97.498 0-166.071-69.223-166.071-168.671s68.573-168.508 165.258-168.508c107.898-.65 161.196 74.098 156.159 187.52zm-44.362-40.461c-3.249-64.024-46.311-104.648-111.634-104.648-60.305-2.154-112.201 44.458-116.51 104.648h228.144zM3539.84 530.663v206.045h-48.749v-192.72c0-58.824-35.424-93.761-94.41-93.761-65.974 0-106.435 43.712-112.123 107.085v178.746h-48.748V402.779h48.748v73.448c23.4-50.699 68.411-74.748 129.997-75.398 78.486 0 125.285 49.398 125.285 129.834zM3805.84 713.958c-22.156 15.549-48.348 24.355-75.398 25.35-48.749 0-84.985-29.25-84.985-95.06V453.477h-48.749v-39.974h48.749v-87.26h48.749v88.073h105.785v40.624h-105.785v180.045c0 40.624 16.249 55.736 44.199 55.736 19.014-.566 37.49-6.48 53.298-17.062l14.137 40.299zM3946.73 476.877c20.242-47.699 68.146-78.077 119.922-76.048v50.048c-70.36-1.299-113.747 42.412-119.922 108.385v177.446h-48.748V402.779h48.748v74.098zM4205.75 307.069c0 17.828-14.671 32.499-32.499 32.499-17.829 0-32.5-14.671-32.5-32.499 0-17.829 14.671-32.5 32.5-32.5 17.828 0 32.499 14.671 32.499 32.5zm-56.386 429.639V402.779h48.749v333.929h-48.749zM4562.91 450.877l-27.299 34.937c-26.758-25.467-62.515-39.372-99.448-38.674-69.223 0-118.622 50.049-118.622 122.847s48.749 123.659 118.622 123.659c38.997 2.089 76.929-13.502 103.185-42.411l28.599 30.549c-33.457 38.549-82.735 59.804-133.734 57.686-97.497 0-165.421-69.223-165.421-168.671 0-99.447 69.061-168.508 165.421-168.508 47.781-2.5 94.489 15.134 128.697 48.586zM4853.13 431.215l-19.012 39.324a177.2987 177.2987 0 0 0-90.673-27.299c-37.374 0-65.811 13.325-65.811 44.362 0 74.098 186.22 36.236 186.22 155.996 0 64.998-58.336 95.06-122.197 95.06-47.033.877-92.733-15.883-128.046-46.962l19.012-37.374c30.568 27.099 69.972 42.179 110.822 42.412 39.324 0 71.011-14.462 71.661-47.449 1.95-81.248-185.083-39.324-184.433-157.784 0-64.023 55.086-90.672 116.022-90.672 37.677-.459 74.679 10.105 106.435 30.386z"></path>
+                            </g>
+                            <circle cx="628.057" cy="557.637" r="211.245"></circle>
+                            <circle cx="1061.27" cy="131.248" r="81.248"></circle>
+                            <circle cx="898.937" cy="903.754" r="146.246"></circle>
+                            <circle cx="179.893" cy="735.083" r="113.747"></circle>
+                        </svg>
+                    </div>
+                </a>
+                <span class="uc-powered-by-label"> &amp; </span>
+                <a class="uc-powered-by-logo" href="https://www.e-recht24.de/uc/" target="_blank"
+                   rel="sponsored noopener">
+                    <img class="uc-partner-icon" src="https://uc.e-recht24.de/erecht24_logo_white.png">
+                </a>
+            </div>
+            <div class="uc-banner-links">
+                <a class="uc-banner-imprinturl" href="https://www.art9.de/kontakt/impressum/">Impressum</a>
+                <span class="uc-banner-links-separator">|</span>
+                <a class="uc-banner-privacyurl" href="https://www.art9.de/datenschutz/">Datenschutzerklärung</a>
+            </div>
+        </div>
+    </div>
+</div>

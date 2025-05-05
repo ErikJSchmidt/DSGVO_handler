@@ -1,0 +1,117 @@
+<html><head>
+		<title>AKI SYSTEM-ELECTRONIC</title>
+	    <link rel="stylesheet" type="text/css" href="/standard.css">
+			<link rel="SHORTCUT ICON" href="https://aki-electronic.de/favicon.ico">
+			
+			
+<style type="text/css">
+
+	.laufschrift {
+		max-width: 100vw; 		/* iOS braucht das */
+		white-space: nowrap;
+		overflow: hidden;
+		font-size: 16px;
+		background-color: #F0F0F0;
+		height: 30px;
+		width: 950px;
+	}
+
+	.laufschrift span {
+		display: inline-block;
+		padding-left: 105%;
+		vertical-align: middle;
+		z-index: 0;
+		animation: laufschrift 10s linear infinite;
+	}
+
+	@keyframes laufschrift {
+	    0%   {transform: translate(0,25%);}
+	    100% {transform: translate(-100%,25%);}
+	}
+</style>			
+			
+	</head>
+	<body>
+	<center>
+	<br>			
+	<br>			
+	
+
+<table border="0px" width="1100px" bgcolor="#FFFFFF">
+	<tbody><tr height="30%">
+		<td>
+			<center>
+				<br><br><img src="aki-logo1.png">
+			</center>
+		</td>
+		<td>
+			<center>
+			<br><br><img src="proxpower-logo.jpg">
+		</center>
+	</td>
+	</tr>	
+		<tr height="460px">
+			<td width="50%">
+				<center>
+					<a href="/industrie"><img src="auswahl-industrie.png"></a>
+				</center>
+			</td>
+			<td width="50%">
+				<center>
+					<a href="/kfz"><img src="auswahl-kfz.gif"></a>
+				</center>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<center>
+					<div id="laufschrift" class="laufschrift">
+						<span style="animation-duration: 118.6s;">Wir haben Betriebsurlaub bis zum 08.01.2023.
+Ab Montag, den 09.01.2023 sind wir gerne wieder für Sie da!
+---------- Wir haben Betriebsurlaub bis zum 08.01.2023.
+Ab Montag, den 09.01.2023 sind wir gerne wieder für Sie da!
+---------- Wir haben Betriebsurlaub bis zum 08.01.2023.
+Ab Montag, den 09.01.2023 sind wir gerne wieder für Sie da! 
+---------- Wir haben Betriebsurlaub bis zum 08.01.2023.
+Ab Montag, den 09.01.2023 sind wir gerne wieder für Sie da! ---
+In dringenden Fällen senden Sie uns ein e-mail oder hinterlassen Sie eine Nachricht auf dem Anrufbeantworter.</span>
+					</div>
+					<br>
+				</center>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<center>
+					<img src="/hs/pfeil-blau_klein.png"><a href="/s/impressum/impressum.html"> Impressum</a> - Copyright (c) 2022 AKI SYSTEM-ELECTRONIC GmbH. Alle Rechte vorbehalten.
+				</center>		
+				<br>	
+			</td>
+		</tr>
+</tbody></table>
+
+</center>				
+		
+		
+		
+<script>
+	if (document.getElementById("laufschrift")) 
+	{
+		var laufschrift = document.getElementById("laufschrift");
+		len = laufschrift.innerHTML.length;
+		
+		var nodes = document.getElementById('laufschrift').getElementsByTagName("span");
+		for(var i=0; i<nodes.length; i++) { // jeder whitespace ist ein child
+		    nodes[i].style.animationDuration = len/5 +"s";
+		}
+	}
+</script>
+		
+		
+			
+	
+
+	
+		
+
+</body></html>

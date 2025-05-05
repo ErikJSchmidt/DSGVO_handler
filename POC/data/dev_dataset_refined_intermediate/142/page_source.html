@@ -1,0 +1,214 @@
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" style=""><!--<![endif]--><head>
+                
+        <base href="https://wsw-solutions.com/">
+        <title>Startseite - WSW Solutions</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <link rel="canonical" href="https://wsw-solutions.com/">
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0;">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="data/css/normalize.css">
+        <link rel="stylesheet" href="data/css/main.css">
+        <link rel="stylesheet" href="data/css/lightbox.css">
+        <script src="data/js/vendor/modernizr-2.6.2.min.js"></script>
+<script>
+var downloadExtension = new Array(
+   'doc','docx','pdf','xls','ppt','zip','gz','bz2','rar','txt','vsd','vxd',
+   'js','css','exe','wma','mov','avi','wmv','mp3','mp4');
+var trackDownloadsAsEvent = true;
+var trackExtlinksAsEvent = true;
+var downloadCat = 'Downloads';
+var extLinksCat = 'Externe Links';
+var intDomain = window.location.hostname;
+if(window.addEventListener){document.addEventListener('click', clickHandler,
+   false);}
+else {document.attachEvent('onclick', clickHandler);}
+function clickHandler(e){
+   if (window.event) e = window.event;
+   var srcEl = e.srcElement? e.srcElement : e.target;
+   var targetUrl = srcEl.getAttribute('href');
+   if (targetUrl && targetUrl.length > 0) {
+      var re = new RegExp('^(?:f|ht)tp(?:s)?\://([^/]+)', 'im');
+      var tarDomain = (targetUrl.match(re)? targetUrl.match(re)[1].toString() :
+         (targetUrl.indexOf(':') < 0 ? intDomain : null));
+      if (tarDomain != null) {
+         var a = document.createElement('a');
+         a.href = targetUrl;
+         var filePath = a.pathname;
+         var fileName = filePath.split('/').pop();
+         var fileExt = fileName.substring(fileName.indexOf('.')+1);
+         if (intDomain == tarDomain) {
+            for (i=0; i<downloadExtension.length; i++) {
+               if (fileExt == downloadExtension[i]) {
+                  if (trackDownloadsAsEvent){
+                         _gaq.push(['_trackEvent', downloadCat, filePath]);
+                  }
+                  else _gaq.push(['_trackPageview', filePath]);
+               }
+            }
+         }       
+         else {
+            if (trackExtlinksAsEvent) {
+               _gaq.push(['_trackEvent', extLinksCat,tarDomain]);
+               }
+            else _gaq.push(['_trackPageview', '/' + extLinksCat + '/' +
+               tarDomain]);
+         }
+      }
+   }
+}
+</script>
+    </head><body>
+    <div id="wrapper">
+        <div id="head">
+            <div id="head_wrap">
+                <div id="logo_wrap">
+                    <div id="logo">
+                                                <a href="/"><img src="data/img/logo.png"></a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div id="nav" class="nav_bot">
+                    <ul>
+                        
+                                        <li class="current"><a href="/">Startseite</a></li>
+
+                                    
+                                        <li><a href="/de/produkte/">Produkte</a></li>
+                                    
+                                        <li><a href="/de/downloads/">Downloads</a></li>
+                                    
+                                        <li><a href="/de/videos/">Videos</a></li>
+                                    
+                                        <li><a href="/de/unternehmen/">Unternehmen</a></li>
+                                    
+                                        <li><a href="/de/kontakt/">Kontakt</a></li>
+                                                            <div class="clear"></div>
+                    </ul>
+                </div>
+                              <div id="lang">
+                    <dl class="dropdown">
+                        
+                                    <dt><a><span>de</span></a></dt>
+                                    <dd>
+                                    <ul id="lang_select">
+                                        <li><a href="/en/home/">en</a></li>
+                                    </ul>
+                                                            <div class="clear"></div>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="clear"></div>
+
+            </div>
+        </div>
+
+        <div id="content">
+            <div id="header_wrap">
+                <div id="header" style="background: url('files/header_start.png') no-repeat;">
+    <div id="header_text" style="max-width: 300px; padding: 40px 0 0 600px">
+        <h1>Probieren Sie <br>Time Connector aus!</h1>
+<p>Überzeugen Sie sich von der<br>Leistungsfähigkeit von Time Connector<br>und besuchen Sie unsere Live-Demo-Anlage<br>oder laden Sie auf der Produktseite die kostenlose Demoversion herunter.<br><br></p>    </div>
+</div>
+<div class="header_link" style="top: 250px; left: 710px ">
+    <div class="header_link1" style="margin-bottom: 18px;">
+        <a href="https://www.timeconnector-demo.de/" target="_blank">Live Demo</a>
+    </div>
+    
+            <div class="header_link2" style="margin-bottom: 18px;">
+                <a href="/de/produkte/">zur Produktseite</a>
+            </div>
+        </div>            </div>
+            <div id="left">
+                
+            <div class="container">
+                <div class="headline">
+                    <h2>Time Connector</h2>
+                </div>
+                <div class="textfield" style="width:px">
+                    <div class="rex-content-editmode-slice-output">
+<div class="rex-content-editmode-slice-output-2">
+<div class="textfeld">
+<p>Time Connector - ein Software-Tool, das Ihre Raumbelegungen von der IT-Welt in die BACnet-Welt überträgt.</p>
+<ul>
+<li>Passt Ihre Raumtemperatur schnell und flexibel dem Bedarf an.</li>
+<li>Spart Heizkosten und schont so die Umwelt.</li>
+<li>Kompatibel mit allen BACnet-Controllern</li>
+</ul>
+</div>
+</div>
+</div>
+                </div>
+                </div>            </div>
+            <div id="right">
+                <div class="news">
+    <div class="news_head">
+        <div class="news_headline">
+            <h2>NEWS</h2>
+        </div>
+                <div class="arrow" id="arrow_right">
+            <img src="data/img/arrow_right.png">
+        </div>
+        <div class="arrow" id="arrow_left">
+            <img src="data/img/arrow_left.png">
+        </div>
+                <div class="clear"> </div>
+
+    </div>
+    <div id="news_content">
+            <ul style="width: 345px;">
+            <li>
+    <p>Ausschreibungstexte:</p>
+<p>Die Ausschreibungstexte wurden aktualisiert und um die WSW-Box S103 erweitert und können <a href="../files/ausschreibungstexte_timeconnector.zip">hier</a>, oder im Download Bereich herunter geladen werden.</p>    <div class="clear"></div>
+</li>            <div class="clear"></div>
+        </ul>
+    </div>
+</div>
+            </div>
+            <div class="clear"></div>
+            <div id="komplett">
+                            </div>
+        </div>
+        <div id="footer_wrap">
+            <div id="footer">
+                <img src="data/img/logo_member_BIG-EU.png">
+                
+                        <a href="/de/kontakt/impressum-datenschutzerklaerung/"><script>document.write(document.location.href.indexOf("/en/") != -1 ? "Legal Notice" : "Impressum/Datenschutzerklaerung")</script>Impressum/Datenschutzerklaerung</a>
+                                </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="data/js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
+        <script src="data/js/plugins.js"></script>
+        <script src="data/js/vendor/jquery.scrollTo-1.4.3.1-min.js"></script>
+        <script src="data/js/vendor/lightbox.js"></script>
+
+
+        <script src="data/js/main.js"></script>
+
+        <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40087539-1']);
+  _gaq.push(['_trackPageview']);
+
+
+</script>
+    
+
+<div id="lightboxOverlay" style="display: none;"></div><div id="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image"><div class="lb-nav"><a class="lb-prev"></a><a class="lb-next"></a></div><div class="lb-loader"><a class="lb-cancel"><img src="data/img/loading.gif"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"><img src="data/img/close.png"></a></div></div></div></div></body></html>

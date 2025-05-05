@@ -1,0 +1,717 @@
+<html><head>
+
+<title>URL unbekannt
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="clients/pcor/sites/system/designs/system/stylesheets/design_global.css?ts=464730">
+<link rel="stylesheet" type="text/css" href="global/stylesheets/global.css?ts=464730">
+<link rel="stylesheet" type="text/css" href="global/stylesheets/tiptip.css?ts=464730">
+<link rel="stylesheet" type="text/css" href="global/stylesheets/dd.css?ts=464730">
+<link rel="stylesheet" type="text/css" href="global/jquery-ui/themes/smoothness/jquery.ui.all.css?ts=464730">
+<link rel="stylesheet" type="text/css" href="global/jquery-ui/themes/primary_system/jquery.ui.all.css?ts=464730">
+<link rel="stylesheet" type="text/css" href="clients/pcor/sites/system/designs/system/stylesheets/taglib/collab/ProjectNavigationTag.css?ts=464730">
+<link rel="stylesheet" type="text/css" href="clients/pcor/sites/system/designs/system/stylesheets/taglib/procont_base/NavigationTag.css?ts=464730">
+<link rel="stylesheet" type="text/css" href="clients/pcor/sites/system/designs/system/stylesheets/taglib/procont_base/PermissionTag.css?ts=464730">
+<link rel="stylesheet" type="text/css" href="clients/pcor/sites/system/designs/system/stylesheets/taglib/procont_base/ContentTag.css?ts=464730">
+<link rel="stylesheet" type="text/css" href="clients/pcor/sites/system/designs/system/stylesheets/jsp/system.css?ts=464730">
+<link rel="stylesheet" type="text/css" href="clients/pcor/sites/system/designs/system/stylesheets/taglib/procont_base/AJAXIncludeTag.css?ts=464730">
+<link rel="stylesheet" type="text/css" href="clients/pcor/sites/system/designs/system/stylesheets/taglib/procont_base/LoginTag.css?ts=464730">
+<link rel="stylesheet" type="text/css" href="clients/pcor/sites/system/designs/system/stylesheets/taglib/procont_base/ChangeLocaleTag.css?ts=464730">
+<link rel="stylesheet" type="text/css" href="clients/pcor/sites/system/designs/system/stylesheets/taglib/procont_base/MessageTag.css?ts=464730">
+<link rel="stylesheet" type="text/css" href="clients/pcor/sites/system/designs/system/stylesheets/jsp/init.css?ts=464730">
+<link rel="stylesheet" type="text/css" href="clients/pcor/sites/system/designs/system/stylesheets/taglib/procont_base/MessageTag.css?ts=464730">
+<link rel="stylesheet" type="text/css" href="clients/pcor/sites/system/designs/system/stylesheets/taglib/procont_base/TeaserTag.css?ts=464730">
+<link rel="stylesheet" type="text/css" href="clients/pcor/sites/system/designs/system/stylesheets/taglib/procont_base/DialogTag.css?ts=464730">
+<link rel="stylesheet" type="text/css" href="clients/pcor/sites/system/designs/system/stylesheets/taglib/procont_base/CornerClickTag.css?ts=464730">
+<link rel="stylesheet" type="text/css" href="clients/pcor/sites/system/designs/system/stylesheets/taglib/procont_base/ExceptionTag.css?ts=464730">
+
+
+
+</head>
+<body>
+	<div id="block_ui" onclick="return false" onmousedown="return false" onmousemove="return false" onmouseup="return false" ondblclick="return false">&nbsp;</div><div id="wait_dialog" style="text-align: center;"><br>  <table class="pdhs_fill">  <tbody><tr>    <td align="center">      <table class="pdhs_nofill">      <tbody><tr>        <td class="wait_dialog_field">-        </td>        <td class="wait_dialog_field">bitte warten ...        </td>      </tr>      </tbody></table>    </td>  </tr>  </tbody></table><br><div id="wait_progressbar" class="ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="display: none; width: 0%;"></div></div><br><div id="wait_dialog_msg" class="pdhs_size_small pdhs_fg_gray"></div></div>
+	
+	<div id="target_everything">
+
+
+
+
+
+<script src="global/jquery/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="global/jquery-ui/jquery-ui-1.8.16.custom.min.js" type="text/javascript"></script>
+<script src="global/jquery-ui/jquery-ui-combobox.js" type="text/javascript"></script>
+<script src="global/jquery/jquery_tiptip_1.3.js" type="text/javascript"></script>
+<script src="global/jquery/jquery_dd_3.5.2.js" type="text/javascript"></script>
+<script src="global/jquery/jquery_jixedbar.js" type="text/javascript"></script>
+<script src="global/jquery/jquery_center.js" type="text/javascript"></script>
+<script src="global/jquery/jquery-ad-gallery.js" type="text/javascript"></script>
+<script src="global/sha1.js" type="text/javascript"></script>
+<script src="global/pcor.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	onDocumentReady();
+});
+</script>
+
+<script type="text/javascript"> // cloak
+var SERVER_URL="AJAXServlet";
+var HTTP_METHOD="POST";
+
+var READY_STATE_UNINITIALISED=0;
+var READY_STATE_LOADING=1;
+var READY_STATE_LOADED=2;
+var READY_STATE_INTERACTIVE=3;
+var READY_STATE_COMPLETE=4;
+
+var MESSAGE_DIV_ID = 'ajax_message';
+            
+var offX = 20;  
+var offY = 15;
+
+var fade_message = true;
+
+function ajaxCommand(caller,event,commands) {
+	
+	// make sure message is placed at mousecursor before showing
+	var with_message = event != null;
+	
+	if (with_message) {
+		follow(event);
+	}
+		
+	var commands_split = commands.split(",");
+	
+	for (key in commands_split) {
+		sendAjaxCommand(caller,commands_split[key],with_message);	
+	}
+			
+	return;
+}
+
+function detectTargetId(caller) {
+
+	var target_regex = /^target_.*$/;
+	
+	if (target_regex.exec(caller.id)) {
+		return caller.id;
+	}
+	
+	if (caller.parentNode != null) {
+		return detectTargetId(caller.parentNode);
+	}else {
+		alert("Should detect target id, but not found on caller or parents!");
+		return null;		
+	}
+}
+
+function sendAjaxCommand(caller,command,with_message) {
+	
+	var data = "hole Daten ...";
+		
+	if (with_message){
+		setMessage(data);
+	}
+		
+	var req = initXMLHttpRequest();
+	var command_split = command.split(":");
+	var target = command_split[1];
+	
+	if (target == "target_detect") {
+		target = detectTargetId(caller);		 
+		
+		if (target == null) {
+			return;
+		}
+		command = command.replace("target_detect",target);
+	}
+	
+	if (req) {
+			
+		if (target != "null") {
+			req.onreadystatechange=function(){onReadyState(req,target,with_message);};
+		}
+		
+		req.open(HTTP_METHOD,SERVER_URL,true);
+		req.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+		req.send("command="+command);
+	}
+}
+
+function sendAjaxProgressUpdate() {
+	
+	if ($("#wait_progressbar").length == 0)
+	{
+		return;
+	}
+	
+	var req = initXMLHttpRequest();
+	
+	if (req) {
+		
+		req.onreadystatechange=function(){onReadyStateProgressUpdate(req);};
+		
+		req.open(HTTP_METHOD,SERVER_URL,true);
+		req.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+		req.send("command=progress_update:null");
+	}
+}
+
+function onReadyStateProgressUpdate(req,target) {
+	
+	if ($("#wait_progressbar").length == 0)
+	{
+		return;
+	}
+	
+	var ready = req.readyState;
+	if (ready == READY_STATE_COMPLETE) {
+		
+		var doc = req.responseXML;
+		
+		if (doc == null)
+		{
+			return;
+		}
+				
+		var data = "";
+		var content_blocks = doc.getElementsByTagName("content");
+		
+		for (var i=0;i<content_blocks.length;i++) {
+			data += content_blocks[i].firstChild.data;
+		}	
+	
+		var splitted = data.split(";;");
+		
+		var percent = parseInt(splitted[0].replace("\D",""));
+		
+		$("#wait_progressbar").progressbar( "option", "value", percent );
+		
+		var message = splitted[1];
+		
+		if (percent == 100 || message == "null") {
+			message = "";
+		}
+		$("#wait_dialog_msg").html(message);
+		
+		if (percent < 100) {
+			setTimeout('sendAjaxProgressUpdate()',1000);
+		}
+	}
+}
+
+function initXMLHttpRequest() {
+	var req = null;
+	if (typeof XMLHttpRequest != 'undefined') {
+    	req = new XMLHttpRequest();
+	}
+	
+	if (!req) {
+    	// Internet Explorer 6 und älter
+    	try {
+        	req  = new ActiveXObject("Msxml2.XMLHTTP");
+    	} catch(e) {
+        	try {
+            	req  = new ActiveXObject("Microsoft.XMLHTTP");
+        	} catch(e) {
+            req  = null;
+        	}
+    	}
+	}
+	
+	if (!req) {
+		alert("Fehlende AJAX-Unterstützung!");
+	}
+	
+	return req;
+}
+
+function onReadyState(req,target,with_message) {
+
+	var ready = req.readyState;
+	
+	if (ready == READY_STATE_COMPLETE) {
+		
+		if (with_message) {
+			deactivateTips();
+		}
+		
+		var doc = req.responseXML;
+		
+		if (doc == null)
+		{
+			return;
+		}
+		
+		var data = "";
+		var content_blocks = doc.getElementsByTagName("content");
+		
+		for (var i=0;i<content_blocks.length;i++) {
+			data += content_blocks[i].firstChild.data;
+		}	
+	
+		data = data.replace("\t","");
+	
+		var target_element = document.getElementById(target);
+		
+		replaceHtml(target_element,data);
+		
+		if (with_message) {	
+			setMessage();
+		}	
+		
+		$(".ttip").tipTip();
+		$(".ttip_top").tipTip({defaultPosition: "top"});
+		
+		initUIStuff();
+		
+		// display menu
+		if (data.indexOf('"menu_bar"') != -1) {
+			initMenuBar();
+		}
+		
+		// eval scripts
+		if (data.indexOf("<script") != -1) {
+				parseScript(data);
+		}
+			
+		if (typeof adaptDynamics != "undefined") {
+			adaptDynamics();
+		}
+		
+		if (with_message && typeof doSlideshow != "undefined") {
+			doSlideshow();
+		}	
+	}
+}
+
+function parseScript(strcode) {
+	  var scripts = new Array();         // Array which will store the script's code
+	  
+	  // Strip out tags
+	  while(strcode.indexOf("<script") > -1 || strcode.indexOf("</script") > -1) {
+	    var s = strcode.indexOf("<script");
+	    var s_e = strcode.indexOf(">", s);
+	    var e = strcode.indexOf("</script", s);
+	    var e_e = strcode.indexOf(">", e);
+	    
+	    // Add to scripts array
+	    scripts.push(strcode.substring(s_e+1, e));
+	    // Strip from strcode
+	    strcode = strcode.substring(0, s) + strcode.substring(e_e+1);
+	  }
+	  
+	  // Loop through every script collected and eval it
+	  for(var i=0; i<scripts.length; i++) {
+	    try {
+	      eval(scripts[i]);
+	    }
+	    catch(ex) {
+	      // NOOP
+	    }
+	  }
+}
+
+
+function replaceHtml(el, html) {
+	
+	// not refreshing invalid content
+	if (html == "ajax__error")
+	{
+		return;
+	}
+	
+	var oldEl = typeof el === "string" ? document.getElementById(el) : el;
+
+	if (oldEl == null) {
+		return;
+	}
+
+	var newEl = oldEl.cloneNode(false);
+	newEl.innerHTML = html;
+	oldEl.parentNode.replaceChild(newEl, oldEl);
+
+	/* Since we just removed the old element from the DOM, return a reference
+	to the new element, which can be used to restore variable references. */
+
+	return newEl;
+}
+
+function setMessage(data) {
+	
+	var obj=document.getElementById(MESSAGE_DIV_ID);
+   	
+   	if (data == null) {
+   		if (fade_message) {
+   			$('#ajax_message').fadeOut();	
+   		}
+   	}else {
+		var image_link_busy ="<table class='pdhs_nofill pdhs_size_small'><tr><td><img src='ImageServlet?action=get_image&name=mozilla_giallo'><\/td>";
+   		obj.innerHTML=image_link_busy+"<td style=\"white-space: nowrap;\">"+data+"<\/td><\/tr><\/table>";
+  		
+  		document.onmousemove = follow;
+		
+		if (fade_message) {
+			$('#ajax_message').fadeIn();	
+   		}
+   	}
+}
+      
+function mouseX(evt) {
+	if (!evt) evt = window.event; 
+    if (evt.pageX) return evt.pageX;
+    else if (evt.clientX) return evt.clientX + (document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft); 
+    else return 0;
+}
+                    
+function mouseY(evt) {
+	if (!evt) evt = window.event;
+    if (evt.pageY) return evt.pageY;
+    else if (evt.clientY)return evt.clientY + (document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop);
+    else return 0;
+}
+                    
+function follow(evt) {
+	if (evt == null)
+	{
+		return;
+	}
+	$('#'+MESSAGE_DIV_ID).css('top', parseInt(mouseY(evt))+offY).css('left', parseInt(mouseX(evt))+offX);
+}
+
+function addPermUser(caller,event) {
+	var select_type = document.getElementById("perm_type_user");
+	var select_user = document.getElementById("perm_user");
+	
+	var type = select_type.options[select_type.selectedIndex].value;
+	var uid = select_user.options[select_user.selectedIndex].value;
+
+	ajaxCommand(caller,event,"pa"+"---"+"u"+"---"+uid+"---"+type+":target_detect");
+}
+
+function addPermGroup(caller,event) {
+	var select_type = document.getElementById("perm_type_group");
+	var select_group = document.getElementById("perm_group");
+	
+	var type = select_type.options[select_type.selectedIndex].value;
+	var gid = select_group.options[select_group.selectedIndex].value;
+
+	ajaxCommand(caller,event,"pa"+"---"+"g"+"---"+gid+"---"+type+":target_detect");
+}
+
+function addTag(caller,event) {
+	var select_tag = document.getElementById("tag_id");
+	var input_comment = document.getElementById("tag_comment");
+	
+	var comment = input_comment.value;
+	comment = comment.replace(/---/g,"");
+	comment = comment.replace(/:/g,"");
+	
+	var tid = select_tag.options[select_tag.selectedIndex].value;
+	
+	ajaxCommand(caller,event,"ta"+"---"+tid+"---"+comment+":target_detect");
+}
+
+function deactivateTips() {
+	$("#tiptip_holder").fadeOut();
+}
+
+
+
+
+
+function processAutoRefresh() {
+	if ($('.ajax-refresh').length)
+	{	
+		$('.ajax-refresh').each(function (index,element) {
+		
+			sendAjaxCommand(null,"noop:"+$(this).attr('id'),false);
+		});
+		
+		setTimeout('processAutoRefresh()',5000);
+	}
+}
+
+
+function initAutoRefresh() {
+	
+	processAutoRefresh();
+		
+	if (typeof adaptDynamics != "undefined") {
+		adaptDynamics();
+	}
+}                    
+       
+var coords_syncing = false;
+
+function setCoords(){
+    
+    var myPageX;
+    var myPageY;
+    
+    if (document.all)
+    {
+        myPageX = document.body.scrollLeft;
+        myPageY = document.body.scrollTop;
+    }
+    else
+    {
+        myPageX = window.pageXOffset;
+        myPageY = window.pageYOffset;
+    }
+	
+	sendAjaxCommand(null,"coords_"+myPageX+"_"+myPageY+":null");
+
+	coords_syncing = false;
+}  
+
+function setAccordionLastActive(index){
+    sendAjaxCommand(null,"accordion_last_"+index+":null");
+} 
+
+function onScrollTasks() {
+	if (!coords_syncing)
+	{
+		setTimeout('setCoords()',2000);
+		coords_syncing = true;
+	}
+}
+
+function onLoadTasks(){
+	initAutoRefresh();
+}
+                    
+$(window).load(onLoadTasks)
+$(window).scroll(onScrollTasks).resize(onScrollTasks)
+// decloak </script>
+<div id="ajax_message"></div>
+
+
+
+
+<table style="width: 100%;">
+	<tbody><tr>
+		<td align="center">
+			<table border="0" class="pdhs_nofill system_frame">
+				<tbody><tr>
+					<td colspan="2">
+						&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td class="system_left">
+						<table cellspacing="0" cellpadding="0" class="white_border_system">
+							<tbody><tr>
+								<td class="white_frame_top_left">
+									<div class="white_corner_top_left"></div>
+								</td>
+								<td class="white_frame_top">
+								</td>
+								<td class="white_frame_top_right">
+									<div class="white_corner_top_right"></div>
+								</td>
+							</tr>
+							<tr>
+								<td class="white_frame_left"></td>
+								<td class="white_frame_center" align="left">
+									<!-- start white frame content -->
+									<table class="sleazy" cellspacing="5" cellpadding="5">
+	<tbody><tr>
+		<td align="center" class="change_locale_sleazy">
+			<a class="language_sel" href="ChangeParameterServlet?action=change_locale&amp;locale_id=2">-<br>Deutsch</a>
+		</td>
+		<td align="center" class="change_locale_sleazy">
+			<a class="language" href="ChangeParameterServlet?action=change_locale&amp;locale_id=3">-<br>English</a>
+		</td>
+	</tr>
+</tbody></table>
+
+
+									<br>
+									<table cellspacing="0" cellpadding="0" class="pdhs_nofill login_classic_frame">
+	<tbody><tr>
+		<td class="login_classic_frame_top_left">
+			<div class="login_classic_corner_top_left"></div>
+		</td>
+		<td class="login_classic_frame_top">
+			LOGIN:
+		</td>
+		<td class="login_classic_frame_top_right">
+			<div class="login_classic_corner_top_right"></div>
+		</td>
+	</tr>
+	<tr>
+		<td class="login_classic_frame_left"></td>
+		<td class="login_classic_frame_center" align="center">
+			<br>
+			<div id="li_wait" class="login_wait">
+				<table class="pdhs_nofill">
+					<tbody><tr>
+						<td>
+							-
+						</td>
+						<td style="white-space: nowrap; padding-left: 4px;">
+							bitte warten ..
+						</td>
+					</tr>
+				</tbody></table>
+			</div>
+			<div id="li_inact" class="login_without_js" style="width: 200px; display: none;">
+				<span class="login_warning">JavaScript ist nicht aktiviert.<br>Kein Login möglich!</span>
+				<br>
+				<br>
+				<a class="login_classic" href="js_hint.jsp"><span style="font-weight: normal;">Wie aktiviere ich JavaScript?</span> </a>
+			</div>
+			<div id="li_act" class="login_with_js" style="display: block;">
+				<form name="lif" action="APServlet" method="POST" onsubmit="apr()">
+					<input type="hidden" name="li" value="true">
+					<input type="hidden" name="lit" value="">
+					<input type="hidden" name="aid" value="c03f9b6498651a2a361e94e2a40439d9394fafc3">
+					<input type="hidden" name="epw" value="">
+					<input type="hidden" name="eunm" value="">
+					<table class="pdhs_nofill">
+						<tbody><tr>
+							<td colspan="2">
+								<table class="pdhs_fill">
+									<tbody><tr>
+										<td class="login_classic_bold" align="right">
+											Benutzer:
+										</td>
+										<td>
+											<input type="text" name="unm" style="width: 100px;">
+										</td>
+									</tr>
+									<tr>
+										<td class="login_classic_bold" align="right">
+											Passwort:
+										</td>
+										<td>
+											<input type="password" name="cpw" style="width: 100px;">
+										</td>
+									</tr>
+								</tbody></table>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td class="login_classic_no_wrap">
+								<a class="pdhs_button_small ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" href="TagControlServlet?action=modify&amp;identifier=LoginTag&amp;key=block&amp;value=lost_pw" role="button"><span class="ui-button-text">Passwort vergessen</span></a>
+							</td>
+							<td align="right">
+								<input class="pdhs_button_bold ui-button ui-widget ui-state-default ui-corner-all" type="submit" name="login" value="LOGIN" role="button" aria-disabled="false">
+							</td>
+						</tr>
+					</tbody></table>
+				</form>
+			</div>
+		</td>
+		<td class="login_classic_frame_right"></td>
+	</tr>
+	<tr>
+		<td class="login_classic_frame_bottom_left">
+			<div class="login_classic_corner_bottom_left"></div>
+		</td>
+		<td class="login_classic_frame_bottom"></td>
+		<td class="login_classic_frame_bottom_right">
+			<div class="login_classic_corner_bottom_right"></div>
+		</td>
+	</tr>
+</tbody></table>
+
+									<br>
+									
+										
+									
+									<!-- end white frame content -->
+								</td>
+								<td class="white_frame_right"></td>
+							</tr>
+							<tr>
+								<td class="white_frame_bottom_left">
+									<div class="white_corner_bottom_left"></div>
+								</td>
+								<td class="white_frame_bottom"></td>
+								<td class="white_frame_bottom_right">
+									<div class="white_corner_bottom_right"></div>
+								</td>
+							</tr>
+						</tbody></table>
+
+					</td>
+					<td class="system_right" align="center">
+						<table cellspacing="0" cellpadding="0" class="white_border_system">
+							<tbody><tr>
+								<td class="white_frame_top_left">
+									<div class="white_corner_top_left"></div>
+								</td>
+								<td class="white_frame_top">
+								</td>
+								<td class="white_frame_top_right">
+									<div class="white_corner_top_right"></div>
+								</td>
+							</tr>
+							<tr>
+								<td class="white_frame_left"></td>
+								<td class="white_frame_center">
+									<!-- start white frame content -->
+									
+
+<!-- content begin page:PageBean-70-init position:1 -->
+
+
+
+
+<br>
+<table class="pdhs_fill">
+	<tbody><tr>
+		<td style="vertical-align: top;">
+			<br><br>
+			<b>Die von Ihnen eingegebene URL verweist zwar auf diesen Server, ist jedoch zu keinem entsprechenden Auftritt konfiguriert.</b>
+		</td>
+		<td align="right">
+			-
+		</td>
+	</tr>
+</tbody></table><br>
+
+
+<!-- content end page:PageBean-70-init position:1 -->
+
+
+									<!-- end white frame content -->
+								</td>
+								<td class="white_frame_right"></td>
+							</tr>
+							<tr>
+								<td class="white_frame_bottom_left">
+									<div class="white_corner_bottom_left"></div>
+								</td>
+								<td class="white_frame_bottom"></td>
+								<td class="white_frame_bottom_right">
+									<div class="white_corner_bottom_right"></div>
+								</td>
+							</tr>
+						</tbody></table>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+
+
+<br>
+
+<br>
+<br>
+</div>
+
+
+<div id="tiptip_holder" style="max-width:200px;"><div id="tiptip_arrow"><div id="tiptip_arrow_inner"></div></div><div id="tiptip_content"></div></div></body></html>

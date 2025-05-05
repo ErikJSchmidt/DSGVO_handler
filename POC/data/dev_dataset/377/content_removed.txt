@@ -1,0 +1,55 @@
+   Cookies & Data Consent  We use cookies to personalise content and ads, to
+                provide social media features and to analyse our traffic. We also share information about your use of
+                our site with our social media, advertising and analytics partners who may combine it with other
+                information that you’ve provided to them or that they’ve collected from your use of their services.     Do not sell or share my personal
+                information   Use
+            necessary cookies only Allow all cookies Show details   OK  Use necessary cookies only Allow
+                selection Allow all cookies        Necessary    Preferences    Statistics    Marketing   Show details         Cookie declaration [#IABV2SETTINGS#] About      Necessary
+                            (7)   Preferences
+                            (1)   Statistics
+                            (7)   Marketing (13)   Unclassified (0)    Necessary cookies help
+                                    make a website usable by enabling basic functions like page navigation and access to
+                                    secure areas of the website. The website cannot function properly without these
+                                    cookies.      Name  Provider  Purpose  Expiry  Type      hl-theme-settings  contao.hl-studios.de  Stores the user's theme choice  Persistent  HTML    JSESSIONID  Vimeo   Preserves users
+                                                states across page requests.  Session  HTTP    __cf_bm  Vimeo   This cookie is used to distinguish between humans and bots. This is
+                                                beneficial for the website, in order to make valid reports on the use of
+                                                their website.  1 day  HTTP    CookieConsent  Cookiebot  Stores the user's cookie consent state for the current domain  440 months  HTTP    csrf_https-contao_csrf_token  www.hl-studios.de  Ensures visitor browsing-security by preventing cross-site request
+                                                forgery. This cookie is essential for the security of the website and
+                                                visitor.  Session  HTTP    PHPSESSID  www.hl-studios.de  Preserves
+                                                user session state across page requests.  Session  HTTP    CONSENT  YouTube   Used to detect if the visitor has accepted the marketing category in the
+                                                cookie banner. This cookie is necessary for GDPR-compliance of the
+                                                website.  2 years  HTTP        Preference cookies
+                                    enable a website to remember information that changes the way the website behaves or
+                                    looks, like your preferred language or the region that you are in.      Name  Provider  Purpose  Expiry  Type      locale  Personio   The cookie determines the preferred language and country-setting of the
+                                                visitor - This allows the website to show content most relevant to that
+                                                region and language.  Session  HTTP        Statistic cookies help
+                                    website owners to understand how visitors interact with websites by collecting and
+                                    reporting information anonymously.      Name  Provider  Purpose  Expiry  Type      collect  Google   Used to send data to Google Analytics about the visitor's device and
+                                                behavior. Tracks the visitor across devices and marketing channels.  Session  Pixel    _ga  Google   Registers a unique ID that is used to generate statistical data on how
+                                                the visitor uses the website.  2 years  HTTP    _ga_#  Google   Used by Google Analytics to collect data on the number of times a user
+                                                has visited the website as well as dates for the first and most recent
+                                                visit.  2 years  HTTP    _gat  Google   Used by Google
+                                                Analytics to throttle request rate  1 day  HTTP    _gid  Google   Registers a unique ID that is used to generate statistical data on how
+                                                the visitor uses the website.  1 day  HTTP    vuid  Vimeo   Collects data on the user's visits to the website, such as which pages
+                                                have been read.  2 years  HTTP    td  Google   Registers statistical data on users' behaviour on the website. Used for
+                                                internal analytics by the website operator.  Session  Pixel        Marketing cookies are
+                                    used to track visitors across websites. The intention is to display ads that are
+                                    relevant and engaging for the individual user and thereby more valuable for
+                                    publishers and third party advertisers.      Name  Provider  Purpose  Expiry  Type      LAST_RESULT_ENTRY_KEY  YouTube   Used to
+                                                track user’s interaction with embedded content.  Session  HTTP    nextId  YouTube   Used to
+                                                track user’s interaction with embedded content.  Session  HTTP    requests  YouTube   Used to
+                                                track user’s interaction with embedded content.  Session  HTTP    yt.innertube::nextId  YouTube   Registers a unique ID to keep statistics of what videos from YouTube the
+                                                user has seen.  Persistent  HTML    ytidb::LAST_RESULT_ENTRY_KEY  YouTube   Used to
+                                                track user’s interaction with embedded content.  Persistent  HTML    YtIdbMeta#databases  YouTube   Used to
+                                                track user’s interaction with embedded content.  Persistent  IDB    yt-remote-cast-available  YouTube   Stores the user's video player preferences using embedded YouTube video  Session  HTML    yt-remote-cast-installed  YouTube   Stores the user's video player preferences using embedded YouTube video  Session  HTML    yt-remote-connected-devices  YouTube   Stores the user's video player preferences using embedded YouTube video  Persistent  HTML    yt-remote-device-id  YouTube   Stores the user's video player preferences using embedded YouTube video  Persistent  HTML    yt-remote-fast-check-period  YouTube   Stores the user's video player preferences using embedded YouTube video  Session  HTML    yt-remote-session-app  YouTube   Stores the user's video player preferences using embedded YouTube video  Session  HTML    yt-remote-session-name  YouTube   Stores the user's video player preferences using embedded YouTube video  Session  HTML        Unclassified cookies
+                                    are cookies that we are in the process of classifying, together with the providers
+                                    of individual cookies.      We do
+                                                not use cookies of this type.             [#IABV2_LABEL_PURPOSES#]   [#IABV2_LABEL_FEATURES#]   [#IABV2_LABEL_PARTNERS#]    [#IABV2_BODY_PURPOSES#]    [#IABV2_BODY_FEATURES#]    [#IABV2_BODY_PARTNERS#]      Cookies are small text files that can
+                    be used by websites to make a user's experience more efficient. The law
+                    states that we can store cookies on your device if they are strictly necessary for the operation of
+                    this site. For all other types of cookies we need your permission. This
+                    site uses different types of cookies. Some cookies are placed by third party services that appear on
+                    our pages. You can at any time change or withdraw your consent from the
+                    Cookie Declaration on our website. Learn more about who we are, how you can
+                    contact us and how we process personal data in our Privacy Policy. Please
+                    state your consent ID and date when you contact us regarding your consent.   Cookie declaration last updated on 5/2/23 by Cookiebot    

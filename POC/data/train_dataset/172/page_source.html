@@ -1,0 +1,996 @@
+<html lang="de-DE"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=0.75, minimum-scale=0.75">
+<meta name="google-site-verification" content="MQMBii6OGqykMaz7Mb__8vJtGlb6XFq22SkgQcLeprQ">
+<link rel="shortcut icon" href="https://www.antsandelephants.de/wp-content/themes/antsandelephants/img/favicon.ico">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://www.antsandelephants.de/xmlrpc.php">
+<link rel="stylesheet" href="https://www.antsandelephants.de/wp-content/themes/antsandelephants/font-awesome.css">
+<link rel="stylesheet" href="https://www.antsandelephants.de/wp-content/themes/antsandelephants/css/magnific-popup.css">
+<link rel="stylesheet" href="https://www.antsandelephants.de/wp-content/themes/antsandelephants/css/flexslider.css">
+<link rel="stylesheet" href="https://www.antsandelephants.de/wp-content/themes/antsandelephants/css/featherlight.min.css">
+
+<script src="https://www.antsandelephants.de/wp-content/themes/antsandelephants/js/jquery-1.11.3.min.js"></script>
+<script src="https://www.antsandelephants.de/wp-content/themes/antsandelephants/js/isotope.pkgd.js"></script>
+<script src="https://www.antsandelephants.de/wp-content/themes/antsandelephants/js/jquery.magnific-popup.js"></script>
+<script src="https://www.antsandelephants.de/wp-content/themes/antsandelephants/js/jquery.flexslider-min.js"></script>
+<script src="https://www.antsandelephants.de/wp-content/themes/antsandelephants/js/featherlight.min.js"></script>
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+	$('.lightbox-popup').magnificPopup({
+		type: 'ajax',
+		overflowY: 'scroll',
+		
+		gallery: {
+			// options for gallery
+			enabled: true
+		  }
+	});
+	
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function () {
+    var visible=true;
+    $("#toggle").on('click', function() { 
+        $('#menu-wrapper').animate({width: visible ? 890 : 0}, "fast");
+        visible=!visible;    
+    });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $rotated = false;
+    $('#toggle').click(function(){
+       $(this).toggleClass('rotate');
+	   $('#menu-wrapper').toggleClass('rotate');
+    });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready( function() {
+  
+  $('.grid').isotope({
+    itemSelector: '.box',
+	isOriginLeft: false,
+	stamp: '.fixed',
+	getSortData: {
+    	number: '.sortby parseInt'},
+	sortBy: ['number', 'random'],
+    masonry: {
+      columnWidth: 250,
+	  gutter: 20
+    }
+  });
+
+});
+</script>
+
+<script src="https://www.antsandelephants.de/wp-includes/js/wp-emoji-release.min.js?ver=6.1.1" type="text/javascript" defer=""></script><link href="https://www.antsandelephants.de/wp-content/uploads/complianz/css/banner-1-optin.css?v=49" type="text/css" rel="stylesheet"></head><body data-cmplz="1" class="home blog desktop group-blog hfeed cmplz-functional cmplz-eu cmplz-optin"><div id="cmplz-cookiebanner-container"><div class="cmplz-cookiebanner banner-1 optin cmplz-bottom-right cmplz-categories-type-save-preferences cmplz-show" aria-modal="true" data-nosnippet="true" role="dialog" aria-live="polite" aria-labelledby="cmplz-header-1-optin" aria-describedby="cmplz-message-1-optin">
+	<div class="cmplz-header">
+		<div class="cmplz-logo"></div>
+		<div class="cmplz-title" id="cmplz-header-1-optin">Cookie-Zustimmung verwalten</div>
+		<div class="cmplz-close" tabindex="0" role="button" aria-label="close-dialog">
+			<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+		</div>
+	</div>
+
+	<div class="cmplz-divider cmplz-divider-header"></div>
+	<div class="cmplz-body">
+		<div class="cmplz-message" id="cmplz-message-1-optin">Um Ihnen ein optimales Erlebnis zu bieten, verwenden wir Technologien wie Cookies, um Geräteinformationen zu speichern und/oder darauf zuzugreifen. Wenn Sie diesen Technologien zustimmen, können wir Daten wie das Surfverhalten oder eindeutige IDs auf dieser Website verarbeiten. Wenn Sie Ihre Zustimmung nicht erteilen oder zurückziehen, können bestimmte Merkmale und Funktionen beeinträchtigt werden.</div>
+		<!-- categories start -->
+		<div class="cmplz-categories">
+			<details class="cmplz-category cmplz-functional">
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Funktional</span>
+							<span class="cmplz-always-active">
+								<span class="cmplz-banner-checkbox">
+									<input type="checkbox" id="cmplz-functional-optin" data-category="cmplz_functional" class="cmplz-consent-checkbox cmplz-functional" size="40" value="1">
+									<label class="cmplz-label" for="cmplz-functional-optin" tabindex="0"><span class="screen-reader-text">Funktional</span></label>
+								</span>
+								Immer aktiv							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-functional">Die technische Speicherung oder der Zugang ist unbedingt erforderlich für den rechtmäßigen Zweck, die Nutzung eines bestimmten Dienstes zu ermöglichen, der vom Teilnehmer oder Nutzer ausdrücklich gewünscht wird, oder für den alleinigen Zweck, die Übertragung einer Nachricht über ein elektronisches Kommunikationsnetz durchzuführen.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-preferences">
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Vorlieben</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox" id="cmplz-preferences-optin" data-category="cmplz_preferences" class="cmplz-consent-checkbox cmplz-preferences" size="40" value="1">
+								<label class="cmplz-label" for="cmplz-preferences-optin" tabindex="0"><span class="screen-reader-text">Vorlieben</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-preferences">Die technische Speicherung oder der Zugriff ist für den rechtmäßigen Zweck der Speicherung von Präferenzen erforderlich, die nicht vom Abonnenten oder Benutzer angefordert wurden.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-statistics">
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Statistiken</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox" id="cmplz-statistics-optin" data-category="cmplz_statistics" class="cmplz-consent-checkbox cmplz-statistics" size="40" value="1">
+								<label class="cmplz-label" for="cmplz-statistics-optin" tabindex="0"><span class="screen-reader-text">Statistiken</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-statistics">Die technische Speicherung oder der Zugriff, der ausschließlich zu statistischen Zwecken erfolgt.</span>
+					<span class="cmplz-description-statistics-anonymous">Die technische Speicherung oder der Zugriff, der ausschließlich zu anonymen statistischen Zwecken verwendet wird. Ohne eine Vorladung, die freiwillige Zustimmung deines Internetdienstanbieters oder zusätzliche Aufzeichnungen von Dritten können die zu diesem Zweck gespeicherten oder abgerufenen Informationen allein in der Regel nicht dazu verwendet werden, dich zu identifizieren.</span>
+				</div>
+			</details>
+			<details class="cmplz-category cmplz-marketing">
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Marketing</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox" id="cmplz-marketing-optin" data-category="cmplz_marketing" class="cmplz-consent-checkbox cmplz-marketing" size="40" value="1">
+								<label class="cmplz-label" for="cmplz-marketing-optin" tabindex="0"><span class="screen-reader-text">Marketing</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-marketing">Die technische Speicherung oder der Zugriff ist erforderlich, um Nutzerprofile zu erstellen, um Werbung zu versenden oder um den Nutzer auf einer Website oder über mehrere Websites hinweg zu ähnlichen Marketingzwecken zu verfolgen.</span>
+				</div>
+			</details>
+		</div><!-- categories end -->
+			</div>
+
+	<div class="cmplz-links cmplz-information">
+		<a class="cmplz-link cmplz-manage-options cookie-statement" href="/datenschutzerklaerung#cmplz-manage-consent-container" data-relative_url="#cmplz-manage-consent-container">Optionen verwalten</a>
+		<a class="cmplz-link cmplz-manage-third-parties cookie-statement" href="/datenschutzerklaerung#cmplz-cookies-overview" data-relative_url="#cmplz-cookies-overview">Dienste verwalten</a>
+		<a class="cmplz-link cmplz-manage-vendors tcf cookie-statement" href="/datenschutzerklaerung#cmplz-tcf-wrapper" data-relative_url="#cmplz-tcf-wrapper">Anbieter verwalten</a>
+		<a class="cmplz-link cmplz-external cmplz-read-more-purposes tcf" target="_blank" rel="noopener noreferrer nofollow" href="https://cookiedatabase.org/tcf/purposes/">Lese mehr über diese Zwecke</a>
+			</div>
+
+	<div class="cmplz-divider cmplz-footer"></div>
+
+	<div class="cmplz-buttons">
+		<button class="cmplz-btn cmplz-accept">Akzeptieren</button>
+		<button class="cmplz-btn cmplz-deny">Ablehnen</button>
+		<button class="cmplz-btn cmplz-view-preferences">Einstellungen anzeigen</button>
+		<button class="cmplz-btn cmplz-save-preferences">Speichern</button>
+		<a class="cmplz-btn cmplz-manage-options tcf cookie-statement" href="/datenschutzerklaerung#cmplz-manage-consent-container" data-relative_url="#cmplz-manage-consent-container">Einstellungen anzeigen</a>
+			</div>
+
+	<div class="cmplz-links cmplz-documents">
+		<a class="cmplz-link cookie-statement" href="/datenschutzerklaerung" data-relative_url="">Cookie-Richtlinie</a>
+		<a class="cmplz-link privacy-statement" href="/datenschutzerklaerung" data-relative_url="">Datenschutzerklärung</a>
+		<a class="cmplz-link impressum" href="/impressum" data-relative_url="">Impressum</a>
+			</div>
+
+</div>
+</div><div id="fb-root"></div>
+<script type="text/plain" data-service="facebook" data-category="marketing">(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v2.8&appId=179648659040212";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+	<!-- This site is optimized with the Yoast SEO plugin v19.13 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>antsandelephants - Werbeagentur und Fotostudio in Bayreuth</title>
+	<meta name="description" content="Als Werbeagentur und Internetagentur in Bayreuth erstellen wir maßgeschneiderte Lösungen im Print- und Onlinebereich. Webdesign, Printdesign, Corporate Identity, Markenbildung, Fotografie und Katalogerstellung werden bei uns auf effizienteste Weise verknüpft.">
+	<link rel="canonical" href="https://www.antsandelephants.de/">
+	<meta property="og:locale" content="de_DE">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="antsandelephants">
+	<meta property="og:description" content="Als Werbeagentur und Internetagentur in Bayreuth erstellen wir maßgeschneiderte Lösungen im Print- und Onlinebereich. Webdesign, Printdesign, Corporate Identity, Markenbildung, Fotografie und Katalogerstellung werden bei uns auf effizienteste Weise verknüpft.">
+	<meta property="og:url" content="https://www.antsandelephants.de/">
+	<meta property="og:site_name" content="antsandelephants">
+	<meta name="twitter:card" content="summary_large_image">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"https://www.antsandelephants.de/","url":"https://www.antsandelephants.de/","name":"antsandelephants - Werbeagentur und Fotostudio in Bayreuth","isPartOf":{"@id":"https://www.antsandelephants.de/#website"},"description":"Als Werbeagentur und Internetagentur in Bayreuth erstellen wir maßgeschneiderte Lösungen im Print- und Onlinebereich. Webdesign, Printdesign, Corporate Identity, Markenbildung, Fotografie und Katalogerstellung werden bei uns auf effizienteste Weise verknüpft.","breadcrumb":{"@id":"https://www.antsandelephants.de/#breadcrumb"},"inLanguage":"de-DE"},{"@type":"BreadcrumbList","@id":"https://www.antsandelephants.de/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Startseite"}]},{"@type":"WebSite","@id":"https://www.antsandelephants.de/#website","url":"https://www.antsandelephants.de/","name":"antsandelephants","description":"Werbeagentur und Fotostudio in Bayreuth","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.antsandelephants.de/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"de-DE"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="antsandelephants » Feed" href="https://www.antsandelephants.de/feed/">
+<link rel="alternate" type="application/rss+xml" title="antsandelephants » Kommentar-Feed" href="https://www.antsandelephants.de/comments/feed/">
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.antsandelephants.de\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="https://www.antsandelephants.de/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1" type="text/css" media="all">
+<link rel="stylesheet" id="classic-theme-styles-css" href="https://www.antsandelephants.de/wp-includes/css/classic-themes.min.css?ver=1" type="text/css" media="all">
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="contact-form-7-css" href="https://www.antsandelephants.de/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.7.2" type="text/css" media="all">
+<link rel="stylesheet" id="cmplz-general-css" href="https://www.antsandelephants.de/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=6.3.9" type="text/css" media="all">
+<link rel="stylesheet" id="antsandelephants-style-css" href="https://www.antsandelephants.de/wp-content/themes/antsandelephants/style.css?ver=6.1.1" type="text/css" media="all">
+<script type="text/javascript" src="https://www.antsandelephants.de/wp-includes/js/jquery/jquery.min.js?ver=3.6.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://www.antsandelephants.de/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://www.antsandelephants.de/wp-json/"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.antsandelephants.de/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.antsandelephants.de/wp-includes/wlwmanifest.xml">
+<meta name="generator" content="WordPress 6.1.1">
+<style>.cmplz-hidden{display:none!important;}</style><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+
+
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<header id="masthead" class="site-header" role="banner">
+		
+        <!-- <div class="logo"><a href="https://www.antsandelephants.de/" rel="home"><img src="https://www.antsandelephants.de/wp-content/themes/antsandelephants/img/antsandelephants_mobile-logo.png" alt="antsandelephants - Werbeagentur und Fotostudio"></a></div> -->
+        
+        <div class="navi-wrapper">
+        
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+        <div id="toggle-wrapper"><div id="toggle"><i class="fa fa-bars"></i></div></div>
+            
+            <div class="menu-hauptnavigation-container"><div id="menu-wrapper"><ul id="primary-menu" class="menu"><li id="menu-item-3019" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3019"><a href="https://www.antsandelephants.de" aria-current="page">Home</a></li>
+<li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="https://www.antsandelephants.de/projektuebersicht/">Projekte</a></li>
+<li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14"><a href="https://www.antsandelephants.de/werbeagentur/">Werbeagentur</a></li>
+<li id="menu-item-15" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15"><a href="https://www.antsandelephants.de/fotostudio/">Fotostudio</a></li>
+<li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="https://www.antsandelephants.de/team/">Team</a></li>
+<li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16"><a href="https://www.antsandelephants.de/kontakt/">Kontakt</a></li>
+</ul></div></div>		</nav><!-- #site-navigation -->
+        
+        <div id="mobile-top-navigation">
+                               
+                <a href="#" class="mobile-link"><i class="fa fa-bars"></i></a>
+                
+                <nav id="mobile-navi" class="mobile-navi">
+				
+				<div class="menu-hauptnavigation-container"><ul id="mobile-primary-menu" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3019"><a href="https://www.antsandelephants.de" aria-current="page">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="https://www.antsandelephants.de/projektuebersicht/">Projekte</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14"><a href="https://www.antsandelephants.de/werbeagentur/">Werbeagentur</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15"><a href="https://www.antsandelephants.de/fotostudio/">Fotostudio</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="https://www.antsandelephants.de/team/">Team</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16"><a href="https://www.antsandelephants.de/kontakt/">Kontakt</a></li>
+</ul></div>                
+                </nav>
+                
+		</div>
+        
+        <div class="desktop-backlinks">
+                </div>
+        
+        <div class="mobile-backlinks">
+        <div class="back-link"><div id="crumbs"><span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="https://www.antsandelephants.de/">Home</a></span></div>
+        </div>
+        
+        </div>
+       
+        
+	</div></header><!-- #masthead -->
+
+	<div id="content" class="site-content">
+    
+    	<div id="content-wrapper">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		<div class="grid" style="position: relative; height: 7560px;">
+        
+  
+        
+  <div class="box fixed fixed1" id="logofeld" style="position: absolute;">
+  	<a href="https://www.antsandelephants.de/" rel="home"><img src="https://www.antsandelephants.de/wp-content/themes/antsandelephants/img/antsandelephants-werbeagentur-fotostudio-bayreuth.png" alt="antsandelephants - Werbeagentur und Fotostudio Bayreuth"></a>
+  </div>
+  
+  	        <div class="box fixed fixed2 big zitat" style="position: absolute;">
+            <div class="box-wrapper">
+				<h1>Wir wollen nicht wie die anderen sein. Unglücklicherweise geht es den anderen genauso. Es kommt also weniger darauf an, was man will, sondern eher auf das, was man kann.</h1>
+            </div>
+      </div>
+	  
+  
+  
+  	        <div class="box small zitat" style="position: absolute; right: 540px; top: 1080px;">
+            <div class="box-wrapper">
+           		You have to learn the rules of the game. And then you have to play better than anyone else.<br><br><small>Albert Einstein</small>            </div>
+        </div> 
+	  
+  	        <div class="box small zitat" style="position: absolute; right: 540px; top: 5940px;">
+            <div class="box-wrapper">
+           		Success is simple. Do what's right, the right way, at the right time.<br><br><br><br><small>Arnold H. Glasow</small>            </div>
+        </div> 
+	    
+  	        <div class="box small zitat" style="position: absolute; right: 0px; top: 3780px;">
+            <div class="box-wrapper">
+           		Design is the intermediary between information and understanding.<br><br><br><small>Richard Grefé</small>            </div>
+        </div> 
+	    
+  	        <div class="box small zitat" style="position: absolute; right: 270px; top: 5400px;">
+            <div class="box-wrapper">
+           		Man kann nicht nicht kommunizieren!<br><br><br><br><br><small>Paul Watzlawick</small>            </div>
+        </div> 
+	    
+  	        <div class="box small zitat" style="position: absolute; right: 540px; top: 7020px;">
+            <div class="box-wrapper">
+           		Ein Logo ist dann gut, wenn man es mit dem großen Zeh in den Sand kratzen kann.<br><br><br><small>Kurt Weidemann</small>            </div>
+        </div> 
+	  
+  <div class="box small facebook" style="position: absolute; right: 540px; top: 540px;">
+              	<div class="box-wrapper">
+                <img class="facebookicon" src="https://www.antsandelephants.de/wp-content/themes/antsandelephants/img/icon-facebook.png" style="width: 45px; height: 45px;">
+                <a href="https://www.facebook.com/antsandelephants" target="_blank">Folgen Sie uns<br>auf Facebook!<span class="box-link"></span></a>
+                </div>
+  </div>
+  
+   
+  	        <div class="box small blog" style="position: absolute; right: 540px; top: 2430px;">
+        <p class="sortby">1</p>
+            <div class="box-wrapper">
+            	 
+                 <div class="fototext">
+                 	<span>ants bei Stefan Marquard im Liebesbier Bayreuth</span>
+                 </div>
+                 
+                 <div class="blog-tag"></div>
+                 <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/antsandelephants_werbeagentur_stefan-marquard-liebesbier-300x300.jpg" width="300" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/antsandelephants_werbeagentur_stefan-marquard-liebesbier-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/antsandelephants_werbeagentur_stefan-marquard-liebesbier-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/antsandelephants_werbeagentur_stefan-marquard-liebesbier.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" data-lazy-loaded="true" style=""><noscript><img width="300" height="300" src="https://www.antsandelephants.de/wp-content/uploads/antsandelephants_werbeagentur_stefan-marquard-liebesbier-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/antsandelephants_werbeagentur_stefan-marquard-liebesbier-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/antsandelephants_werbeagentur_stefan-marquard-liebesbier-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/antsandelephants_werbeagentur_stefan-marquard-liebesbier.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" /></noscript><a href="https://www.antsandelephants.de/2017/02/20/stefan-marquard/ .blog-area" data-featherlight="ajax">ants bei Stefan Marquard im Liebesbier Bayreuth<span class="box-link"></span></a></div>
+             </div>
+         </div>
+	    
+    
+    	        <div class="box big projekt" style="position: absolute; right: 270px; top: 4050px;">
+        <p class="sortby">1</p>
+  			<div class="box-wrapper">
+				<div class="projekttext"><span><h3>Corporate Design HbK Bayreuth</h3></span></div>
+                                <div class="projektbg" style="background: url('https://www.antsandelephants.de/wp-content/uploads/ants_SM_HbK2.jpg') no-repeat"><a href="https://www.antsandelephants.de/projekte/corporate-design-hbk-bayreuth/"><span class="box-link"></span></a></div>
+            </div>
+        </div>
+	        <div class="box big projekt" style="position: absolute; right: 0px; top: 540px;">
+        <p class="sortby">1</p>
+  			<div class="box-wrapper">
+				<div class="projekttext"><span><h3>Gastronomie Bayreuther Festspiele</h3></span></div>
+                                <div class="projektbg" style="background: url('https://www.antsandelephants.de/wp-content/uploads/wahnfood_Bayreuther-Festpiele_neues-Corporate-Design_antsandelephants-Werbeagentur1.jpg') no-repeat"><a href="https://www.antsandelephants.de/projekte/gastronomie-bayreuther-festspiele/"><span class="box-link"></span></a></div>
+            </div>
+        </div>
+	        <div class="box big projekt" style="position: absolute; right: 0px; top: 2160px;">
+        <p class="sortby">1</p>
+  			<div class="box-wrapper">
+				<div class="projekttext"><span><h3>Bayerische Landesausstellung „Typisch Franken?“</h3></span></div>
+                                <div class="projektbg" style="background: url('https://www.antsandelephants.de/wp-content/uploads/antsandelephants-Werbeagentur-Bayreuth-Haus-der-bayerischen-Geschichte_Katalog.jpg') no-repeat"><a href="https://www.antsandelephants.de/projekte/bayerische-landesausstellung-typisch-franken/"><span class="box-link"></span></a></div>
+            </div>
+        </div>
+	        <div class="box big projekt" style="position: absolute; right: 0px; top: 6480px;">
+        <p class="sortby">1</p>
+  			<div class="box-wrapper">
+				<div class="projekttext"><span><h3>CDs für Yogastunden</h3></span></div>
+                                <div class="projektbg" style="background: url('https://www.antsandelephants.de/wp-content/uploads/MargaGeppert_CD-Yoga-Mistelgau_Werbeagentur.jpg') no-repeat"><a href="https://www.antsandelephants.de/projekte/cds-fuer-yogastunden/"><span class="box-link"></span></a></div>
+            </div>
+        </div>
+	        <div class="box big projekt" style="position: absolute; right: 0px; top: 5940px;">
+        <p class="sortby">1</p>
+  			<div class="box-wrapper">
+				<div class="projekttext"><span><h3>Wiesent-Challenge 03.10.2022</h3></span></div>
+                                <div class="projektbg" style="background: url('https://www.antsandelephants.de/wp-content/uploads/Wiesent-Cahllenge_neues-Corporate-Design_antsandelephants-Werbeagentur.jpg') no-repeat"><a href="https://www.antsandelephants.de/projekte/wiesent-challenge-03-10-2022/"><span class="box-link"></span></a></div>
+            </div>
+        </div>
+	        <div class="box big projekt" style="position: absolute; right: 0px; top: 1350px;">
+        <p class="sortby">1</p>
+  			<div class="box-wrapper">
+				<div class="projekttext"><span><h3>Website für Stadt Waischenfeld</h3></span></div>
+                                <div class="projektbg" style="background: url('https://www.antsandelephants.de/wp-content/uploads/Stadt-Waischenfeld_Website_Werbeagentur_850x850.jpg') no-repeat"><a href="https://www.antsandelephants.de/projekte/website-fuer-stadt-waischenfeld/"><span class="box-link"></span></a></div>
+            </div>
+        </div>
+	        <div class="box big projekt" style="position: absolute; right: 0px; top: 3240px;">
+        <p class="sortby">1</p>
+  			<div class="box-wrapper">
+				<div class="projekttext"><span><h3>Shopify Webdesign Entwicklung für Gustomo</h3></span></div>
+                                <div class="projektbg" style="background: url('https://www.antsandelephants.de/wp-content/uploads/Gustomo_Shopify_Werbeagentur_850x850_01.jpg') no-repeat"><a href="https://www.antsandelephants.de/projekte/shopify-webdesign-entwicklung-fuer-gustomo/"><span class="box-link"></span></a></div>
+            </div>
+        </div>
+	        <div class="box big projekt" style="position: absolute; right: 270px; top: 4860px;">
+        <p class="sortby">1</p>
+  			<div class="box-wrapper">
+				<div class="projekttext"><span><h3>Neu in Bayreuth – Frozen Mountain Yoghurt Bar</h3></span></div>
+                                <div class="projektbg" style="background: url('https://www.antsandelephants.de/wp-content/uploads/Frozen-Mountain-Bayreuth_Website_Werbeagentur_850x850_01.jpg') no-repeat"><a href="https://www.antsandelephants.de/projekte/neu-in-bayreuth-frozen-mountain-yoghurt-bar/"><span class="box-link"></span></a></div>
+            </div>
+        </div>
+	        <div class="box big projekt" style="position: absolute; right: 0px; top: 2700px;">
+        <p class="sortby">1</p>
+  			<div class="box-wrapper">
+				<div class="projekttext"><span><h3>Entwicklung eines Onlineshops für Handwerker und Heimwerker</h3></span></div>
+                                <div class="projektbg" style="background: url('https://www.antsandelephants.de/wp-content/uploads/Suchy-Bayreuth_Website_Werbeagentur_850x850_01.jpg') no-repeat"><a href="https://www.antsandelephants.de/projekte/entwicklung-eines-onlineshops-fuer-handwerker-und-heimwerker/"><span class="box-link"></span></a></div>
+            </div>
+        </div>
+	        <div class="box small projekt" style="position: absolute; right: 540px; top: 2970px;">
+        <p class="sortby">1</p>
+  			<div class="box-wrapper">
+				<div class="projekttext"><span><h3>Hotel Website mit WordPress für Hotel Central</h3></span></div>
+                                <div class="projektbg" style="background: url('https://www.antsandelephants.de/wp-content/uploads/HotelCentral_Website_Werbeagentur_850x850.jpg') no-repeat"><a href="https://www.antsandelephants.de/projekte/hotel-website-mit-wordpress-fuer-hotel-central/"><span class="box-link"></span></a></div>
+            </div>
+        </div>
+	    
+    	         <div class="box small ants" style="position: absolute; right: 270px; top: 3780px;">
+         	<p class="sortby">1</p>
+            <div class="box-wrapper">
+                <div class="ants-name">
+                	<div class="name">Steffi Kühn</div>
+					<div class="position">Verwaltung / Buchhaltung</div>   
+                </div>
+                
+                <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/steffi2-300x300.jpg" width="300" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/steffi2-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/steffi2-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/steffi2.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" data-lazy-loaded="true" style=""><noscript><img width="300" height="300" src="https://www.antsandelephants.de/wp-content/uploads/steffi2-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/steffi2-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/steffi2-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/steffi2.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" /></noscript><a href="https://www.antsandelephants.de/team/steffi-kuehn/"><span class="box-link"></span></a></div>
+                
+            </div>
+  		</div>
+	         <div class="box small ants" style="position: absolute; right: 540px; top: 6750px;">
+         	<p class="sortby">1</p>
+            <div class="box-wrapper">
+                <div class="ants-name">
+                	<div class="name">Michaela Bautista</div>
+					<div class="position">Webentwicklerin</div>   
+                </div>
+                
+                <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/michi_profil_36-1-300x300.jpg" width="300" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/michi_profil_36-1-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/michi_profil_36-1-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/michi_profil_36-1.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" data-lazy-loaded="true" style=""><noscript><img width="300" height="300" src="https://www.antsandelephants.de/wp-content/uploads/michi_profil_36-1-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/michi_profil_36-1-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/michi_profil_36-1-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/michi_profil_36-1.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" /></noscript><a href="https://www.antsandelephants.de/team/michaela-bautista/"><span class="box-link"></span></a></div>
+                
+            </div>
+  		</div>
+	         <div class="box small ants" style="position: absolute; right: 540px; top: 3510px;">
+         	<p class="sortby">1</p>
+            <div class="box-wrapper">
+                <div class="ants-name">
+                	<div class="name">Sandra Iannone</div>
+					<div class="position">Mediengestalterin</div>   
+                </div>
+                
+                <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/sandra_NEU_web-300x300.jpg" width="300" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/sandra_NEU_web-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/sandra_NEU_web-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/sandra_NEU_web.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" data-lazy-loaded="true" style=""><noscript><img width="300" height="300" src="https://www.antsandelephants.de/wp-content/uploads/sandra_NEU_web-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/sandra_NEU_web-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/sandra_NEU_web-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/sandra_NEU_web.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" /></noscript><a href="https://www.antsandelephants.de/team/sandra-iannone/"><span class="box-link"></span></a></div>
+                
+            </div>
+  		</div>
+	         <div class="box small ants" style="position: absolute; right: 540px; top: 6210px;">
+         	<p class="sortby">1</p>
+            <div class="box-wrapper">
+                <div class="ants-name">
+                	<div class="name">Hanna Hofmann</div>
+					<div class="position">Geschäftsführerin, Fotografin</div>   
+                </div>
+                
+                <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/antsandelephants_hanna_hofmann-300x300.jpg" width="300" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/antsandelephants_hanna_hofmann-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/antsandelephants_hanna_hofmann-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/antsandelephants_hanna_hofmann.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" data-lazy-loaded="true" style=""><noscript><img width="300" height="300" src="https://www.antsandelephants.de/wp-content/uploads/antsandelephants_hanna_hofmann-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/antsandelephants_hanna_hofmann-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/antsandelephants_hanna_hofmann-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/antsandelephants_hanna_hofmann.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" /></noscript><a href="https://www.antsandelephants.de/team/hanna-hofmann/"><span class="box-link"></span></a></div>
+                
+            </div>
+  		</div>
+	         <div class="box small ants" style="position: absolute; right: 0px; top: 4590px;">
+         	<p class="sortby">1</p>
+            <div class="box-wrapper">
+                <div class="ants-name">
+                	<div class="name">Yvonne Hain</div>
+					<div class="position">Geschäftsführerin, Grafikerin</div>   
+                </div>
+                
+                <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/Yvonne-Fehn-300x300.jpg" width="300" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/Yvonne-Fehn-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/Yvonne-Fehn-850x850.jpg 850w, https://www.antsandelephants.de/wp-content/uploads/Yvonne-Fehn-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/Yvonne-Fehn.jpg 1276w" sizes="(max-width: 300px) 100vw, 300px" data-lazy-loaded="true" style=""><noscript><img width="300" height="300" src="https://www.antsandelephants.de/wp-content/uploads/Yvonne-Fehn-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/Yvonne-Fehn-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/Yvonne-Fehn-850x850.jpg 850w, https://www.antsandelephants.de/wp-content/uploads/Yvonne-Fehn-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/Yvonne-Fehn.jpg 1276w" sizes="(max-width: 300px) 100vw, 300px" /></noscript><a href="https://www.antsandelephants.de/team/yvonne-fehn/"><span class="box-link"></span></a></div>
+                
+            </div>
+  		</div>
+	         <div class="box small ants" style="position: absolute; right: 540px; top: 5670px;">
+         	<p class="sortby">1</p>
+            <div class="box-wrapper">
+                <div class="ants-name">
+                	<div class="name">Jörg Hofmann</div>
+					<div class="position">Geschäftsführer, Grafiker</div>   
+                </div>
+                
+                <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/joerg-300x300.jpg" width="300" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/joerg-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/joerg-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/joerg.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" data-lazy-loaded="true" style=""><noscript><img width="300" height="300" src="https://www.antsandelephants.de/wp-content/uploads/joerg-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/joerg-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/joerg-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/joerg.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" /></noscript><a href="https://www.antsandelephants.de/team/joerg-hofmann/"><span class="box-link"></span></a></div>
+                
+            </div>
+  		</div>
+	         <div class="box small ants" style="position: absolute; right: 270px; top: 1080px;">
+         	<p class="sortby">1</p>
+            <div class="box-wrapper">
+                <div class="ants-name">
+                	<div class="name">Hanna Heider</div>
+					<div class="position">Fotografie</div>   
+                </div>
+                
+                <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/Potrait_171_sw-300x300.jpg" width="300" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/Potrait_171_sw-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/Potrait_171_sw-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/Potrait_171_sw.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" data-lazy-loaded="true" style=""><noscript><img width="300" height="300" src="https://www.antsandelephants.de/wp-content/uploads/Potrait_171_sw-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/Potrait_171_sw-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/Potrait_171_sw-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/Potrait_171_sw.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" /></noscript><a href="https://www.antsandelephants.de/team/hanna-heider/"><span class="box-link"></span></a></div>
+                
+            </div>
+  		</div>
+	         <div class="box small ants" style="position: absolute; right: 540px; top: 1350px;">
+         	<p class="sortby">1</p>
+            <div class="box-wrapper">
+                <div class="ants-name">
+                	<div class="name">Juliane Okelmann</div>
+					<div class="position">Grafikerin</div>   
+                </div>
+                
+                <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/Juliane-300x300.jpg" width="300" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/Juliane-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/Juliane-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/Juliane.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" data-lazy-loaded="true" style=""><noscript><img width="300" height="300" src="https://www.antsandelephants.de/wp-content/uploads/Juliane-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/Juliane-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/Juliane-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/Juliane.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" /></noscript><a href="https://www.antsandelephants.de/team/juliane-okelmann/"><span class="box-link"></span></a></div>
+                
+            </div>
+  		</div>
+	    
+    	         <div class="box small leistung" style="position: absolute; right: 0px; top: 5130px;">
+         <p class="sortby">1</p>
+            <div class="box-wrapper">
+				<div class="headline"><a href="https://www.antsandelephants.de/projektuebersicht/verpackungsdesign"><h2>Verpackungsdesign</h2><span class="box-link"></span></a></div>
+                <div class="text">Soll es knistern? Soll es rascheln? Vielleicht sogar duften? Wir können über alles sprechen.</div>
+            </div>
+         </div>
+	         <div class="box small leistung" style="position: absolute; right: 0px; top: 4320px;">
+         <p class="sortby">1</p>
+            <div class="box-wrapper">
+				<div class="headline"><a href="https://www.antsandelephants.de/projektuebersicht/werbemittel"><h2>Werbemittel</h2><span class="box-link"></span></a></div>
+                <div class="text">Es gibt viel mehr als nur Kugelschreiber. Und es gibt verschiedene Kugelschreiber.</div>
+            </div>
+         </div>
+	         <div class="box small leistung" style="position: absolute; right: 540px; top: 810px;">
+         <p class="sortby">1</p>
+            <div class="box-wrapper">
+				<div class="headline"><a href="https://www.antsandelephants.de/projektuebersicht/messebau-werbetechnik-und-pos"><h2>Messebau, Werbetechnik und POS</h2><span class="box-link"></span></a></div>
+                <div class="text">Es wäre doch schade, wenn Sie unentdeckt blieben, oder?</div>
+            </div>
+         </div>
+	         <div class="box small leistung" style="position: absolute; right: 540px; top: 3240px;">
+         <p class="sortby">1</p>
+            <div class="box-wrapper">
+				<div class="headline"><a href="https://www.antsandelephants.de/projektuebersicht/flyer-folder"><h2>Flyer/Folder</h2><span class="box-link"></span></a></div>
+                <div class="text"><br><br>Begrenzter Platz und viele Dinge, die man sagen möchte.</div>
+            </div>
+         </div>
+	         <div class="box small leistung" style="position: absolute; right: 540px; top: 3780px;">
+         <p class="sortby">1</p>
+            <div class="box-wrapper">
+				<div class="headline"><a href="https://www.antsandelephants.de/projektuebersicht/kampagnen-anzeigen-und-aktionen"><h2>Kampagnen, Anzeigen und Aktionen</h2><span class="box-link"></span></a></div>
+                <div class="text">Es ist wie bei der „Liebe auf den ersten Blick”. Zweite Chance Fehlanzeige.</div>
+            </div>
+         </div>
+	         <div class="box small leistung" style="position: absolute; right: 0px; top: 7290px;">
+         <p class="sortby">1</p>
+            <div class="box-wrapper">
+				<div class="headline"><a href="https://www.antsandelephants.de/projektuebersicht/werbefotografie"><h2>Werbefotografie</h2><span class="box-link"></span></a></div>
+                <div class="text">Unser Indoor-Fotostudio: Kurze Abstimmungswege für ein schnelles und effizientes Arbeiten.</div>
+            </div>
+         </div>
+	         <div class="box small leistung" style="position: absolute; right: 540px; top: 2700px;">
+         <p class="sortby">1</p>
+            <div class="box-wrapper">
+				<div class="headline"><a href="https://www.antsandelephants.de/projektuebersicht/webdesign-und-entwicklung"><h2>Webdesign und Entwicklung</h2><span class="box-link"></span></a></div>
+                <div class="text">Zu jeder Tageszeit für Ihre Kunden da.<br>Auch für den Google-Robot.</div>
+            </div>
+         </div>
+	         <div class="box small leistung" style="position: absolute; right: 540px; top: 5400px;">
+         <p class="sortby">1</p>
+            <div class="box-wrapper">
+				<div class="headline"><a href="https://www.antsandelephants.de/projektuebersicht/kataloge"><h2>Kataloge</h2><span class="box-link"></span></a></div>
+                <div class="text">Ein guter Katalog wird beim Kunden ein treuer Begleiter mit verlässlichen Informationen.</div>
+            </div>
+         </div>
+	         <div class="box small leistung" style="position: absolute; right: 540px; top: 6480px;">
+         <p class="sortby">1</p>
+            <div class="box-wrapper">
+				<div class="headline"><a href="https://www.antsandelephants.de/projektuebersicht/beratung-planung-und-konzeption"><h2>Beratung, Planung und Konzeption</h2><span class="box-link"></span></a></div>
+                <div class="text">Gemeinsam, Schritt für Schritt, zum Ziel und damit zu Ihrem Erfolg. Ganz ohne Fachjargon.</div>
+            </div>
+         </div>
+	         <div class="box small leistung" style="position: absolute; right: 0px; top: 5400px;">
+         <p class="sortby">1</p>
+            <div class="box-wrapper">
+				<div class="headline"><a href="https://www.antsandelephants.de/projektuebersicht/logo-und-corporate-identity"><h2>Logo und Corporate Identity</h2><span class="box-link"></span></a></div>
+                <div class="text">Mehr als nur gutes Aussehen, mehr als ein neuer Anzug im Kleiderschrank.</div>
+            </div>
+         </div>
+	    
+    	        <div class="box small foto mittext instaants Michi" style="position: absolute; right: 0px; top: 4050px;">
+        <p class="sortby">1</p>
+            <div class="box-wrapper">
+                               
+                                
+					                        <div class="fototext">
+                        <span>Skizzenbücherliebe</span>
+                        </div>
+                        
+                        <div class="author-tag"></div>
+                        
+                                    
+                             
+                
+                <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/Ideasandsuch_Werbeagentur_01_850x850-300x300.jpg" width="300" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/Ideasandsuch_Werbeagentur_01_850x850-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/Ideasandsuch_Werbeagentur_01_850x850-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/Ideasandsuch_Werbeagentur_01_850x850.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" data-lazy-loaded="true" style=""><noscript><img width="300" height="300" src="https://www.antsandelephants.de/wp-content/uploads/Ideasandsuch_Werbeagentur_01_850x850-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/Ideasandsuch_Werbeagentur_01_850x850-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/Ideasandsuch_Werbeagentur_01_850x850-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/Ideasandsuch_Werbeagentur_01_850x850.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></div>
+            </div>
+        </div>
+	        <div class="box small foto mittext instaants Yvonne" style="position: absolute; right: 270px; top: 7290px;">
+        <p class="sortby">1</p>
+            <div class="box-wrapper">
+                               
+                                
+					                        <div class="fototext">
+                        <span>Wareneingangskontrolle à la Steffi</span>
+                        </div>
+                        
+                        <div class="author-tag"></div>
+                        
+                                    
+                             
+                
+                <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/IMG_8547-225x300.jpg" width="225" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/IMG_8547-225x300.jpg 225w, https://www.antsandelephants.de/wp-content/uploads/IMG_8547-1125x1500.jpg 1125w, https://www.antsandelephants.de/wp-content/uploads/IMG_8547-60x80.jpg 60w" sizes="(max-width: 225px) 100vw, 225px" data-lazy-loaded="true" style=""><noscript><img width="225" height="300" src="https://www.antsandelephants.de/wp-content/uploads/IMG_8547-225x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/IMG_8547-225x300.jpg 225w, https://www.antsandelephants.de/wp-content/uploads/IMG_8547-1125x1500.jpg 1125w, https://www.antsandelephants.de/wp-content/uploads/IMG_8547-60x80.jpg 60w" sizes="(max-width: 225px) 100vw, 225px" /></noscript></div>
+            </div>
+        </div>
+	        <div class="box small foto mittext instaants antsandelephants" style="position: absolute; right: 540px; top: 4590px;">
+        <p class="sortby">1</p>
+            <div class="box-wrapper">
+                               
+                                
+					                    
+                                    
+                             
+                
+                <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/agentur2-300x300.jpg" width="300" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/agentur2-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/agentur2-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/agentur2.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" data-lazy-loaded="true" style=""><noscript><img width="300" height="300" src="https://www.antsandelephants.de/wp-content/uploads/agentur2-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/agentur2-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/agentur2-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/agentur2.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></div>
+            </div>
+        </div>
+	        <div class="box small foto mittext instaants Michi" style="position: absolute; right: 270px; top: 7020px;">
+        <p class="sortby">1</p>
+            <div class="box-wrapper">
+                               
+                                
+					                    
+                                    
+                             
+                
+                <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/agentur-1-300x300.jpg" width="300" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/agentur-1-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/agentur-1-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/agentur-1.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" data-lazy-loaded="true" style=""><noscript><img width="300" height="300" src="https://www.antsandelephants.de/wp-content/uploads/agentur-1-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/agentur-1-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/agentur-1-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/agentur-1.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></div>
+            </div>
+        </div>
+	        <div class="box small foto mittext instaants antsandelephants" style="position: absolute; right: 540px; top: 7290px;">
+        <p class="sortby">1</p>
+            <div class="box-wrapper">
+                               
+                                
+					                    
+                                    
+                             
+                
+                <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/fotostudio2-300x300.jpg" width="300" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/fotostudio2-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/fotostudio2-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/fotostudio2.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" data-lazy-loaded="true" style=""><noscript><img width="300" height="300" src="https://www.antsandelephants.de/wp-content/uploads/fotostudio2-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/fotostudio2-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/fotostudio2-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/fotostudio2.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></div>
+            </div>
+        </div>
+	        <div class="box small foto mittext instaants Michi" style="position: absolute; right: 270px; top: 1890px;">
+        <p class="sortby">1</p>
+            <div class="box-wrapper">
+                               
+                                
+					                    
+                                    
+                             
+                
+                <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/fotostudio-300x300.jpg" width="300" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/fotostudio-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/fotostudio-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/fotostudio.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" data-lazy-loaded="true" style=""><noscript><img width="300" height="300" src="https://www.antsandelephants.de/wp-content/uploads/fotostudio-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/fotostudio-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/fotostudio-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/fotostudio.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></div>
+            </div>
+        </div>
+	        <div class="box small foto mittext instaants Nane" style="position: absolute; right: 540px; top: 1890px;">
+        <p class="sortby">1</p>
+            <div class="box-wrapper">
+                               
+                                
+					                        <div class="fototext">
+                        <span>Farbkombination – Gold trifft Apricot</span>
+                        </div>
+                        
+                        <div class="author-tag"></div>
+                        
+                                    
+                             
+                
+                <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/Farbkombi_Gold_Apricot-300x300.jpg" width="300" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/Farbkombi_Gold_Apricot-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/Farbkombi_Gold_Apricot-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/Farbkombi_Gold_Apricot.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" data-lazy-loaded="true" style=""><noscript><img width="300" height="300" src="https://www.antsandelephants.de/wp-content/uploads/Farbkombi_Gold_Apricot-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/Farbkombi_Gold_Apricot-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/Farbkombi_Gold_Apricot-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/Farbkombi_Gold_Apricot.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></div>
+            </div>
+        </div>
+	        <div class="box small foto mittext instaants Nane" style="position: absolute; right: 0px; top: 270px;">
+        <p class="sortby">1</p>
+            <div class="box-wrapper">
+                               
+                                <div class="comic"><img src="https://www.antsandelephants.de/wp-content/themes/antsandelephants/img/null.png"></div>
+                <div class="author-tag"></div>
+                
+                             
+                
+                <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/Farbkombi_Kupfer_Beere-300x300.jpg" width="300" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/Farbkombi_Kupfer_Beere-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/Farbkombi_Kupfer_Beere-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/Farbkombi_Kupfer_Beere.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" data-lazy-loaded="true" style=""><noscript><img width="300" height="300" src="https://www.antsandelephants.de/wp-content/uploads/Farbkombi_Kupfer_Beere-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/Farbkombi_Kupfer_Beere-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/Farbkombi_Kupfer_Beere-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/Farbkombi_Kupfer_Beere.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></div>
+            </div>
+        </div>
+	        <div class="box small foto mittext instaants Jasmin" style="position: absolute; right: 540px; top: 2160px;">
+        <p class="sortby">1</p>
+            <div class="box-wrapper">
+                               
+                                
+					                        <div class="fototext">
+                        <span>Die Branche im Blick – auf der Spielwarenmesse.</span>
+                        </div>
+                        
+                        <div class="author-tag"></div>
+                        
+                                    
+                             
+                
+                <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/spwmesse_850x850-1-300x300.jpg" width="300" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/spwmesse_850x850-1-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/spwmesse_850x850-1-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/spwmesse_850x850-1.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" data-lazy-loaded="true" style=""><noscript><img width="300" height="300" src="https://www.antsandelephants.de/wp-content/uploads/spwmesse_850x850-1-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/spwmesse_850x850-1-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/spwmesse_850x850-1-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/spwmesse_850x850-1.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></div>
+            </div>
+        </div>
+	        <div class="box small foto mittext instaants Hanna" style="position: absolute; right: 540px; top: 1620px;">
+        <p class="sortby">1</p>
+            <div class="box-wrapper">
+                               
+                                
+					                        <div class="fototext">
+                        <span>Voller Einsatz im Fotostudio.</span>
+                        </div>
+                        
+                        <div class="author-tag"></div>
+                        
+                                    
+                             
+                
+                <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes08-300x300.jpg" width="300" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes08-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes08-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes08.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" data-lazy-loaded="true" style=""><noscript><img width="300" height="300" src="https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes08-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes08-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes08-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes08.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></div>
+            </div>
+        </div>
+	        <div class="box small foto mittext instaants Nane" style="position: absolute; right: 270px; top: 5670px;">
+        <p class="sortby">1</p>
+            <div class="box-wrapper">
+                               
+                                
+					                        <div class="fototext">
+                        <span>Auf Messen Neues entdecken.</span>
+                        </div>
+                        
+                        <div class="author-tag"></div>
+                        
+                                    
+                             
+                
+                <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes07-300x300.jpg" width="300" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes07-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes07-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes07.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" data-lazy-loaded="true" style=""><noscript><img width="300" height="300" src="https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes07-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes07-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes07-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes07.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></div>
+            </div>
+        </div>
+	        <div class="box small foto mittext instaants Yvonne" style="position: absolute; right: 0px; top: 4860px;">
+        <p class="sortby">1</p>
+            <div class="box-wrapper">
+                               
+                                <div class="comic"><img src="https://www.antsandelephants.de/wp-content/themes/antsandelephants/img/zack.png"></div>
+                <div class="author-tag"></div>
+                
+                             
+                
+                <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes06-300x300.jpg" width="300" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes06-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes06-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes06.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" data-lazy-loaded="true" style=""><noscript><img width="300" height="300" src="https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes06-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes06-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes06-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes06.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></div>
+            </div>
+        </div>
+	        <div class="box small foto mittext instaants Sandra" style="position: absolute; right: 0px; top: 5670px;">
+        <p class="sortby">1</p>
+            <div class="box-wrapper">
+                               
+                                
+					                        <div class="fototext">
+                        <span>Manche Mittagspausen enden so.</span>
+                        </div>
+                        
+                        <div class="author-tag"></div>
+                        
+                                    
+                             
+                
+                <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/schokobrunnen_si-300x300.jpg" width="300" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/schokobrunnen_si-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/schokobrunnen_si-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/schokobrunnen_si.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" data-lazy-loaded="true" style=""><noscript><img width="300" height="300" src="https://www.antsandelephants.de/wp-content/uploads/schokobrunnen_si-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/schokobrunnen_si-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/schokobrunnen_si-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/schokobrunnen_si.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></div>
+            </div>
+        </div>
+	        <div class="box small foto mittext instaants Michi" style="position: absolute; right: 270px; top: 4590px;">
+        <p class="sortby">1</p>
+            <div class="box-wrapper">
+                               
+                                <div class="comic"><img src="https://www.antsandelephants.de/wp-content/themes/antsandelephants/img/lecker.png"></div>
+                <div class="author-tag"></div>
+                
+                             
+                
+                <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/instaants-michi-2018-300x300.jpg" width="300" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/instaants-michi-2018-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/instaants-michi-2018-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/instaants-michi-2018.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" data-lazy-loaded="true" style=""><noscript><img width="300" height="300" src="https://www.antsandelephants.de/wp-content/uploads/instaants-michi-2018-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/instaants-michi-2018-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/instaants-michi-2018-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/instaants-michi-2018.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></div>
+            </div>
+        </div>
+	        <div class="box small foto mittext instaants Steffi" style="position: absolute; right: 0px; top: 1080px;">
+        <p class="sortby">1</p>
+            <div class="box-wrapper">
+                               
+                                
+					                        <div class="fototext">
+                        <span>Unvergessliche Abende unter <strike>Kollegen</strike> Freunden.</span>
+                        </div>
+                        
+                        <div class="author-tag"></div>
+                        
+                                    
+                             
+                
+                <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes02-300x300.jpg" width="300" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes02-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes02-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes02.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" data-lazy-loaded="true" style=""><noscript><img width="300" height="300" src="https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes02-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes02-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes02-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes02.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></div>
+            </div>
+        </div>
+	        <div class="box small foto mittext instaants Joerg" style="position: absolute; right: 0px; top: 1890px;">
+        <p class="sortby">1</p>
+            <div class="box-wrapper">
+                               
+                                
+					                        <div class="fototext">
+                        <span>Mit Kunden Erfolge feiern.</span>
+                        </div>
+                        
+                        <div class="author-tag"></div>
+                        
+                                    
+                             
+                
+                <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes01-300x300.jpg" width="300" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes01-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes01-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes01.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" data-lazy-loaded="true" style=""><noscript><img width="300" height="300" src="https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes01-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes01-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes01-60x60.jpg 60w, https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes01.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></div>
+            </div>
+        </div>
+	        <div class="box small foto mittext instaants Alina" style="position: absolute; right: 0px; top: 7020px;">
+        <p class="sortby">1</p>
+            <div class="box-wrapper">
+                               
+                                
+					                        <div class="fototext">
+                        <span>Zum Ausgleich ab in den Kletterwald!</span>
+                        </div>
+                        
+                        <div class="author-tag"></div>
+                        
+                                    
+                             
+                
+                <div class="fotobg"><img src="https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes04-300x300.jpg" width="300" height="300" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes04-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes04.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" data-lazy-loaded="true" style=""><noscript><img width="300" height="300" src="https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes04-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes04-300x300.jpg 300w, https://www.antsandelephants.de/wp-content/uploads/antsantelephants_behind-the-scenes04.jpg 850w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></div>
+            </div>
+        </div>
+	
+
+
+
+  
+</div>
+
+
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+
+		</div><!-- #content-wrapper -->
+        
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+    
+    	<div class="footer-wrapper">
+    
+    	<div class="footer-left">
+		
+        <strong>ants</strong>and<strong>elephants</strong> Werbeagentur und Fotostudio<br><br>
+        <img src="https://www.antsandelephants.de/wp-content/themes/antsandelephants/img/icon-adresse.png" style="width: 20px; height: 20px; margin: 0px 10px -5px 0px;">Bayreuther Str. 25 · 95490 Mistelgau bei Bayreuth in Oberfranken<br>
+        <img src="https://www.antsandelephants.de/wp-content/themes/antsandelephants/img/icon-phone.png" style="width: 20px; height: 20px; margin: 0px 10px -5px 0px;">+49 (0) 9279 995-50<br>
+        <img src="https://www.antsandelephants.de/wp-content/themes/antsandelephants/img/icon-mail.png" style="width: 20px; height: 20px; margin: 0px 10px -5px 0px;"><a href="mailto:hello@antsandelephants.de">hello@antsandelephants.de</a>
+        <br><br>
+        <small><a href="https://www.antsandelephants.de/impressum/">Impressum</a> · <a href="https://www.antsandelephants.de/datenschutzerklaerung/">Datenschutzerklärung</a></small>
+        
+        </div>
+        
+        <div class="footer-right">
+        <a href="http://www.facebook.de/antsandelephants" target="_blank"><img src="https://www.antsandelephants.de/wp-content/themes/antsandelephants/img/icon-facebook.png" style="width: 35px; height: 35px;"></a>
+        </div>
+        
+        <div style="clear: both;"></div>
+        
+        </div>
+        
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+<!-- Consent Management powered by Complianz | GDPR/CCPA Cookie Consent https://wordpress.org/plugins/complianz-gdpr -->
+
+					<div id="cmplz-manage-consent" data-nosnippet="true"><button class="cmplz-btn cmplz-manage-consent manage-consent-1 cmplz-dismissed">Cookie Einstellungen</button>
+
+</div><script type="text/javascript" src="https://www.antsandelephants.de/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.7.2" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/www.antsandelephants.de\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.antsandelephants.de/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.7.2" id="contact-form-7-js"></script>
+<script type="text/javascript" src="https://www.antsandelephants.de/wp-content/themes/antsandelephants/js/navigation.js?ver=20120206" id="antsandelephants-navigation-js"></script>
+<script type="text/javascript" src="https://www.antsandelephants.de/wp-content/themes/antsandelephants/js/skip-link-focus-fix.js?ver=20130115" id="antsandelephants-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="https://www.antsandelephants.de/wp-content/plugins/lazy-load/js/jquery.sonar.min.js?ver=0.6.1" id="jquery-sonar-js"></script>
+<script type="text/javascript" src="https://www.antsandelephants.de/wp-content/plugins/lazy-load/js/lazy-load.js?ver=0.6.1" id="wpcom-lazy-load-images-js"></script>
+<script type="text/javascript" id="cmplz-cookiebanner-js-extra">
+/* <![CDATA[ */
+var complianz = {"prefix":"cmplz_","user_banner_id":"1","set_cookies":[],"block_ajax_content":"","banner_version":"49","version":"6.3.9","store_consent":"","do_not_track":"","consenttype":"optin","region":"eu","geoip":"","dismiss_timeout":"","disable_cookiebanner":"","soft_cookiewall":"","dismiss_on_scroll":"","cookie_expiry":"365","url":"https:\/\/www.antsandelephants.de\/wp-json\/complianz\/v1\/","locale":"lang=de&locale=de_DE","set_cookies_on_root":"","cookie_domain":"","current_policy_id":"22","cookie_path":"\/","categories":{"statistics":"Statistiken","marketing":"Marketing"},"tcf_active":"","placeholdertext":"Klicke hier, um {category}-Cookies zu akzeptieren und diesen Inhalt zu aktivieren","css_file":"https:\/\/www.antsandelephants.de\/wp-content\/uploads\/complianz\/css\/banner-{banner_id}-{type}.css?v=49","page_links":{"eu":{"cookie-statement":{"title":"Cookie-Richtlinie","url":"\/datenschutzerklaerung"},"privacy-statement":{"title":"Datenschutzerkl\u00e4rung","url":"\/datenschutzerklaerung"},"impressum":{"title":"Impressum","url":"\/impressum"}},"us":{"impressum":{"title":"Impressum","url":"\/impressum"}},"uk":{"impressum":{"title":"Impressum","url":"\/impressum"}},"ca":{"impressum":{"title":"Impressum","url":"\/impressum"}},"au":{"impressum":{"title":"Impressum","url":"\/impressum"}},"za":{"impressum":{"title":"Impressum","url":"\/impressum"}},"br":{"impressum":{"title":"Impressum","url":"\/impressum"}}},"tm_categories":"","forceEnableStats":"","preview":"","clean_cookies":""};
+/* ]]> */
+</script>
+<script defer="" type="text/javascript" src="https://www.antsandelephants.de/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=6.3.9" id="cmplz-cookiebanner-js"></script>
+				<script type="text/plain" data-service="google-analytics" async="" data-category="statistics" data-cmplz-src="https://www.googletagmanager.com/gtag/js?id=UA-9604554-1"></script><!-- Statistics script Complianz GDPR/CCPA -->
+						<script type="text/plain" data-category="statistics">window['gtag_enable_tcf_support'] = false;
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-9604554-1', {
+	cookie_flags:'secure;samesite=none',
+	'anonymize_ip': true
+});
+</script>
+<script type="text/javascript">
+    
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+		slideshow: true,
+		controlNav: false,
+		pauseOnHover: true,
+		slideshowSpeed: 2500,
+		start: function(slider){
+
+$('.flexslider').removeClass('loading');
+
+}
+      });
+    });
+  </script>
+  
+  <script type="text/javascript">
+    $(document).ready(function() {
+		  var $menu = $('#mobile-navi'),
+		  	  $menulink = $('.mobile-link'),
+		  	  $menuTrigger = $('.menu-item-has-children > a');
+		
+		$menulink.click(function(e) {
+			e.preventDefault();
+			$menulink.toggleClass('active');
+			$menu.toggleClass('active');
+		});
+		
+		$menuTrigger.click(function(e) {
+			e.preventDefault();
+			var $this = $(this);
+			$this.toggleClass('active').next('ul').toggleClass('active');
+		});
+		
+		});
+	</script>
+
+
+<script type="text/javascript">
+var gaProperty = 'UA-9604554-1';
+var disableStr = 'ga-disable-' + gaProperty;
+if (document.cookie.indexOf(disableStr + '=true') > -1) {
+window[disableStr] = true;
+}
+function gaOptout() {
+document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+window[disableStr] = true;
+}
+</script>
+
+
+</body></html>

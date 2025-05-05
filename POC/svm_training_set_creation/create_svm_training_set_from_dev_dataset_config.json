@@ -1,0 +1,4 @@
+{
+  "train_dataset_path":"/home/erik/Desktop/WiSe2022_23/IR-Project/dsgvo_handler/refactored/data/train_dataset",
+  "svm_training_sets_path": "/home/erik/Desktop/WiSe2022_23/IR-Project/dsgvo_handler/refactored/data/svm_training_sets"
+}

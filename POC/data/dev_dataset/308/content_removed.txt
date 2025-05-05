@@ -1,0 +1,38 @@
+                     Zustimmung   Details  [#IABV2SETTINGS#]  Über
+                    Cookies         Diese Webseite verwendet Cookies  Wir verwenden Cookies, um Inhalte und
+                            Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die
+                            Zugriffe auf unsere Website zu analysieren. Außerdem geben wir Informationen zu Ihrer
+                            Verwendung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen
+                            weiter. Unsere Partner führen diese Informationen möglicherweise mit weiteren Daten
+                            zusammen, die Sie ihnen bereitgestellt haben oder die sie im Rahmen Ihrer Nutzung der
+                            Dienste gesammelt haben.            Consent Selection   Notwendig       Präferenzen       Statistiken       Marketing               Details zeigen               Notwendig  3         Notwendige Cookies helfen dabei, eine Webseite nutzbar zu machen,
+                                                    indem sie Grundfunktionen wie Seitennavigation und Zugriff auf
+                                                    sichere Bereiche der Webseite ermöglichen. Die Webseite kann ohne
+                                                    diese Cookies nicht richtig funktionieren.      Cookiebot 1  Erfahren
+                                                                Sie mehr über diesen Anbieter   CookieConsent Speichert den Zustimmungsstatus des Benutzers für Cookies auf der aktuellen Domäne.   Ablauf : 1 Jahr Typ : HTTP      Google 1  Erfahren
+                                                                Sie mehr über diesen Anbieter   test_cookie Verwendet, um zu überprüfen, ob der Browser des Benutzers Cookies unterstützt.   Ablauf : 1 Tag Typ : HTTP      rmstegos.de 1    elementor Wird im Zusammenhang mit dem WordPress-Theme der Website verwendet. Mit dem Cookie kann der Website-Eigentümer den Inhalt der Website in Echtzeit implementieren oder ändern.   Ablauf : Persistent Typ : HTML             Präferenzen  0         Präferenz-Cookies ermöglichen einer Webseite sich an Informationen
+                                                    zu erinnern, die die Art beeinflussen, wie sich eine Webseite
+                                                    verhält oder aussieht, wie z. B. Ihre bevorzugte Sprache oder die
+                                                    Region in der Sie sich befinden.     Wir nutzen diese Cookie-Typen nicht.         Statistiken  2         Statistik-Cookies helfen Webseiten-Besitzern zu verstehen, wie
+                                                    Besucher mit Webseiten interagieren, indem Informationen anonym
+                                                    gesammelt und gemeldet werden.      Google 2  Erfahren
+                                                                Sie mehr über diesen Anbieter   _ga Registriert eine eindeutige ID, die verwendet wird, um statistische Daten dazu, wie der Besucher die Website nutzt, zu generieren.   Ablauf : 399 Tage Typ : HTTP     _ga_# Sammelt Daten dazu, wie oft ein Benutzer eine Website besucht hat, sowie Daten für den ersten und letzten Besuch. Von Google Analytics verwendet.   Ablauf : 399 Tage Typ : HTTP             Marketing  5         Marketing-Cookies werden verwendet, um Besuchern auf Webseiten zu
+                                                    folgen. Die Absicht ist, Anzeigen zu zeigen, die relevant und
+                                                    ansprechend für den einzelnen Benutzer sind und daher wertvoller für
+                                                    Publisher und werbetreibende Drittparteien sind.      Meta
+                                                                    Platforms, Inc. 1  Erfahren
+                                                                Sie mehr über diesen Anbieter   _fbp Wird von Facebook genutzt, um eine Reihe von Werbeprodukten anzuzeigen, zum Beispiel Echtzeitgebote dritter Werbetreibender.   Ablauf : 3 Monate Typ : HTTP      Google 4  Erfahren
+                                                                Sie mehr über diesen Anbieter   IDE Verwendet von Google DoubleClick, um die Handlungen des Benutzers auf der Webseite nach der Anzeige oder dem Klicken auf eine der Anzeigen des Anbieters zu registrieren und zu melden, mit dem Zweck der Messung der Wirksamkeit einer Werbung und der Anzeige zielgerichteter Werbung für den Benutzer.   Ablauf : 1 Jahr Typ : HTTP     pagead/landing [x2] Sammelt Daten zum Besucherverhalten auf mehreren Webseiten, um relevantere Werbung zu präsentieren - Dies ermöglicht es der Webseite auch, die Anzahl der Anzeige der gleichen Werbung zu begrenzen.   Ablauf : Session Typ : Pixel     _gcl_au Wird von Google AdSense zum Experimentieren mit Werbungseffizienz auf Webseiten verwendet, die ihre Dienste nutzen.   Ablauf : 3 Monate Typ : HTTP            Nicht klassifiziert 0   Nicht
+                                                    klassifizierte Cookies sind Cookies, die wir gerade versuchen zu
+                                                    klassifizieren, zusammen mit Anbietern von individuellen Cookies.      Wir nutzen diese Cookie-Typen nicht.         Domainübergreifende
+                            Zustimmung [#BULK_CONSENT_DOMAINS_COUNT#] [#BULK_CONSENT_TITLE#] Liste der Domains, für die Ihre Zustimmung gilt: [#BULK_CONSENT_DOMAINS#]   Die Cookie-Erklärung wurde das letzte Mal
+                            am 3/6/23 von Cookiebot aktualisiert          [#IABV2_TITLE#] [#IABV2_BODY_INTRO#]  [#IABV2_BODY_LEGITIMATE_INTEREST_INTRO#]  [#IABV2_BODY_PREFERENCE_INTRO#]    [#IABV2_LABEL_PURPOSES#]  [#IABV2_BODY_PURPOSES_INTRO#]   [#IABV2_BODY_PURPOSES#]     [#IABV2_LABEL_FEATURES#]  [#IABV2_BODY_FEATURES_INTRO#]   [#IABV2_BODY_FEATURES#]     [#IABV2_LABEL_PARTNERS#]  [#IABV2_BODY_PARTNERS_INTRO#]   [#IABV2_BODY_PARTNERS#]         Cookies sind kleine Textdateien, die von Webseiten verwendet werden, um die Benutzererfahrung
+                    effizienter zu gestalten. Laut Gesetz können wir Cookies auf Ihrem Gerät
+                    speichern, wenn diese für den Betrieb dieser Seite unbedingt notwendig sind. Für alle anderen
+                    Cookie-Typen benötigen wir Ihre Erlaubnis. Diese Seite verwendet
+                    unterschiedliche Cookie-Typen. Einige Cookies werden von Drittparteien platziert, die auf unseren
+                    Seiten erscheinen. Sie können Ihre Einwilligung jederzeit von der
+                    Cookie-Erklärung auf unserer Website ändern oder widerrufen. Erfahren Sie
+                    in unserer Datenschutzrichtlinie mehr darüber, wer wir sind, wie Sie uns kontaktieren können und wie
+                    wir personenbezogene Daten verarbeiten. Bitte geben Sie Ihre
+                    Einwilligungs-ID und das Datum an, wenn Sie uns bezüglich Ihrer Einwilligung kontaktieren.         Meine persönlichen Daten nicht verkaufen oder weitergeben    Alle ablehnen  Auswahl erlauben  Information & Einstellungen   Alle auswählen    Powered by Cookiebot by Usercentrics        

@@ -1,0 +1,9 @@
+{
+  "train_dataset_path":"/home/erik/Desktop/WiSe2022_23/IR-Project/dsgvo_handler/refactored/data/train_dataset",
+  "jvm_fit_tfidf_documents_path": "/home/erik/Desktop/WiSe2022_23/IR-Project/dsgvo_handler/refactored/data_for_jvm/fit_tfidf_documents.json",
+  "svm_training_set_v1_path": "/home/erik/Desktop/WiSe2022_23/IR-Project/dsgvo_handler/refactored/data/svm_training_sets/svm_training_set_v1.json",
+  "jvm_fit_svm_training_data_path": "/home/erik/Desktop/WiSe2022_23/IR-Project/dsgvo_handler/refactored/data_for_jvm/fit_svm_training_data.json",
+  "jvm_fit_svm_training_data_vec_path": "/home/erik/Desktop/WiSe2022_23/IR-Project/dsgvo_handler/refactored/data_for_jvm/fit_svm_training_data_vec.json",
+  "test_dataset_path": "/home/erik/Desktop/WiSe2022_23/IR-Project/dsgvo_handler/refactored/data/test_dataset",
+  "jvm_test_dataset_path": "/home/erik/Desktop/WiSe2022_23/IR-Project/dsgvo_handler/refactored/data_for_jvm/test_dataset.json"
+}

@@ -1,0 +1,79 @@
+                            Prozess aktiv ...     Shop  Kontakt  Support  Download                  Suche         Solutions   AVS  DokuView  MIS    Products   MaklerOffice  ImmobilienMakler  HausVerwalter  VersicherungsMakler  AdressManager    Services   Consulting  Customizing  Outsourcing  Schulungen    Resources   Technologie  Jobs  Ausbildung    Information   über APERCO  Referenzen  Partner  Impressum  AGB  Datenschutz               APERCO MaklerOffice  Die APERCO MaklerOffice - Applikationen wurde unter Einbeziehung von Kunden, 
+	Partnern und Interessenten erheblich erweitert. Die neuen Versionen bieten noch mehr 
+	Qualität, Komfort und Flexibilität.  Ein Überblick über die Highlights  Maximale Flexibilität: Mit dem neu entwickelten FormularDesigner sind alle zentralen Eingabemasken an die spezifischen Geschäftsprozesse 
+	des Unternehmens anpassbar. Das Hinzufügen neuer Felder oder sogar die Gestaltung kompletter Masken ist damit 
+	ohne Programmieraufwand möglich. Durch die Verwendung von Profilen lassen sich zudem kontextbezogene Layouts 
+	gestalten.  Komplette Kontakthistorie: Für alle MaklerOffice-Applikationen ist das Modul 'Historie' verfügbar, mit dem im Bereich Kontakte alle Eingaben 
+	und Änderungen im Datenbestand protokolliert und auswertbar gemacht werden können. Für APERCO VM ist die 
+	Datenhistorie zusätzlich für Verträge konzipiert, für APERCO IM außerdem für Objekte und Gesuche.  Datensynchronisation: APERCO DataSync erlaubt die Anbindung von Benutzern ohne permanente Online-Verbindung sowie den Datenabgleich 
+	zwischen Unternehmensstandorten. Für mobiles Arbeiten überbrückt der Offline-Modus Bereiche ohne Breitband-Netz.  Mehr Komfort und Performance: Anwender können die Größe und den Aufbau des Bildschirms individuell gestalten. Der neu konzipierte Desktop 
+	ermöglicht den sofortigen Zugriff auf zentrale Informationen. Durch den automatischen Dublettencheck werden 
+	Doppeleingaben vermieden. Ein verbessertes Installationswerkzeug vereinfacht die Implementierung und den Support. 
+	Durch die technologische Weiterentwicklung des Produktes konnte die Verarbeitungsgeschwindigkeit noch weiter 
+	erhöht werden.  (Quelle: APERCO)   Download     APERCO Web Systeme  APERCO Web Systeme sind die zukunftsweisende IT-Infrastruktur für Filialunternehmen und standortübergreifende 
+	Teams. Sie ermöglichen einen ungehinderten Informationsfluss zwischen allen Unternehmensstandorten und die 
+	nahtlose Anbindung des Außendienstes und externer Büros. Jedoch auch für den Einzelanwender bietet ein 
+	APERCO Web System erhebliche Vorteile in mehrfacher Hinsicht.  Jedem Anwender steht nach der komplikationslosen Installation der Zugangssoftware das gewohnte 
+	Leistungsspektrum und der volle Komfort einer Microsoft-Windows-basierten Lösung zur Verfügung. Der komplette 
+	Informationsbestand ist dabei für alleTeilnehmer in Echtzeit verfügbar. Das integrierte, hochentwickelte 
+	Sicherheits- und Berechtigungssystem schützt die Daten zuverlässig vor unbefugtem Zugriff.  APERCO Web Systeme leisten einen wirkungsvollen Beitrag zu einer kompakten und leistungsfähigen Soft- und 
+	Hardwarekonfiguration und senken so die IT-Kosten im Unternehmen: Datenbank- und Fileserver entfallen ebenso 
+	wie das aufwändige Installieren, Einrichten und Pflegen umfangreicher Softwarepakete verschiedener Hersteller.  Unkompliziert ist die Anbindung vorhandener Peripheriegeräte: Drucker, Telefone, Faxgeräte usw. können wie bisher 
+	verwendet und über die standardisierten Windows-Schnittstellen angeschlossen werden.  Alle Nutzer des Systems profitieren sofort von den hohen Sicherheitsstandards: Die Datenbanken werden im 
+	Rechenzentrum zum Schutz vor Hardwaredefekten permanent doppelt vorgehalten, für die verwendeten Server wird 
+	Hochverfügbarkeit garantiert.   Download Zugangssoftware     APERCO VM   So urteilt das Versicherungsmagazin:  Sie können ohne umfangreiche Einarbeitung sofort starten!:  "Die Programmbedienung ist einfach und intuitiv."  Setzen Sie auf modernste Oberflächen!:  "Die übersichtlich aufgebaute Eingangsmaske führt mit der linken Navigationsleiste 
+	zu den einzelnen Menüs für Kontakte, Gesellschaften, Verträge, Buchungen, Vorgänge, 
+	Telefon/Fax, E-Mails, Dokumente und Termine."  Sichern Sie sich die Flexibilität mit der Software des Technologieführers!:  "Wer allerdings für bestimmte Vertragsarten ausführlichere Detailmasken oder auch neue Vertragsarten 
+	benötigt, der kann diese selber anlegen."  Neueste Entwicklungen halten Einzug in Ihr Geschäft!:  "Die Software wartet neben vielen CRM-Funktionalitäten mit einem neu entwickelten E-Mail-System 
+	sowie Lösungen für die Computertelefonie auf."  Perfekte Akquisition und Terminverfolgung für Ihren Erfolg!:  "Mit der integrierten Vorgangsverwaltung lassen sich Vorgänge zu Kunden, Verträgen oder auch 
+	Gesellschaften anlegen und die notwendigen Aktivitäten überwachen."  (Quelle: Versicherungsmagazin)   http://www.aperco.com     APERCO MaklerOffice - Skalierbarkeit und Leistung  APERCO MaklerOffice überzeugt mit allen Vorzügen des modernen Organisations- und Kommunikationsmanagements. 
+	Dafür stehen neben den bewährten CRM-Funktionalitäten insbesondere das neu entwickelte Emailsystem sowie 
+	komfortable Lösungen im Bereich Computertelefonie und Telefax.  Durch das konsequent auf optimale Benutzerführung ausgelegte Grundkonzept und die vollständige Integration 
+	der modernsten und leistungsfähigsten Technologien ist APERCO MaklerOffice im Branchenvergleich führend in 
+	Handhabung und Bedienung.  MaklerOffice ist komplett DSL-fähig, was insbesondere bei der flexiblen Einbindung des Außendienstes in 
+	dezentralen Organisationen entscheidende Vorteile bringt. Zuverlässigen Schutz sensibler Daten gewährleistet 
+	hierbei das in der Serverversion verfügbare Berechtigungssystem: Zugriffsrechte können individuell auf 
+	Datensatz- und Funktionsebene vergeben werden.  Für dynamische, wachsende Unternehmen ist zudem Skalierbarkeit von entscheidender Bedeutung. Deshalb hat 
+	APERCO die MaklerOffice-Applikationen so entwickelt, dass sie in Umgebungen beliebiger Größe verwendet werden 
+	können. Die zugrunde liegende Software-Architektur ist multithreading- und multiprozessorfähig, sodass Sie die 
+	Verarbeitungskapazität Ihres Systems durch die Möglichkeiten von Mehrfachprozessor-Servern steigern können.  (Quelle: APERCO)   Download     APERCO MaklerOffice  APERCO MaklerOffice kombiniert leistungsfähige Branchenmodule mit innovativer CRM - Funktionalität der 
+	Spitzenklasse. Durch systematisches Informations-, Termin- und Dokumentenmanagement sichert MaklerOffice die Basis 
+	für das erfolgreiche Finanz- und Immobiliengeschäft.  Damit persönliche Kommunikation und effiziente, zeitsparenden Organisation kein Widerspruch bleiben, haben wir 
+	den Bereich Mailing und Korrenspondenz konsequent ausgebaut: klassische Post und E-Mails erstellen Sie dank 
+	mitgelieferter Vorlagen per Mausklick in professioneller Qualität - sowohl einzeln und als auch in Serie.  Kontakte und Termine werden in der neuen Version automatisch mit Microsoft Outlook synchronisiert - damit Sie 
+	auch unterwegs per PDA jederzeit aktuell informiert sind.  Die Liste der Neuerungen in den Branchenmodulen beginnt mit der leistungsstarken Provisionsabrechung mit 
+	FiBu-Schnittstelle, beinhaltet flexible, frei gestaltbare Vertragsarten für den Bereich Insurance & Finance und 
+	endet keineswegs mit der integrierten doppelten Buchführung für die Immobilienverwaltung.  Ihr Kundenberater informiert Sie gern in einem persönlichen Beratungsgespräch zu allen Neuerungen und erstellt 
+	Ihnen ein individuelles Konzept zum Einsatz in Ihrem Unternehmen.  (Quelle: APERCO)   Download     Immobilienvermarktung im Internet  Der Immobilienmarkt im Internet wächst und Immobilienmarktplätze im Web werden neben traditionellen 
+	Vertriebswegen für Anbieter und Kunden immer wichtiger. Im größten deutschen Immobilienportal - 
+	ImmobilienScout24 - sind aktuell bereits über 400.000 Objekte online. Die Zahl der Angebote hat sich binnen 
+	Jahresfrist verdoppelt.  APERCO MaklerOffice unterstützt die führenden Portale und bietet Web-Marketing mit höchstem Komfort. 
+	Während der Erstellung des Objekt-Exposés entsteht das Internet-Angebot automatisch. Mit nur zwei Mausklicks 
+	erfolgt die Veröffentlichung in Portalen wie ImmobilienScout24 oder Immonet sowie z.B. im Internet-Bereich 
+	von "Bild" und "Die Welt".  Nicht nur Makler, sondern auch Immobilienverwalter profitieren: die Web-Vermarktung von Mietobjekten gelingt 
+	mühelos durch die übergreifende MaklerOffice-Datenbasis.  Mit dem innovativen Replikationsverfahren senkt MaklerOffice zudem die Online-Kosten für den Makler oder 
+	Verwalter.  (Quelle: ImmobilienScout24 / APERCO)   Download     Büroautomation mit APERCO MaklerOffice  Büroautomation und Individualisierung sind Schwerpunkte der Zweiten Ausgabe von APERCO MaklerOffice 2004.  Durch die Integration einer komfortablen Textverarbeitung sind alle unterstützen Arbeitsprozesse durchgängig 
+	innerhalb das Softwarepaketes abgebildet. Das vollständig datenbankbasierte Dokumentenmanagement ist ab sofort 
+	mit leistungsstarker PDF-Funktionalität ausgestattet. Die externe und interne Korrespondenz kann somit ohne 
+	Medienbrüche auf elektronischem Wege abgewickelt werden. Die unternehmensspezifische CI ist hierbei detailliert 
+	in den Dokumenten darstellbar.  Auch die übersichtliche und innovative Benutzeroberfläche wurde konsequent weiterentwickelt: Vielfältige 
+	Konfigurations- und Einstellungsmöglichkeiten ermöglichen eine individuelle und passgenaue Einrichtung des 
+	Arbeitsplatzes.  Abonnement-Kunden können APERCO MaklerOffice Zweite Ausgabe kostenfrei bei ihrem Kundenberater oder direkt 
+	beim Hersteller beziehen.  (Quelle: APERCO)   Download     Kontroverse um Excel  Hersteller von Software für Business Intelligence (BI), Analysten und vor allem IT-Abteilungen sehen seit 
+	Jahren in der unkoordinierten Nutzung des Tabellenkalkulationsprogramms eine ständige Quelle für Fehler in 
+	den Geschäftszahlen. Controller und andere Fachanwender liebten die einfache Bedienung und die Möglichkeit, 
+	individuell und kreativ zu arbeiten. So finden sich Excel-Arbeitsblätter heute fast überall dort, wo es um 
+	Aufgaben wie Berichtserstellung, Planung, Analyse oder Konsolidierung geht. Doch die Probleme kommen mit der 
+	Menge der verwalteten Daten und der Benutzerzahl. Fachleute fordern deshalb seit Jahren, dass die Geschäftsdaten zentral gesammelt werden und die 
+	Benutzerverwaltung (Zugriffsrechte, Rollen, Verschlüsselung) sowie ein Großteil der Geschäftslogik auf einem 
+	Datenbank-Server angesiedelt sind. Der übliche Lösungsansatz hierfür ist eine BI-Software wie z.B. APERCO MIS. 
+	Sie führt Daten aus operativen Systemen oder einem Data Warehouse zusammen und bietet zur Auswertung eine 
+	multidimensionale Datenbank für Online Analytical Processing (Olap). Zudem ermöglicht sie es, parallel dazu 
+	ein unternehmensweites Berichtswesen aufzubauen, das Mitarbeiter unabhängig von Excel mit formatierten Reports 
+	versorgt.  (Quelle: Computerwoche online / APERCO)   www.computer-woche.de     MaklerOffice Server setzt neue Maßstäbe   Die Mehrplatzversion der Softwarelösung für Versicherungsmakler, Immobilienmakler und Hausverwalter bedeutet 
+	die konsequente Übertragung des revolutionären Konzeptes in eine vernetzte Client-Server-Umgebung.  Dabei wurde der Vorsprung im Bereich Bedienung und Handhabung weiter ausgebaut: Das innovative Bedienkonzept 
+	spart nicht nur Zeit, sondern macht wertvolle Informationen sofort verfügbar und automatisiert 
+	Routineaufgaben.  Das Hochleistungs-Datenbanksystem garantiert jederzeit ausreichende Reserven für sehr große Nutzerzahlen und 
+	Datenvolumina.  Die Branchenmodule sind somit die perfekten Werkzeuge für professionelle Anwender im jeweiligen 
+	Einsatzbereich. Darüber hinaus ermöglicht das reibungslose Zusammenspiel der Module im 
+	MaklerOffice-Komplettpaket die branchenübergreifende Kundenbetreuung und schafft damit neue Potentiale.  (Quelle: APERCO)   Download              

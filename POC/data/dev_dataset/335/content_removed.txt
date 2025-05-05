@@ -1,0 +1,63 @@
+   This website uses cookies  We use cookies to personalise content and ads, to
+                provide social media features and to analyse our traffic. We also share information about your use of
+                our site with our social media, advertising and analytics partners who may combine it with other
+                information that you’ve provided to them or that they’ve collected from your use of their services. You
+                consent to our cookies if you continue to use our website.     Do not sell or share my personal
+                information   Use
+            necessary cookies only Allow all Show details   OK  Use necessary cookies only Allow
+                selection Allow all cookies        Necessary    Preferences    Statistics    Marketing   Show details         Cookie declaration [#IABV2SETTINGS#] About      Necessary
+                            (16)   Preferences
+                            (1)   Statistics
+                            (13)   Marketing (9)   Unclassified (0)    Necessary cookies help
+                                    make a website usable by enabling basic functions like page navigation and access to
+                                    secure areas of the website. The website cannot function properly without these
+                                    cookies.      Name  Provider  Purpose  Expiry  Type      __cf_bm [x4]  www.suxxeed.de Hubspot Monotype  This cookie is used to distinguish between humans and bots. This is
+                                                beneficial for the website, in order to make valid reports on the use of
+                                                their website.  1 day  HTTP    __cfruid [x2]  www.suxxeed.de  This cookie is a part of the services provided by Cloudflare - Including
+                                                load-balancing, deliverance of website content and serving DNS
+                                                connection for website operators.  Session  HTTP    embed/v3/counters.gif [x3]   Hubspot  Used to implement forms
+                                                on the website.  Session  Pixel    _GRECAPTCHA  Google   This cookie is used to distinguish between humans and bots. This is
+                                                beneficial for the website, in order to make valid reports on the use of
+                                                their website.  179 days  HTTP    rc::a  Google   This cookie is used to distinguish between humans and bots. This is
+                                                beneficial for the website, in order to make valid reports on the use of
+                                                their website.  Persistent  HTML    rc::b  Google   This cookie is used to distinguish between humans and bots.  Session  HTML    rc::c  Google   This cookie is used to distinguish between humans and bots.  Session  HTML    li_gc  LinkedIn   Stores the user's cookie consent state for the current domain  179 days  HTTP    JSESSIONID  New Relic  Preserves users
+                                                states across page requests.  Session  HTTP    CookieConsent  Cookiebot  Stores the user's cookie consent state for the current domain  1 year  HTTP        Preference cookies
+                                    enable a website to remember information that changes the way the website behaves or
+                                    looks, like your preferred language or the region that you are in.      Name  Provider  Purpose  Expiry  Type      loglevel  play.hubspotvideo.com  Maintains settings and outputs when using the Developer Tools Console on
+                                                current session.  Persistent  HTML        Statistic cookies help
+                                    website owners to understand how visitors interact with websites by collecting and
+                                    reporting information anonymously.      Name  Provider  Purpose  Expiry  Type      events/1/#  New Relic  Used to monitor website performance for statistical purposes.  Session  Pixel    jserrors/1/#  New Relic  Pending  Session  Pixel    collect  Google   Used to send data to Google Analytics about the visitor's device and
+                                                behavior. Tracks the visitor across devices and marketing channels.  Session  Pixel    AnalyticsSyncHistory  LinkedIn   Used in connection with data-synchronization with third-party analysis
+                                                service.  29 days  HTTP    __hssc  Hubspot   Identifies if the cookie data needs to be updated in the visitor's
+                                                browser.  1 day  HTTP    __hssrc  Hubspot   Used to recognise the visitor's browser upon reentry on the website.  Session  HTTP    __hstc  Hubspot   Sets a unique ID for the session. This allows the website to obtain data
+                                                on visitor behaviour for statistical purposes.  179 days  HTTP    _ga  Google   Registers a unique ID that is used to generate statistical data on how
+                                                the visitor uses the website.  399 days  HTTP    _ga_#  Google   Used by Google Analytics to collect data on the number of times a user
+                                                has visited the website as well as dates for the first and most recent
+                                                visit.  399 days  HTTP    _gat  Google   Used by Google
+                                                Analytics to throttle request rate  1 day  HTTP    _gid  Google   Registers a unique ID that is used to generate statistical data on how
+                                                the visitor uses the website.  1 day  HTTP    hubspotutk  Hubspot   Sets a unique ID for the session. This allows the website to obtain data
+                                                on visitor behaviour for statistical purposes.  179 days  HTTP    ln_or  LinkedIn   Registers statistical data on users' behaviour on the website. Used for
+                                                internal analytics by the website operator.  1 day  HTTP        Marketing cookies are
+                                    used to track visitors across websites. The intention is to display ads that are
+                                    relevant and engaging for the individual user and thereby more valuable for
+                                    publishers and third party advertisers.      Name  Provider  Purpose  Expiry  Type      __pto.gif  Hubspot   Pending  Session  Pixel    __ptq.gif  Hubspot   Sends data to the marketing platform Hubspot about the visitor's device
+                                                and behaviour. Tracks the visitor across devices and marketing channels.  Session  Pixel    viral-links/v1/tracking  Hubspot   Pending  Session  Pixel    bcookie  LinkedIn   Used by the social networking service, LinkedIn, for tracking the use of
+                                                embedded services.  1 year  HTTP    bscookie  LinkedIn   Used by the social networking service, LinkedIn, for tracking the use of
+                                                embedded services.  1 year  HTTP    lidc  LinkedIn   Used by the social networking service, LinkedIn, for tracking the use of
+                                                embedded services.  1 day  HTTP    UserMatchHistory  LinkedIn   Used to track visitors on multiple websites, in order to present
+                                                relevant advertisement based on the visitor's preferences.  29 days  HTTP    __hmpl  play.hubspotvideo.com  Collects information on user preferences and/or interaction with
+                                                web-campaign content - This is used on CRM-campaign-platform used by
+                                                website owners for promoting events or products.  Persistent  HTML    _fbp  Meta Platforms,
+                                                Inc.  Used by Facebook to deliver a series of advertisement products such as
+                                                real time bidding from third party advertisers.  3 months  HTTP        Unclassified cookies
+                                    are cookies that we are in the process of classifying, together with the providers
+                                    of individual cookies.      We do
+                                                not use cookies of this type.             [#IABV2_LABEL_PURPOSES#]   [#IABV2_LABEL_FEATURES#]   [#IABV2_LABEL_PARTNERS#]    [#IABV2_BODY_PURPOSES#]    [#IABV2_BODY_FEATURES#]    [#IABV2_BODY_PARTNERS#]      Cookies are small text files that can
+                    be used by websites to make a user's experience more efficient. The law
+                    states that we can store cookies on your device if they are strictly necessary for the operation of
+                    this site. For all other types of cookies we need your permission. This
+                    site uses different types of cookies. Some cookies are placed by third party services that appear on
+                    our pages. You can at any time change or withdraw your consent from the
+                    Cookie Declaration on our website. Learn more about who we are, how you can
+                    contact us and how we process personal data in our Privacy Policy. Please
+                    state your consent ID and date when you contact us regarding your consent.   Cookie declaration last updated on 3/1/23 by Cookiebot    

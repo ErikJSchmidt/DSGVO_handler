@@ -1,0 +1,816 @@
+<html lang="de"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="teconsult.de - Ihr Partner für präzisen Robotik seit über 20 Jahren.">
+  <meta name="keywords" content="Roboterkalibrierung, TCP-Vermessung, Robotertausch, Robotercrash, Teachen, Absolutvermessung, Werkstückvermessung, Werkzeugvermessung, Industrie 4.0, Roboterservice, Nachteachen, C++, Python, Roboterschnittstelle, Lasersensor, Robotersteuerung, Industrieroboter, Produktionsüberwachung, Robotergenauigkeit, Instandhaltung, Robotersimulation, Offlineprogrammierung ">
+  <meta name="application-name" content="teconsult.de">
+  <title>teconsult GmbH precision robotics</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" sizes="any">
+  <link rel="stylesheet" href="./css/bulma.min.css">
+  <!-- <link rel="stylesheet" href="./css/helpers.css"> -->
+  <!-- <link rel="stylesheet" href="./css/debug.css"> -->
+  <!-- fontawesome-free -->
+  <link rel="stylesheet" href="./fontawesome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="./fontawesome/css/solid.min.css">
+  <style>
+    body {
+      cursor: default;
+    }
+  </style> <!-- wichtig fuer iPhone/Safari -->
+  <style>
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+
+<body has-navbar-fixed-top="">
+  <!-- .navbar-top -->
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarTop">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="navbarTop" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item has-text-dark" href="#teconsult"><i class="fa fa-house"></i></a>
+        <a class="navbar-item" href="#rosy">ROSY LS</a>
+        <a class="navbar-item" href="#produktion">Produktion</a>
+        <a class="navbar-item" href="#integrator">Integratoren</a>
+        <a class="navbar-item" href="#service">Roboterservice</a>
+        <a class="navbar-item" href="#ibn">Dienstleistungen</a>
+        <a class="navbar-item" href="#consult">Beratung</a>
+        <a class="navbar-item" href="#knowhow">Lizensierung</a>
+        <a class="navbar-item" href="#kontakt">Kontakt</a>
+      </div>
+    </div>
+  </nav>
+  <!-- /.navbar-top -->
+
+  <!-- .section -->
+  <section id="teconsult" class="section has-background-white">
+    <div class="tile is-ancestor">
+      <div class="tile is-vertical">
+        <div class="tile">
+
+          <div class="tile is-parent is-vertical">
+            <article class="tile is-child notification has-background-light">
+              <div class="hero-body has-background-light">
+                <div class="container">
+                  <figure class="image center">
+                    <a href="./index.html"> <img src="./media/teconsult.svg" style="max-width: 256px;" alt="www.teconsult.de"></a>
+                  </figure>
+                </div>
+              </div>
+            </article>
+
+            <article class="tile is-child notification has-background-light">
+              <p class="title">Willkommen bei teconsult</p>
+              <p class="subtitle">Ihr Partner für präzisen Robotik seit über 20 Jahren.</p>
+              <div class="content">
+                teconsult wurde Anfang der 2000er Jahre aus der <a href="https://www.hsu-hh.de">Helmut-Schmidt
+                  Universität Hamburg</a> von Dr. Lukas Beyer ausgegründet und wird seit 2012 von Jochen Bargfrede in
+                Bayreuth weitergeführt. Wir entwickeln und optimieren Lösungen im Bereich der hochpräzisen
+                Roboteranwendungen.
+              </div>
+              <p class="subtitle">Auszeichnungen für unsere Technologien:</p>
+              <div class="content">
+                <ul>
+                  <li>Handling Award auf der Motek</li>
+                  <li>MM Award auf der Automatica</li>
+                </ul>
+            </div></article>
+          </div>
+
+          <div class="tile is-parent is-vertical">
+            <article class="tile is-child notification has-background-light">
+              <p class="subtitle">Unsere Leistungen:</p>
+              <div class="content">
+                <ul>
+                  <li>Wir unterstützen <a href="./index.html#produktion">Betreiber von Roboteranlagen</a> bei der
+                    Absicherung der Produktion.</li>
+                  <li><a href="./index.html#integrator">Systemintegratoren</a> unterstützen wir bei der schnellen und
+                    zuverlässigen Inbetriebnahme von Robotersystemen.</li>
+                  <li>Wir entlasten den <a href="./index.html#service">Service</a> der Anlagenbetreiber und der
+                    Systemhäuser
+                    durch
+                    unsere Messtechnik und unser Know-how.</li>
+                  <li>Mit unserer <a href="./index.html#rosy">Technologie</a> müssen Sie nie mehr nachteachen.</li>
+                  <li>Wir bieten zahlreiche <a href="./index.html#ibn">Dienstleistungen</a> rund um Ihren Roboter.</li>
+                  <li>Gerne können Sie unsere <a href="./index.html#knowhow">Technologie in Ihrem Produkt verwenden</a>.
+                  </li>
+                  <li>Wir haben Produkte zur TCP-und Werkzeugvermessung.</li>
+                  <li>Wir haben Produkte zur Werkstückvermessung und Basevermessung.</li>
+                  <li>Wir helfen Ihnen beim Robotercrash.</li>
+                  <li>Wir unterstützen Sie beim Robotertausch.</li>
+                  <li>Wir bieten Ihnen unser Produkt <a href="./index.html#rosy">ROSY LS</a> an.</li>
+                  <li>Wir bieten Ihnen die <a href="./index.html#knowhow">Lizensierung</a> unserer patentierten
+                    Technologien an.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /.section -->
+
+  <!-- .section -->
+  <section id="rosy" class="section has-background-white">
+    <div class="tile is-ancestor">
+      <div class="tile is-vertical">
+        <div class="tile is-parent is-vertical">
+          <article class="tile is-child notification has-background-light">
+            <p class="title">ROSY LS</p>
+            <p class="subtitle">Robot Optimization System</p>
+            <div class="content">
+              Unser Kernprodukt wird basierend auf unseren Erfahrungen und den Kundenanforderungen stetig
+              weiterentwickelt. Die ROSY ist unser Produkt und unser Technologieträger.
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="tile is-ancestor">
+      <div class="tile is-vertical">
+        <div class="tile is-parent is-vertical">
+          <article class="tile is-child notification has-background-light">
+            <figure class="image">
+              <img src="./media/rosy_sensor.jpg" height="640" width="960" alt="ROSY Sensor">
+            </figure>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="tile is-ancestor">
+      <div class="tile is-vertical">
+        <div class="tile">
+
+          <div class="tile is-parent is-vertical">
+
+            <article class="tile is-child notification has-background-light">
+              <p class="subtitle">Funktionsumfang der ROSY:</p>
+              <div class="content">
+                <ul>
+                  <li>DIAG: Diagnose des Roboterzustands.</li>
+                  <li>RCVRY: Wiederherstellung des Roboterzustands.</li>
+                  <li>TCP: Vermessung von Werkzeugen.</li>
+                  <li>WSV: Vermessung von Vorrichtungen und Werkstücken.</li>
+                  <li>MSTR: Mastern, d.h. Einstellen der optimalen Achsoffsets, des Roboters.</li>
+                  <li>ABS: Für ausgewählte Roboterhersteller bieten wir die Absolutvermessung / Roboterkalibrierung an.
+                  </li>
+                </ul>
+                <figure class="image">
+                  <img src="./media/rosy.png" height="295" width="295" alt="ROSY Logo">
+                </figure>
+              </div>
+            </article>
+          </div>
+
+          <div class="tile is-parent is-vertical">
+            <article class="tile is-child notification has-background-light">
+              <p class="subtitle">Schnittstellen der ROSY zu Robotersystemen:</p>
+              <div class="content">
+                <ul>
+                  <li>ABB IRC5 / OmniCore</li>
+                  <li>DENSO RC8 / RC9</li>
+                  <li>Fanuc</li>
+                  <li>Kuka KRC4 / KRC5</li>
+                  <li>Stäubli CS8 / CS9</li>
+                </ul>
+              </div>
+              <p class="subtitle">Schnittstellen der ROSY zur flexiblen Integration:</p>
+              <div class="content">
+                <ul>
+                  <li>C++, C#</li>
+                  <li>Python</li>
+                  <li>JavaScript</li>
+                  <li>Websockets</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+
+          <div class="tile is-parent is-vertical">
+            <article class="tile is-child notification has-background-light">
+              <p class="subtitle">Alleinstellungsmerkmale der ROSY:</p>
+              <div class="content">
+                <ul>
+                  <li>Schnelle, stabile und berührungslose Messung.</li>
+                  <li>Die Messbewegungen können automatisch generiert oder per Offlineprogrammierung erzeugt werden.
+                  </li>
+                  <li>Kleiner und leichter Sensor, dadurch Eignung auch für kleine Roboter.</li>
+                  <li>Industriell verfügbarer, hochpräziser Sensor.</li>
+                  <li>Simulation des Sensors ist möglich.</li>
+                  <li>Virtuelle Inbetriebnahme ist möglich.</li>
+                  <li>Sehr niedriger Integrationsaufwand.</li>
+                  <li>Die ROSY ist verfügbar als flexibles Service-Tool.</li>
+                  <li>Die ROSY ist verfügbar als leistungsfähiges System für die Inbetriebnahme von Robotern.</li>
+                  <li>Die ROSY ist verfügbar als leicht integrierbares Inline-Tool.</li>
+                  <li>Webinterface</li>
+                  <li>Websocket-Schnittstelle</li>
+                  <li>Einfache Anbindung an MES / Scada / Leitsysteme möglich.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /.section -->
+
+  <!-- .section -->
+  <section id="produktion" class="section has-background-white">
+    <div class="tile is-ancestor">
+      <div class="tile is-parent is-vertical">
+        <article class="tile is-child notification has-background-light">
+          <p class="title">Produktion</p>
+          <p class="subtitle">ROSY LS in Ihrer Produktion</p>
+          <div class="content">
+            Behalten Sie Ihre Roboteranlage im Auge. Dank permanenter oder zyklischer Überwachung läuft Ihnen Ihr
+            Roboterprozess nicht mehr aus dem Ruder.
+          </div>
+        </article>
+      </div>
+  </div></section>
+  <!-- /.section -->
+
+  <!-- .section -->
+  <section id="integrator" class="section has-background-white">
+    <div class="tile is-ancestor">
+      <div class="tile is-parent is-vertical">
+        <article class="tile is-child notification has-background-light">
+          <p class="title">Integratoren</p>
+          <p class="subtitle">ROSY LS bei Systemintegratoren</p>
+          <div class="content">
+            Schnelle Inbetriebnahme durch Einmessen von TCP, Base und Roboter.
+          </div>
+        </article>
+      </div>
+  </div></section>
+  <!-- /.section -->
+
+  <!-- .section -->
+  <section id="service" class="section has-background-white">
+    <div class="tile is-ancestor">
+      <div class="tile is-parent is-vertical">
+        <article class="tile is-child notification has-background-light">
+          <p class="title">Roboterservice</p>
+          <p class="subtitle">ROSY LS für Ihren Roboterservice</p>
+          <div class="content">
+            Bringen Sie Ihre Roboteranlage nach Crash oder Service schnell wieder in die Produktion.
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="tile is-ancestor">
+      <div class="tile is-vertical">
+        <div class="tile is-parent is-vertical">
+          <article class="tile is-child notification has-background-light">
+            <div class="content">
+              <figure class="image">
+                <img src="./media/servicetool.jpg" height="640" width="960" alt="Service-Tool">
+              </figure>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- /.section -->
+
+  <!-- .section -->
+  <section id="ibn" class="section has-background-white">
+    <div class="tile is-ancestor">
+      <div class="tile is-parent is-vertical">
+        <article class="tile is-child notification has-background-light">
+          <p class="title">Dienstleistungen</p>
+          <p class="subtitle">in der Robotik</p>
+          <div class="content">
+            <ul>
+              <li>Inbetriebnahme und Programmierung von Industrierobotern.</li>
+              <li>Simulation, Taktzeitermittlung und Erreichbarkeitsanalysen Ihrer Roboteranwendung.</li>
+              <li>Genauigkeitssteigerung von Industrierobotern.</li>
+              <li>Werkzeugvermessung / Greifervermessung / TCP-Vermessung</li>
+              <li>Werkstückvermessung / Basevermessung</li>
+              <li>Hilfe beim Robotercrash.</li>
+              <li>Hilfe beim Robotertausch.</li>
+              <li>Applikationsentwicklung in C++, C# und Python.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
+      <div class="tile is-parent is-vertical">
+        <article class="tile is-child notification has-background-light">
+          <div class="content">
+            <figure class="image">
+              <img src="./media/dienstleistungen.jpg" height="960" width="640" alt="Dienstleistungen">
+            </figure>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- /.section -->
+
+  <!-- .section -->
+  <section id="consult" class="section has-background-white">
+    <div class="tile is-ancestor">
+      <div class="tile is-parent is-vertical">
+        <article class="tile is-child notification has-background-light">
+          <p class="title">Beratung</p>
+          <p class="subtitle">in der Robotik</p>
+          <div class="content">
+            <ul>
+              <li>Unterstützung bei der Genauigkeitssteigerung von Industrierobotern und Ihrer Roboteranwendung.</li>
+              <li>Beratung bei der Auswahl passender Sensoren.</li>
+              <li>Hilfe bei der Entwicklung von Messalgorithnem.</li>
+              <li>Beratung bei Ihrem Einstieg in die Automatisierung.</li>
+              <li>Unterstützung beim Entwurf von "teachless" Roboteranwendungen. Sparen Sie unötiges (nach-) teachen.
+              </li>
+              <li>Beratung bei Ihrem Einstieg in die Offlineprogrammierung von Industrierobotern ohne (nach-) teachen.
+              </li>
+              <li>Konzepte zum Verhalten beim Robotercrash und der Wiederinbetriebnahme.</li>
+              <li>Beratung beim geplanten Robotertausch, um die Teachposen nicht zu verlieren.</li>
+              <li>Wir unterstützen Sie, falls Ihr Roboter zu ungenau ist.</li>
+              <li>Wir helfen, wenn Ihr Roboter seine Positionen verliert.</li>
+              <li>Calset / Masterung / Achsnulllagen passen nicht? Sprechen Sie uns an.</li>
+              <li>Wir digitalisieren Ihren Roboter im Sinn von Industrie 4.0.</li>
+              <li>Wir bieten Predictive Maintenance für Ihren Roboter.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
+      <div class="tile is-parent is-vertical">
+        <article class="tile is-child notification has-background-light">
+          <div class="content">
+            <figure class="image">
+              <img src="./media/beratung.jpg" height="640" width="960" alt="Beratung">
+            </figure>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </section>
+  <!-- /.section -->
+
+  <!-- .section -->
+  <section id="knowhow" class="section has-background-white">
+    <div class="tile is-ancestor">
+      <div class="tile is-vertical">
+        <div class="tile">
+
+          <div class="tile is-parent is-vertical">
+            <article class="tile is-child notification has-background-light">
+              <p class="title">Lizensierung</p>
+              <p class="subtitle">unseres patentierten Know-hows für Ihr Produkt</p>
+              <div class="content">
+                <p>
+                  Sie haben ihre eigene Ideen, Wünsche oder Anforderungen?<br>
+                  Sie entwickeln Sensoren?<br>
+                  Sie möchten ein eigenes Produkt in Ihre Anlagen integrieren?<br>
+                  Ihnen sind bestehende Lösungen zu kostspielig?<br>
+                  Sie scheuen den Aufwand, ein Produkt komplett alleine zu entwickeln?<br>
+                </p>
+            </div></article>
+          </div>
+
+          <div class="tile is-parent is-vertical">
+            <article class="tile is-child notification has-background-light">
+              <div class="content">
+                <figure class="image">
+                  <img src="./media/rosy_olp.jpg" height="640" width="960" alt="Lizensierung">
+                </figure>
+            </div></article>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="tile is-ancestor">
+      <div class="tile is-vertical">
+        <div class="tile">
+
+          <div class="tile is-parent is-vertical">
+            <article class="tile is-child notification has-background-light">
+              <p class="subtitle">Nutzen Sie unser patentiertes Know-how!</p>
+              <ul>
+                <li>Wir haben Erfahrungen in der Auswahl, Auslegung und Integration von Sensorik. Die Bandbreite geht
+                  vom taktilen Tastsystem über Lasertaster
+                  und Profilsensoren bis hin zu 3D-Stereokameras und Lasertracker.</li>
+                <li>Wir entwickeln maßgeschneiderte Softwarelösungen.</li>
+                <li>Wir haben Schnittstellen zu gängigen Robotsteuerungen.</li>
+                <li>Sind firm in C++, C#, Python und bei der Entwicklung von Embedded Systems.</li>
+                <li>Wir erweitern das Leistungsvermögen der Robotersteuerung nach Ihren Wünschen.</li>
+              </ul>
+            </article>
+          </div>
+
+          <div id="ims" class="tile is-parent is-vertical">
+            <article class="tile is-child notification has-background-light">
+              <p class="subtitle">Fallstudie: iMS - Roboterkalibrierung 4.0.</p>
+              Die <a href="https://www.i-t-gmbh.com">ITG GmbH Bayreuth</a> kam mit dem Wunsch auf uns zu, ein System
+              basieren auf einem Messtaster zu vertreiben.
+              Wir haben daraufhin das <a href="https://www.ims4robot.com/">iMS (intelligente Messsystem für
+                Roboter)</a>
+              entwickelt. Diese enthält unser patentiertes Know-how und bietet folgende Module:
+              <ul>
+                <li>DIAG: Diagnose des Roboterzustands.</li>
+                <li>RCVRY: Wiederherstellung des Roboterzustands.</li>
+                <li>TCP: Vermessung von Werkzeugen / Toolvermessung.</li>
+                <li>WSV: Vermessung von Vorrichtungen und Werkstücken / Basevermessung.</li>
+                <li>MSTR: Mastern, d.h. Einstellen der optimalen Achsoffsets, des Roboters.</li>
+                <li>Das iMS ist ein reines Inline-System für Anlagenbetreiber. Für Inbetriebnahme- und Service-Tools
+                  sprechen Sie uns an.</li>
+              </ul>
+              <p></p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /.section -->
+
+  <!-- .section -->
+  <section id="kontakt" class="section has-background-white">
+    <div class="tile is-ancestor">
+      <div class="tile is-parent is-vertical">
+        <article class="tile is-child notification has-background-light">
+          <p class="title">Kontaktdaten</p>
+          <p class="subtitle">Sprechen Sie uns an!</p>
+          <div class="content">
+            <p>
+              teconsult GmbH precision Robotics<br>
+              Jochen Bargfrede<br><br>
+              Besucheranschrift:<br>
+              teconsult GmbH precision robotics<br>
+              Spinnereistraße 5a<br>
+              95445 Bayreuth<br><br>
+              Postanschrift:<br>
+              teconsult GmbH precision robotics<br>
+              Brennereiweg 2<br>
+              95494 Gesees<br><br>
+              <a href="mailto:info@teconsult.de"><i class="far fa-envelope"></i> info@teconsult.de</a><br>
+              <a href="tel:+491736855434" "=""><i class=" far fa-phone"></i> +49 173 68 55 434</a><br>
+              <a href="./index.html"><i class="far fa-house"></i> www.teconsult.de</a><br>
+            </p>
+          </div>
+        </article>
+
+        <article class="tile is-child notification has-background-light">
+          <p class="title">Kontaktformular</p>
+          <div class="content">
+            <label class="label">Name *</label>
+            <div class="columns">
+
+              <div class="column">
+
+                <div class="field">
+                  <div class="control has-icons-left">
+                    <input class="input" type="text" id="idVorname" name="vorname" placeholder="Vorname">
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-user"></i>
+                    </span>
+                  </div>
+                  <p class="help">Vorname</p>
+                  <p class="help is-danger is-hidden" id="idVornameHelp">Pflichtfeld</p>
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="field">
+                  <div class="control has-icons-left">
+                    <input class="input" type="text" id="idNachname" name="nachname" placeholder="Nachname">
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-user"></i>
+                    </span>
+                  </div>
+                  <p class="help">Nachname</p>
+                  <p class="help is-danger is-hidden" id="idNachnameHelp">Pflichtfeld</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="columns">
+              <div class="column">
+                <div class="field">
+                  <label class="label">E-Mail *</label>
+                  <div class="control has-icons-left">
+                    <input class="input" type="email" id="idEmail" name="email" placeholder="E-Mail">
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-envelope"></i>
+                    </span>
+                  </div>
+                  <p class="help is-danger is-hidden" id="idEmailHelp">Pflichtfeld</p>
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="field">
+                  <label class="label">Telefonnummer</label>
+                  <div class="control has-icons-left">
+                    <input class="input" type="text" id="idTelefon" name="telefon" placeholder="telefon">
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-phone"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label">Kommentar oder Nachricht *</label>
+              <div class="control">
+                <textarea class="textarea" id="idText" placeholder="Text"></textarea>
+              </div>
+              <p class="help is-danger is-hidden" id="idTextHelp">Pflichtfeld</p>
+            </div>
+
+            <div class="field">
+              <div class="control">
+                <label class="checkbox">
+                  <input type="checkbox" id="idCheck">
+                  Ich habe die Informationen zum <a href="./impressum.html#datenschutz">Datenschutz</a> zur Kenntnis
+                  genommen. *
+                </label>
+              </div>
+              <p class="help is-danger is-hidden" id="idCheckHelp">Pflichtfeld</p>
+            </div>
+
+            <div class="field is-grouped">
+              <div class="control">
+                <button class="button is-link" id="btSend">Senden</button>
+              </div>
+              <div class="control">
+                <button class="button is-link is-light" id="btReset">Abbrechen</button>
+              </div>
+            </div>
+
+            <div class="field">
+              <p class="help">* Pflichtfelder</p>
+            </div>
+
+
+          </div>
+        </article>
+      </div>
+
+      <div class="tile is-parent is-vertical">
+        <article class="tile is-child notification has-background-light">
+          <div class="content">
+            <figure class="image">
+              <img src="./media/kontakt.jpg" height="640" width="960" alt="Kontakt">
+            </figure>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </section>
+  <!-- /.section -->
+
+
+  <!-- .modal -->
+  <div id="idModalSuccess" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-content">
+      <div class="box">
+        <p class="subtitle">Vielen Dank für Ihre Anfrage!</p>
+        <p class="subtitle">Wir werden Sie zeitnahe kontaktieren.</p>
+        <p class="subtitle">Ihr teconsult-Team</p>
+      </div>
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+  </div>
+
+  <div id="idModalError" class="modal">
+    <div class="modal-background is-danger"></div>
+    <div class="modal-content">
+      <div class="box">
+        <p class="subtitle">Anfrage konnte nicht gesendet werden.</p>
+        <p class="subtitle">Bitte wenden Sie sich per E-Mail an:
+        <a href="mailto:info@teconsult.de">info@teconsult.de</a>
+      </p>
+      </div>
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+  </div>
+  <!-- /.modal -->
+
+
+
+  <a class="icon has-text-dark" href="#teconsult" style="position: fixed; bottom: 8%; right: 8%"><i class="fa fa-3x fa-circle-chevron-up"></i></a>
+
+
+  <!-- .navbar-bottom -->
+  <nav class="navbar" role="navigation" aria-label="bottom navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBottom">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="navbarBottom" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="./index.html#kontakt">Kontakt</a>
+        <a class="navbar-item" href="./impressum.html#impressum">Impressum</a>
+        <a class="navbar-item" href="./impressum.html#datenschutz">Datenschutz</a>
+        <a class="navbar-item" href="https://www.teconsult.de">www.teconsult.de</a>
+      </div>
+    </div>
+  </nav>
+  <!-- .navbar-bottom -->
+
+  <script>
+    document.getElementById('btSend').onclick = function () { onSend() };
+    document.getElementById('btReset').onclick = function () { onReset() };
+
+    function fieldCheck(Name) {
+      if (Name == 'idCheck') {
+        v = document.getElementById(Name).checked;
+      }
+      else {
+        v = document.getElementById(Name).value;
+      }
+
+      e = document.getElementById(Name + 'Help')
+      if (!e) return false;
+
+      if (!v) {
+        e.classList.remove('is-hidden');
+        return true;
+      }
+      else {
+        e.classList.add('is-hidden');
+        return false;
+      }
+    }
+
+    function fieldReset(Name) {
+      if (Name == 'idCheck') {
+        document.getElementById(Name).checked = false;
+      }
+      else {
+        document.getElementById(Name).value = '';
+      }
+
+      e = document.getElementById(Name + 'Help')
+      if (e) {
+        e.classList.add('is-hidden');
+      }
+    }
+
+    function fieldAdd(Name, Data) {
+      //v = encodeURI(document.getElementById(Name).value); //Nicht fuer Text!
+      v = document.getElementById(Name).value;
+      Data.append(Name, v);
+    }
+
+    const validateEmail = (email) => {
+      return (null != email.match(
+        /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+      ));
+    };
+
+    function sendForm() {
+
+      console.log('sendForm...')
+
+      var formData = new FormData();
+      fieldAdd('idVorname', formData);
+      fieldAdd('idNachname', formData);
+      fieldAdd('idEmail', formData);
+      fieldAdd('idTelefon', formData);
+      fieldAdd('idText', formData);
+
+      fetch('./php/sendmail.php', {
+        method: 'POST',
+        body: formData
+      })
+        .then(function (response) {
+          return response.text();
+        })
+        .then(function (text) {
+          if (text.endsWith('1')) {
+            console.log('sendmail: 1')
+            e = document.getElementById('idModalSuccess');
+            e.classList.add('is-active');
+            onReset();
+          }
+          else {
+            console.log('sendmail: 0')
+            e = document.getElementById('idModalError');
+            e.classList.add('is-active');
+          }
+        });
+    }
+    function onSend() {
+      ok = true;
+      if (fieldCheck('idVorname')) ok = false;
+      if (fieldCheck('idNachname')) ok = false;
+      //if (fieldCheck('idEmail')) ok = false;
+      if (fieldCheck('idTelefon')) ok = false;
+      if (fieldCheck('idText')) ok = false;
+      if (fieldCheck('idCheck')) ok = false;
+
+      e = document.getElementById('idEmailHelp')
+      if (validateEmail(document.getElementById('idEmail').value)) {
+        e.classList.add('is-hidden');
+      }
+      else {
+        ok = false;
+        e.classList.remove('is-hidden');
+      }
+
+      if (!ok) return;
+      sendForm();
+    }
+
+    function onReset() {
+      fieldReset('idVorname');
+      fieldReset('idNachname');
+      fieldReset('idEmail');
+      fieldReset('idTelefon');
+      fieldReset('idText');
+      fieldReset('idCheck');
+    }
+
+
+    document.addEventListener('DOMContentLoaded', () => {
+
+
+      // **** Modal:
+      function closeModal($el) {
+        $el.classList.remove('is-active');
+      }
+
+      function closeAllModals() {
+        (document.querySelectorAll('.modal') || []).forEach(($modal) => {
+          closeModal($modal);
+        });
+      }
+
+      // Add a click event on various child elements to close the parent modal
+      (document.querySelectorAll('.modal-background, .modal-close, .modal-card-head .delete, .modal-card-foot .button') || []).forEach(($close) => {
+        const $target = $close.closest('.modal');
+
+        $close.addEventListener('click', () => {
+          closeModal($target);
+        });
+      });
+
+      // Add a keyboard event to close all modals
+      document.addEventListener('keydown', (event) => {
+        const e = event || window.event;
+
+        if (e.keyCode === 27) { // Escape key
+          closeAllModals();
+        }
+      });
+
+
+      // **** Navbar:
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach(el => {
+          el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+          });
+        });
+      }
+    });
+  </script>
+
+
+</body></html>

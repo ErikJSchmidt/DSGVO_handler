@@ -1,0 +1,45 @@
+   Diese Webseite verwendet Cookies  Wir verwenden Cookies, um Inhalte und Anzeigen zu
+                personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu
+                analysieren. Außerdem geben wir Informationen zu Ihrer Verwendung unserer Website an unsere Partner für
+                soziale Medien, Werbung und Analysen weiter. Unsere Partner führen diese Informationen möglicherweise
+                mit weiteren Daten zusammen, die Sie ihnen bereitgestellt haben oder die sie im Rahmen Ihrer Nutzung der
+                Dienste gesammelt haben. Mehr
+                    Informationen     undefined   Nur
+            notwendige Cookies Cookies zulassen Details zeigen   OK  Cookies zulassen Auswahl erlauben Nur notwendige Cookies         Notwendig    Präferenzen    Statistiken    Marketing   Details zeigen         Cookie-Erklärung [#IABV2SETTINGS#] Über Cookies      Notwendig
+                            (5)   Präferenzen
+                            (0)   Statistiken
+                            (3)   Marketing (0)   Nicht klassifiziert (0)    Notwendige Cookies
+                                    helfen dabei, eine Webseite nutzbar zu machen, indem sie Grundfunktionen wie
+                                    Seitennavigation und Zugriff auf sichere Bereiche der Webseite ermöglichen. Die
+                                    Webseite kann ohne diese Cookies nicht richtig funktionieren.      Name  Anbieter  Zweck  Ablauf  Typ      CookieConsent  Cookiebot  Speichert den Zustimmungsstatus des Benutzers für Cookies auf der
+                                                aktuellen Domäne.  1 Jahr  HTTP    pll_language  www.consenzum.de  Dieses Cookie wird benutzt, um die bevorzugte Sprache des Besuchers
+                                                festzustellen und die Sprache dementsprechend auf der Website
+                                                einzustellen, wenn möglich.  1 Jahr  HTTP    ppwp_wp_session  www.consenzum.de  Behält die Zustände des Benutzers bei allen Seitenanfragen bei.  1 Tag  HTTP    rc::a  Google  Dieser Cookie wird verwendet, um zwischen Menschen und Bots zu
+                                                unterscheiden. Dies ist vorteilhaft für die webseite, um gültige
+                                                Berichte über die Nutzung ihrer webseite zu erstellen.  Persistent  HTML    rc::c  Google  Dieser Cookie wird verwendet, um zwischen Menschen und Bots zu
+                                                unterscheiden.  Session  HTML        Präferenz-Cookies
+                                    ermöglichen einer Webseite sich an Informationen zu erinnern, die die Art
+                                    beeinflussen, wie sich eine Webseite verhält oder aussieht, wie z. B. Ihre
+                                    bevorzugte Sprache oder die Region in der Sie sich befinden.      Wir
+                                                nutzen diese Cookie-Typen nicht.        Statistik-Cookies
+                                    helfen Webseiten-Besitzern zu verstehen, wie Besucher mit Webseiten interagieren,
+                                    indem Informationen anonym gesammelt und gemeldet werden.      Name  Anbieter  Zweck  Ablauf  Typ      _ga  Google  Registriert eine eindeutige ID, die verwendet wird, um statistische
+                                                Daten dazu, wie der Besucher die Website nutzt, zu generieren.  399 Tage  HTTP    _gat  Google  Wird von Google Analytics verwendet, um die Anforderungsrate
+                                                einzuschränken  1 Tag  HTTP    _gid  Google  Registriert eine eindeutige ID, die verwendet wird, um statistische
+                                                Daten dazu, wie der Besucher die Website nutzt, zu generieren.  1 Tag  HTTP        Marketing-Cookies
+                                    werden verwendet, um Besuchern auf Webseiten zu folgen. Die Absicht ist, Anzeigen zu
+                                    zeigen, die relevant und ansprechend für den einzelnen Benutzer sind und daher
+                                    wertvoller für Publisher und werbetreibende Drittparteien sind.      Wir
+                                                nutzen diese Cookie-Typen nicht.        Nicht klassifizierte
+                                    Cookies sind Cookies, die wir gerade versuchen zu klassifizieren, zusammen mit
+                                    Anbietern von individuellen Cookies.      Wir
+                                                nutzen diese Cookie-Typen nicht.             [#IABV2_LABEL_PURPOSES#]   [#IABV2_LABEL_FEATURES#]   [#IABV2_LABEL_PARTNERS#]    [#IABV2_BODY_PURPOSES#]    [#IABV2_BODY_FEATURES#]    [#IABV2_BODY_PARTNERS#]      Cookies sind kleine Textdateien, die
+                    von Webseiten verwendet werden, um die Benutzererfahrung effizienter zu gestalten. Laut Gesetz können wir Cookies auf Ihrem Gerät speichern, wenn diese für den
+                    Betrieb dieser Seite unbedingt notwendig sind. Für alle anderen Cookie-Typen benötigen wir Ihre
+                    Erlaubnis. Diese Seite verwendet unterschiedliche Cookie-Typen. Einige
+                    Cookies werden von Drittparteien platziert, die auf unseren Seiten erscheinen. Sie können Ihre Einwilligung jederzeit von der Cookie-Erklärung auf unserer Website
+                    ändern oder widerrufen. Erfahren Sie in unserer Datenschutzrichtlinie mehr
+                    darüber, wer wir sind, wie Sie uns kontaktieren können und wie wir personenbezogene Daten
+                    verarbeiten. Bitte geben Sie Ihre Einwilligungs-ID und das Datum an, wenn
+                    Sie uns bezüglich Ihrer Einwilligung kontaktieren.   Die Cookie-Erklärung wurde das letzte Mal am 11/14/22
+                von Cookiebot aktualisiert   

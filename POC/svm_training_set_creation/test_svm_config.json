@@ -1,0 +1,7 @@
+{
+  "dev_dataset_refined_path":"/home/erik/Desktop/WiSe2022_23/IR-Project/dsgvo_handler/POC/data/dev_dataset_refined",
+  "svm_training_set_v1_path": "/home/erik/Desktop/WiSe2022_23/IR-Project/dsgvo_handler/POC/data/svm_training_sets/svm_training_set_v1.json",
+  "train_dataset_path":"/home/erik/Desktop/WiSe2022_23/IR-Project/dsgvo_handler/POC/data/train_dataset",
+  "test_dataset_path":"/home/erik/Desktop/WiSe2022_23/IR-Project/dsgvo_handler/POC/data/test_dataset",
+  "fitted_models_path": "/home/erik/Desktop/WiSe2022_23/IR-Project/dsgvo_handler/POC/data/svm_models"
+}

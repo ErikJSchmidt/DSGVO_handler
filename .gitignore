@@ -1,7 +1,7 @@
 # exclude downloaded pretrained language detection model 
-#POC/dev_dataset_creation/pretrained_language_detection_model/*
+POC/dev_dataset_creation/pretrained_language_detection_model/*
 # keep the ReadMe in the folder so users know what to put there
-#!somefolder/ReadMe.md
+!somefolder/ReadMe.md
 
 # exclude all pycach folders
 **/__pycache__/

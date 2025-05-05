@@ -8,9 +8,10 @@ It is embedded in the project IT-Atlas-Oberfranken, a vertical search engine for
 
 # Overview
 This repository contains three main directories:
-- **POC**: Here you find the proof of concept. It consists of x main steps:
+- **POC**: Here you find the proof of concept. It consists code for:
   - The creation of a dataset with 428 manually labeled websites
   - The refinement of this dataset
+  - A streamlit web app to browse the dataset
   - Statistics and insights from that dataset
   - Training of a SVM for text classification based on the dataset
   - Utilizing the text classifier to handle HTML with DSGVO content
@@ -21,6 +22,9 @@ This repository contains three main directories:
 For a more detailed description of the project please refer to the [project report](DsgvoAssistantProjectReport.pdf).
 The slides of the [mid-term presentation](DSGVO_handler.pdf) were used to present the POC phase of this project and can
 help too.
+
+# Setup
+To repeat the dataset creation with the notebooks in POC/dev\_dataset\_creation the pretrained language detection model from FastText needs to be downloaed from https://fasttext.cc/docs/en/language-identification.html and put into the folder POC/dev\_dataset\_creation/pretrained\_language\_detection\_model
 
 # Copyright and Licensing
 

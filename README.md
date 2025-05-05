@@ -1,10 +1,12 @@
 # dsgvo_handler
 This repository contains code for the _DsgvoAssistant_ Kotlin module. This assistant provides
-functionalities for handling pop ups related to the German data privacy law DSGVO.
+functionalities for handling pop ups related to the German data privacy law DSGVO (similar to GDPR).
 The assistant can detect if the HTML of a website contains a DSGVO pop up and, if so, can remove it 
-from the HTML.
+from the HTML. This detection is based on the text content of webistes and HTML elements within it.
 This project is part of my Master in Applied Computer Science at the Otto-Friedrich-University in Bamberg.
 It is embedded in the project IT-Atlas-Oberfranken, a vertical search engine for computer science related job offers.
+
+The _DsgvoAssistant_ was later included as optional functionality of Atra web crawler (https://github.com/FelixEngl/atra), which was presented at the "Open Search Symposium #ossym2024". See "ATRA:APOWERFUL,LIGHTWEIGTAPPROACHTOCRAWLING" in the conference proceedings https://e-publishing.cern.ch/index.php/OSSYM/issue/view/172/140
 
 # Overview
 This repository contains three main directories:

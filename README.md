@@ -1,4 +1,11 @@
 # dsgvo_handler
+**Problem Statement:** 
+To retreive matching search results, search engines need to index the content they find on different websites.
+Most websites contain some pop up or information banner about data privacy and cookie usage.
+When we want to index what content we found on www.example.com, than the text from the pop up on whether we allow all cookies or not is irrelevant.
+If we do not exclude this GDPR content from indexing, than the search engine will treat each website as being (partially) concerned with data privacy.
+
+**Solution:**
 This repository contains code for the _DsgvoAssistant_ Kotlin module. This assistant provides
 functionalities for handling pop ups related to the German data privacy law DSGVO (similar to GDPR).
 The assistant can detect if the HTML of a website contains a DSGVO pop up and, if so, can remove it 
